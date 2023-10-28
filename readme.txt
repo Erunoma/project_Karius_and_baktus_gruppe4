@@ -1,14 +1,14 @@
-Project TBD - Rules and Guidelines
+#Project TBD - Rules and Guidelines
 
-Platforms and Programs:
+##Platforms and Programs:
 	- Language: Python
 	- Codebase and annotations should be written in English
 	- Programs: Visual Studio Code
 
-Dependencies: 
+##Dependencies: 
 	- TBD
 
-Folder Structure:
+##Folder Structure:
 	- The folders are structured as; RELEASE, TEST & DEV. 
 	- The program is based in a folder with a version name. 
 	- If the database file has additions or removals, a Data Migration has to be performed. An explanation and guide is to be found in the documentation folder. 
