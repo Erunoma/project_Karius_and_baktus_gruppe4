@@ -1,4 +1,4 @@
-# Project TBD - Rules and Guidelines
+# Project Karius & Baktus - Rules and Guidelines
 ======
 ## Platforms and Programs:
 
