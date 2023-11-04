@@ -1,0 +1,12 @@
+2023-11-04 18:39:22,649 - __main__ - INFO - DB initilized.
+2023-11-04 18:39:22,650 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-04 18:40:48,614 - __main__ - INFO - DB initilized.
+2023-11-04 18:40:48,615 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-04 18:40:48,616 - __main__ - INFO - debug test info
+2023-11-04 18:40:48,616 - __main__ - WARNING - debug test warning
+2023-11-04 18:40:48,616 - __main__ - ERROR - debug test error
+2023-11-04 18:42:57,353 - __main__ - INFO - DB initilized.
+2023-11-04 18:42:57,354 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-04 18:42:57,354 - __main__ - INFO - debug test info
+2023-11-04 18:42:57,355 - __main__ - WARNING - debug test warning
+2023-11-04 18:42:57,355 - __main__ - ERROR - debug test error
