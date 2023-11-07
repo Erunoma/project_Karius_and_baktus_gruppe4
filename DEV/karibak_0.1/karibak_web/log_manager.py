@@ -31,8 +31,22 @@ def logging_init():
     logger.addHandler(error_handler)
     logger.addHandler(warning_handler)
 
-
-
+def log_func(e, msg, type):
+    logger = logging.getLogger()
+    try:
+        if type == "debug":
+            logger.debug(msg)
+        elif type == "info":
+            logger.info(msg)
+        elif type == "error":
+            logger.warning(msg)
+        elif type == "warning":
+            logger.error(msg)
+        if e != None:
+            print(e)
+    except Exception as e:
+        logger.error("Logging failed")
+        print(e)
 """
 def create_entry(msg, log_type):
     try:

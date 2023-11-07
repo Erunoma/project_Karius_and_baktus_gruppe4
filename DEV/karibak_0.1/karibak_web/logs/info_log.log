@@ -10,3 +10,46 @@
 2023-11-04 18:42:57,354 - __main__ - INFO - debug test info
 2023-11-04 18:42:57,355 - __main__ - WARNING - debug test warning
 2023-11-04 18:42:57,355 - __main__ - ERROR - debug test error
+2023-11-06 09:39:32,382 - __main__ - INFO - DB initilized.
+2023-11-06 09:39:32,382 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:39:32,383 - __main__ - INFO - debug test info
+2023-11-06 09:39:32,383 - __main__ - WARNING - debug test warning
+2023-11-06 09:39:32,383 - __main__ - ERROR - debug test error
+2023-11-06 09:39:55,842 - __main__ - INFO - DB initilized.
+2023-11-06 09:39:55,843 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:39:55,843 - __main__ - INFO - debug test info
+2023-11-06 09:39:55,843 - __main__ - WARNING - debug test warning
+2023-11-06 09:39:55,843 - __main__ - ERROR - debug test error
+2023-11-06 09:40:56,998 - __main__ - INFO - DB initilized.
+2023-11-06 09:40:56,999 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:40:56,999 - __main__ - INFO - debug test info
+2023-11-06 09:40:56,999 - __main__ - WARNING - debug test warning
+2023-11-06 09:40:56,999 - __main__ - ERROR - debug test error
+2023-11-06 09:41:00,558 - __main__ - INFO - DB initilized.
+2023-11-06 09:41:00,559 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:41:00,559 - __main__ - INFO - debug test info
+2023-11-06 09:41:00,559 - __main__ - WARNING - debug test warning
+2023-11-06 09:41:00,559 - __main__ - ERROR - debug test error
+2023-11-06 09:42:11,789 - __main__ - INFO - DB initilized.
+2023-11-06 09:42:11,790 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:42:11,790 - __main__ - INFO - debug test info
+2023-11-06 09:42:11,791 - __main__ - WARNING - debug test warning
+2023-11-06 09:42:11,791 - __main__ - ERROR - debug test error
+2023-11-06 09:42:11,791 - root - WARNING - Could not create table
+2023-11-06 09:42:42,094 - __main__ - INFO - DB initilized.
+2023-11-06 09:42:42,095 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:42:42,096 - __main__ - INFO - debug test info
+2023-11-06 09:42:42,096 - __main__ - WARNING - debug test warning
+2023-11-06 09:42:42,096 - __main__ - ERROR - debug test error
+2023-11-06 09:43:11,829 - __main__ - INFO - DB initilized.
+2023-11-06 09:43:11,830 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:43:11,830 - __main__ - INFO - debug test info
+2023-11-06 09:43:11,831 - __main__ - WARNING - debug test warning
+2023-11-06 09:43:11,831 - __main__ - ERROR - debug test error
+2023-11-06 09:43:29,290 - __main__ - INFO - DB initilized.
+2023-11-06 09:43:29,291 - __main__ - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-06 09:43:29,291 - __main__ - INFO - debug test info
+2023-11-06 09:43:29,291 - __main__ - WARNING - debug test warning
+2023-11-06 09:43:29,291 - __main__ - ERROR - debug test error
+2023-11-06 09:46:38,185 - __main__ - INFO - DB initilized.
+2023-11-06 09:46:38,185 - root - INFO - Current database in use: /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
