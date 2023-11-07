@@ -2,7 +2,7 @@ import logging
 
 
 def logging_init():
-   
+   #Below are the 4 log types we use. DEBUG, INFO, ERROR and WARNING
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
@@ -33,6 +33,7 @@ def logging_init():
 
 def log_func(e, msg, type):
     logger = logging.getLogger()
+    print(msg)
     try:
         if type == "debug":
             logger.debug(msg)
@@ -42,27 +43,14 @@ def log_func(e, msg, type):
             logger.warning(msg)
         elif type == "warning":
             logger.error(msg)
-        if e != None:
+        if e == "":
+            return
+        else:
+            print("printing error")
+            logger.error(e)
             print(e)
     except Exception as e:
         logger.error("Logging failed")
         print(e)
-"""
-def create_entry(msg, log_type):
-    try:
-        if log_type==0:
-            logging.debug(f"<{date.today()}> <{time.strftime('%H:%M:%S',time.localtime())}> {msg}")
-            print("Entry created under debug.")
-        elif log_type==1:
-            logging.info(f"<{date.today()}> <{time.strftime('%H:%M:%S',time.localtime())}> {msg}") 
-            print("Entry created under info.") 
-        elif log_type==2:
-            logging.warning(f"<{date.today()}> <{time.strftime('%H:%M:%S',time.localtime())}> {msg}")
-            print("Entry created under warning.")
-        elif log_type==3:
-            logging.error(f"<{date.today()}> <{time.strftime('%H:%M:%S',time.localtime())}> {msg}")
-            print("Entry created under error.")
-    except:
-        print("CRITICAL ERROR: Could not create log entry.")
-"""
+
 logging_init()
