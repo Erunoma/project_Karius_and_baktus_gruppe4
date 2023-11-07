@@ -1,3 +1,18 @@
 2023-11-07 14:50:40,370 - db_manager - INFO - DB initilized.
 2023-11-07 14:50:40,371 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
 2023-11-07 14:50:40,373 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:14:50,160 - db_manager - INFO - DB initilized.
+2023-11-07 15:14:50,167 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:14:50,170 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:15:08,707 - db_manager - INFO - DB initilized.
+2023-11-07 15:15:08,709 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:15:08,711 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:23:52,144 - db_manager - INFO - DB initilized.
+2023-11-07 15:23:52,149 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:23:52,152 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:23:52,152 - root - WARNING - Could not change user settings
+2023-11-07 15:23:52,153 - root - ERROR - near "WHERE": syntax error
+2023-11-07 15:27:15,743 - db_manager - INFO - DB initilized.
+2023-11-07 15:27:15,744 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:27:15,746 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-07 15:27:15,748 - root - INFO - changed user info for 4feb8613-e1d6-4457-87ad-e738d3dda8d3
