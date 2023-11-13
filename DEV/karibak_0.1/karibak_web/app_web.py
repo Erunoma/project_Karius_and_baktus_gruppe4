@@ -10,10 +10,7 @@ logger=log_manager.logging.getLogger(__name__)
 
 
 def log_test():
-    logger.debug("debug test 1")
-    logger.info("debug test info")
-    logger.warning("debug test warning")
-    logger.error("debug test error")
+    print(log_manager.log_func("","startup failed","error"))
     
 def start():
     try:
@@ -24,7 +21,7 @@ def start():
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
         #log_test()
     except Exception as e:
-        log_manager.log_func(e,"startup failed","error")
+        print(log_manager.log_func(e,"startup failed","error"))
         exit()
 
 #If running the application locally, keep this setting on 'True'. If running through pythonanywhere, set to 'False'
@@ -36,14 +33,17 @@ try:
         def hello_world():
             return template("templates/test.html")
         application = default_app()
-    else:
+    elif local_app==True:
         @route('/')
         def home():
             return template("templates/test.html")
         run(host='localhost', port=8000, debug=True)
     
 except Exception as e:
-    log_manager.log_func(e,"Could not determine local or online","error")
+    print(log_manager.log_func(e,"Could not determine local or online","error"))
+    exit()
+
+
 
 
 #Password: BørstDineTænder555!

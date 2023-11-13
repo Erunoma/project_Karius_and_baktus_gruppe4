@@ -15,7 +15,9 @@ def init_db():
         logger.info(f"DB initilized.")
         con.close()
     except Exception as e:
-        log_manager.log_func(e,"Couldn't init database.","error")
+        print(log_manager.log_func(e,"Couldn't init database.","error"))
+    finally:
+        con.close()
 
 #Find the location of the db. Used mostly for logging
 def find_db():
@@ -23,10 +25,11 @@ def find_db():
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         name = con.execute("PRAGMA database_list;").fetchone()[2]
-        con.close
         return name
     except Exception as e:
-        log_manager.log_func(e,"Could not find the name of database", "error")
+        print(log_manager.log_func(e,"Could not find the name of database", "error"))
+    finally:
+        con.close()
 
 #Creates a table of users in the db. 
 def create_db_table():
@@ -35,11 +38,11 @@ def create_db_table():
         cur = con.cursor()
         cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, age text, gender text, address text, device text, ip text, mac text, last_activity text, pictures text);")
         con.commit()
-        con.close()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
-        log_manager.log_func(e,"Could not create table","error")
-
+        print(log_manager.log_func(e,"Could not create table","error"))
+    finally:
+        con.close()
 
 #Adds a user to the db.
 def add_user(name, age, gender, address, device, ip, mac):
@@ -49,10 +52,11 @@ def add_user(name, age, gender, address, device, ip, mac):
         cur.execute('INSERT INTO users(id, name, age, gender, address, device, ip, mac, last_activity, pictures) values (?,?,?,?,?,?,?,?,?,?)', 
                 (generate_id(), name, age, gender, address, device, ip, mac, "", ""))
         con.commit()
-        con.close()
-        log_manager.log_func("", f"New user created in {find_db()}", "info")
+        print(log_manager.log_func("", f"New user created in {find_db()}", "info"))
     except Exception as e:
-        log_manager.log_func(e,"Could not create user","error")
+        print(log_manager.log_func(e,"Could not create user","error"))
+    finally:
+        con.close()
 
 
 
@@ -79,10 +83,12 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
         if last_activity:
             cur.execute('UPDATE users SET last_activity=? WHERE id=?', (last_activity,id))
         con.commit()
-        con.close()
-        log_manager.log_func("",f"changed user info for {id}","info")
+
+        print(log_manager.log_func("",f"changed user info for {id}","info"))
     except Exception as e:
-        log_manager.log_func(e,"Could not change user settings","error")
+        print(log_manager.log_func(e,"Could not change user settings","error"))
+    finally:
+        con.close()
 
 
 

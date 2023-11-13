@@ -1,2 +1,5 @@
 2023-11-07 15:23:52,152 - root - WARNING - Could not change user settings
 2023-11-07 15:23:52,153 - root - ERROR - near "WHERE": syntax error
+2023-11-13 10:17:16,480 - root - WARNING - startup failed
+2023-11-13 10:17:16,480 - root - ERROR - name 'e' is not defined
+2023-11-13 10:18:22,810 - root - WARNING - startup failed
