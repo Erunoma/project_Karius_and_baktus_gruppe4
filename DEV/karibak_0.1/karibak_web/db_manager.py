@@ -36,7 +36,7 @@ def create_db_table():
         cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, age text, gender text, address text, device text, ip text, mac text, last_activity text, pictures text);")
         con.commit()
         con.close()
-        log_manager.log_func("", f"New table created in {find_db()}", "info")
+        #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
         log_manager.log_func(e,"Could not create table","error")
 
