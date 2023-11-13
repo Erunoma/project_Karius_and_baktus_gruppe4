@@ -16,9 +16,11 @@ def start():
     try:
         db_manager.init_db()
         db_manager.find_db()
-        db_manager.create_db_table()
+        db_manager.create_db_user_table()
+        db_manager.create_db_login_table()
         #db_manager.add_user("Bob","21", "Male","Kaktusbæk 54, Rødby","ESP32-5130","150.122.69.123","9c:51:6f:19:3c:0f")
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
+        #db_manager.add_admin("test_admin", "admin", "")
         #log_test()
     except Exception as e:
         print(log_manager.log_func(e,"startup failed","error"))

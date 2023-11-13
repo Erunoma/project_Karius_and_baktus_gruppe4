@@ -34,3 +34,5 @@
 2023-11-13 10:17:16,480 - root - ERROR - name 'e' is not defined
 2023-11-13 10:18:22,808 - db_manager - INFO - DB initilized.
 2023-11-13 10:18:22,810 - root - WARNING - startup failed
+2023-11-13 10:51:30,655 - db_manager - INFO - DB initilized.
+2023-11-13 10:51:30,665 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db

@@ -32,7 +32,7 @@ def find_db():
         con.close()
 
 #Creates a table of users in the db. 
-def create_db_table():
+def create_db_user_table():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
@@ -40,7 +40,19 @@ def create_db_table():
         con.commit()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
-        print(log_manager.log_func(e,"Could not create table","error"))
+        print(log_manager.log_func(e,"Could not create user table","error"))
+    finally:
+        con.close()
+
+def create_db_login_table():
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute("CREATE TABLE IF NOT EXISTS admins(id text PRIMARY KEY, username text NOT NULL UNIQUE, password  text NOT NULL, ip text);")
+        con.commit()
+        #log_manager.log_func("", f"New table created in {find_db()}", "info")
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not create login table","error"))
     finally:
         con.close()
 
@@ -58,7 +70,18 @@ def add_user(name, age, gender, address, device, ip, mac):
     finally:
         con.close()
 
-
+def add_admin(username, password, ip):
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('INSERT INTO admins(id, username, password, ip) values (?,?,?,?)', 
+                (generate_id(), username, password, ip))
+        con.commit()
+        print(log_manager.log_func("", f"New admin created in {find_db()}", "info"))
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not create admin","error"))
+    finally:
+        con.close()
 
 #TODO DB: Add a function to modify these user settings.
 
