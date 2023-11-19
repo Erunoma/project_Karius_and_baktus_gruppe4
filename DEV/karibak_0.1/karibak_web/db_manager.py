@@ -85,6 +85,59 @@ def add_admin(username, password, ip):
 
 #TODO DB: Add a function to modify these user settings.
 
+def create_db_otp():
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute("CREATE TABLE IF NOT EXISTS otp(key text);")
+        con.commit()
+        #log_manager.log_func("", f"New table created in {find_db()}", "info")
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not create otp table","error"))
+    finally:
+        con.close()
+
+
+def save_otp(msg):
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('INSERT INTO otp (key) values (?)', (msg,))
+        con.commit()
+        print(log_manager.log_func("", f"New key created in {find_db()}", "info"))
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not save otp","error"))
+    finally:
+        con.close()
+
+def delete_otp(number):
+    con = sqlite3.connect(web_db)
+    cur = con.cursor()
+    cur.execute('DELETE FROM otp WHERE key=?', (number,))
+    con.close()
+
+def otp_check(number):
+    con = sqlite3.connect(web_db)
+    cur = con.cursor()
+    cur.execute('Select key FROM otp WHERE key=?', (number,))
+    result = cur.fetchone()
+    con.close()
+    if result:
+        return True
+    else:
+        return False
+    
+def get_email(username):
+    con = sqlite3.connect(web_db)
+    cur = con.cursor()
+    cur.execute('Select ip FROM admins WHERE username=?', (username,))
+    result = cur.fetchone()
+    con.close()
+    if result:
+        return str(result[0])
+    else:
+        return None
+
 def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity):
     try:
         con = sqlite3.connect(web_db)
@@ -113,6 +166,20 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
     finally:
         con.close()
 
+# check if user and password match
+def check_admin_user(username, password):
+    con = sqlite3.connect(web_db)
+    cur = con.cursor()
+    cur.execute('Select username,password FROM admins WHERE username=? and password=?', (username, password))
+
+    result = cur.fetchone()
+    con.close()
+    if result:
+        return True
+    else:
+        return False
+    
+
 
 
 #TODO DB: Encrpyt the DB
@@ -120,3 +187,4 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
 def generate_id():
     id = str(uuid.uuid4())
     return id
+

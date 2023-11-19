@@ -36,3 +36,107 @@
 2023-11-13 10:18:22,810 - root - WARNING - startup failed
 2023-11-13 10:51:30,655 - db_manager - INFO - DB initilized.
 2023-11-13 10:51:30,665 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 13:16:37,575 - db_manager - INFO - DB initilized.
+2023-11-19 13:17:20,052 - db_manager - INFO - DB initilized.
+2023-11-19 13:18:42,734 - db_manager - INFO - DB initilized.
+2023-11-19 13:30:56,263 - db_manager - INFO - DB initilized.
+2023-11-19 14:06:09,797 - db_manager - INFO - DB initilized.
+2023-11-19 14:07:00,288 - db_manager - INFO - DB initilized.
+2023-11-19 14:09:48,557 - db_manager - INFO - DB initilized.
+2023-11-19 14:11:32,449 - db_manager - INFO - DB initilized.
+2023-11-19 14:15:42,051 - db_manager - INFO - DB initilized.
+2023-11-19 14:19:34,872 - db_manager - INFO - DB initilized.
+2023-11-19 14:28:08,622 - db_manager - INFO - DB initilized.
+2023-11-19 14:29:58,127 - db_manager - INFO - DB initilized.
+2023-11-19 14:33:11,484 - db_manager - INFO - DB initilized.
+2023-11-19 14:37:09,308 - db_manager - INFO - DB initilized.
+2023-11-19 14:37:29,971 - db_manager - INFO - DB initilized.
+2023-11-19 14:40:23,169 - db_manager - INFO - DB initilized.
+2023-11-19 14:41:44,896 - db_manager - INFO - DB initilized.
+2023-11-19 15:14:46,741 - db_manager - INFO - DB initilized.
+2023-11-19 15:20:42,738 - db_manager - INFO - DB initilized.
+2023-11-19 15:21:32,320 - db_manager - INFO - DB initilized.
+2023-11-19 15:24:25,643 - db_manager - INFO - DB initilized.
+2023-11-19 15:25:08,664 - db_manager - INFO - DB initilized.
+2023-11-19 15:31:33,555 - db_manager - INFO - DB initilized.
+2023-11-19 15:34:15,177 - db_manager - INFO - DB initilized.
+2023-11-19 15:35:49,475 - db_manager - INFO - DB initilized.
+2023-11-19 15:37:23,458 - db_manager - INFO - DB initilized.
+2023-11-19 15:37:48,485 - db_manager - INFO - DB initilized.
+2023-11-19 15:38:16,076 - db_manager - INFO - DB initilized.
+2023-11-19 15:43:45,310 - db_manager - INFO - DB initilized.
+2023-11-19 15:46:06,348 - db_manager - INFO - DB initilized.
+2023-11-19 15:47:58,831 - db_manager - INFO - DB initilized.
+2023-11-19 15:50:52,494 - db_manager - INFO - DB initilized.
+2023-11-19 15:51:30,315 - db_manager - INFO - DB initilized.
+2023-11-19 15:53:08,043 - db_manager - INFO - DB initilized.
+2023-11-19 15:54:37,952 - db_manager - INFO - DB initilized.
+2023-11-19 15:58:15,700 - db_manager - INFO - DB initilized.
+2023-11-19 16:06:46,957 - db_manager - INFO - DB initilized.
+2023-11-19 16:12:16,874 - db_manager - INFO - DB initilized.
+2023-11-19 16:13:51,338 - db_manager - INFO - DB initilized.
+2023-11-19 16:17:48,677 - db_manager - INFO - DB initilized.
+2023-11-19 16:18:15,292 - db_manager - INFO - DB initilized.
+2023-11-19 16:45:22,862 - db_manager - INFO - DB initilized.
+2023-11-19 16:45:50,013 - db_manager - INFO - DB initilized.
+2023-11-19 16:46:24,014 - db_manager - INFO - DB initilized.
+2023-11-19 16:56:28,682 - db_manager - INFO - DB initilized.
+2023-11-19 17:01:11,385 - db_manager - INFO - DB initilized.
+2023-11-19 17:06:41,946 - db_manager - INFO - DB initilized.
+2023-11-19 17:08:05,886 - db_manager - INFO - DB initilized.
+2023-11-19 17:09:45,693 - db_manager - INFO - DB initilized.
+2023-11-19 17:11:01,873 - db_manager - INFO - DB initilized.
+2023-11-19 17:11:59,259 - db_manager - INFO - DB initilized.
+2023-11-19 18:24:01,256 - root - WARNING - Could not create admin
+2023-11-19 18:24:02,049 - root - ERROR - near "TEXT": syntax error
+2023-11-19 18:24:02,070 - db_manager - INFO - DB initilized.
+2023-11-19 18:25:14,000 - root - WARNING - Could not save otp
+2023-11-19 18:25:14,001 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 37 supplied.
+2023-11-19 18:25:14,024 - db_manager - INFO - DB initilized.
+2023-11-19 18:28:49,754 - db_manager - INFO - DB initilized.
+2023-11-19 18:28:49,758 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:36:49,356 - db_manager - INFO - DB initilized.
+2023-11-19 18:40:28,309 - db_manager - INFO - DB initilized.
+2023-11-19 18:41:43,990 - db_manager - INFO - DB initilized.
+2023-11-19 18:42:32,525 - db_manager - INFO - DB initilized.
+2023-11-19 18:44:53,247 - db_manager - INFO - DB initilized.
+2023-11-19 18:46:22,104 - db_manager - INFO - DB initilized.
+2023-11-19 18:47:17,091 - db_manager - INFO - DB initilized.
+2023-11-19 18:47:25,002 - root - WARNING - Could not save otp
+2023-11-19 18:47:25,002 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 37 supplied.
+2023-11-19 18:48:05,772 - db_manager - INFO - DB initilized.
+2023-11-19 18:48:11,754 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:49:10,827 - db_manager - INFO - DB initilized.
+2023-11-19 18:49:17,063 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:50:53,383 - db_manager - INFO - DB initilized.
+2023-11-19 18:51:19,566 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:54:17,821 - db_manager - INFO - DB initilized.
+2023-11-19 18:54:28,321 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:55:16,010 - db_manager - INFO - DB initilized.
+2023-11-19 18:55:23,517 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:55:42,791 - db_manager - INFO - DB initilized.
+2023-11-19 18:55:50,766 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 18:58:39,515 - db_manager - INFO - DB initilized.
+2023-11-19 18:58:46,465 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:00:53,669 - db_manager - INFO - DB initilized.
+2023-11-19 19:01:05,446 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:03:52,253 - db_manager - INFO - DB initilized.
+2023-11-19 19:04:00,511 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:05:09,220 - db_manager - INFO - DB initilized.
+2023-11-19 19:05:16,827 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:08:48,647 - db_manager - INFO - DB initilized.
+2023-11-19 19:09:08,985 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:11:10,473 - db_manager - INFO - DB initilized.
+2023-11-19 19:11:23,541 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:12:25,174 - db_manager - INFO - DB initilized.
+2023-11-19 19:12:33,827 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:13:22,045 - db_manager - INFO - DB initilized.
+2023-11-19 19:13:30,455 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:15:46,079 - db_manager - INFO - DB initilized.
+2023-11-19 19:16:30,856 - db_manager - INFO - DB initilized.
+2023-11-19 19:16:38,680 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:17:53,225 - db_manager - INFO - DB initilized.
+2023-11-19 19:18:01,516 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:19:04,082 - db_manager - INFO - DB initilized.
+2023-11-19 19:19:15,443 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-19 19:19:31,040 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db

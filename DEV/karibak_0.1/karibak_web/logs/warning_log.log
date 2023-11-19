@@ -3,3 +3,9 @@
 2023-11-13 10:17:16,480 - root - WARNING - startup failed
 2023-11-13 10:17:16,480 - root - ERROR - name 'e' is not defined
 2023-11-13 10:18:22,810 - root - WARNING - startup failed
+2023-11-19 18:24:01,256 - root - WARNING - Could not create admin
+2023-11-19 18:24:02,049 - root - ERROR - near "TEXT": syntax error
+2023-11-19 18:25:14,000 - root - WARNING - Could not save otp
+2023-11-19 18:25:14,001 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 37 supplied.
+2023-11-19 18:47:25,002 - root - WARNING - Could not save otp
+2023-11-19 18:47:25,002 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 37 supplied.
