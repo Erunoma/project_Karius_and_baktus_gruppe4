@@ -140,3 +140,41 @@
 2023-11-19 19:19:04,082 - db_manager - INFO - DB initilized.
 2023-11-19 19:19:15,443 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
 2023-11-19 19:19:31,040 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 08:47:29,341 - db_manager - INFO - DB initilized.
+2023-11-20 08:47:29,348 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 08:47:45,751 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 09:51:03,238 - root - WARNING - startup failed
+2023-11-20 09:51:03,240 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-11-20 09:51:50,866 - root - WARNING - startup failed
+2023-11-20 09:51:50,867 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-11-20 09:55:12,417 - db_manager - INFO - DB initilized.
+2023-11-20 09:55:12,428 - root - INFO - 999 hashed...
+2023-11-20 09:55:12,769 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 09:55:33,754 - root - WARNING - Could not check for admin
+2023-11-20 09:55:33,755 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 13 supplied.
+2023-11-20 09:56:15,427 - db_manager - INFO - DB initilized.
+2023-11-20 09:56:22,786 - root - WARNING - Could not decrypt password
+2023-11-20 09:56:52,303 - db_manager - INFO - DB initilized.
+2023-11-20 09:57:01,389 - root - WARNING - Could not decrypt password
+2023-11-20 09:57:01,390 - root - ERROR - argument 'salt': 'tuple' object cannot be converted to 'PyBytes'
+2023-11-20 09:59:32,123 - db_manager - INFO - DB initilized.
+2023-11-20 09:59:40,445 - root - WARNING - Could not decrypt password
+2023-11-20 09:59:40,446 - root - ERROR - argument 'salt': 'Cursor' object cannot be converted to 'PyBytes'
+2023-11-20 10:01:38,752 - db_manager - INFO - DB initilized.
+2023-11-20 10:01:48,497 - root - WARNING - Could not decrypt password
+2023-11-20 10:01:48,498 - root - ERROR - argument 'salt': 'Cursor' object cannot be converted to 'PyBytes'
+2023-11-20 10:02:44,578 - db_manager - INFO - DB initilized.
+2023-11-20 10:02:54,090 - root - WARNING - Could not check for admin
+2023-11-20 10:02:54,090 - root - ERROR - Cursor.fetchone() takes no arguments (1 given)
+2023-11-20 10:03:23,230 - db_manager - INFO - DB initilized.
+2023-11-20 10:03:31,288 - root - WARNING - Could not decrypt password
+2023-11-20 10:03:31,289 - root - ERROR - Invalid salt
+2023-11-20 10:05:39,673 - db_manager - INFO - DB initilized.
+2023-11-20 10:05:46,947 - root - WARNING - Could not decrypt password
+2023-11-20 10:05:46,948 - root - ERROR - argument 'salt': 'tuple' object cannot be converted to 'PyBytes'
+2023-11-20 10:07:52,480 - db_manager - INFO - DB initilized.
+2023-11-20 10:07:59,397 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 10:08:00,419 - root - INFO - Sending mail to user
+2023-11-20 10:08:00,423 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 10:08:26,087 - root - INFO - Checking key in database
+2023-11-20 10:08:26,090 - root - INFO - Correct key. User logged in

@@ -1,7 +1,7 @@
 import sqlite3
 import log_manager
 import uuid
-
+import login_manager
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
@@ -75,7 +75,7 @@ def add_admin(username, password, ip):
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         cur.execute('INSERT INTO admins(id, username, password, ip) values (?,?,?,?)', 
-                (generate_id(), username, password, ip))
+                (generate_id(), username, login_manager.hash_password(password), ip))
         con.commit()
         print(log_manager.log_func("", f"New admin created in {find_db()}", "info"))
     except Exception as e:
@@ -111,32 +111,48 @@ def save_otp(msg):
         con.close()
 
 def delete_otp(number):
-    con = sqlite3.connect(web_db)
-    cur = con.cursor()
-    cur.execute('DELETE FROM otp WHERE key=?', (number,))
-    con.close()
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('DELETE FROM otp WHERE key=?', (number,))
+
+    except Exception as e:
+        print(log_manager.log_func(e,"Could delete save otp","error"))
+    finally:
+        con.close()
 
 def otp_check(number):
-    con = sqlite3.connect(web_db)
-    cur = con.cursor()
-    cur.execute('Select key FROM otp WHERE key=?', (number,))
-    result = cur.fetchone()
-    con.close()
-    if result:
-        return True
-    else:
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('Select key FROM otp WHERE key=?', (number,))
+        print(log_manager.log_func("","Checking key in database", "info"))
+        result = cur.fetchone()
+        if result:
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not check the OTP", "error"))
         return False
+    finally:
+        con.close()
     
 def get_email(username):
-    con = sqlite3.connect(web_db)
-    cur = con.cursor()
-    cur.execute('Select ip FROM admins WHERE username=?', (username,))
-    result = cur.fetchone()
-    con.close()
-    if result:
-        return str(result[0])
-    else:
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('Select ip FROM admins WHERE username=?', (username,))
+        result = cur.fetchone()
+        if result:
+            return str(result[0])
+        else:
+            return None
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not check the email", "error"))
         return None
+    finally:
+        con.close()
 
 def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity):
     try:
@@ -168,21 +184,26 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
 
 # check if user and password match
 def check_admin_user(username, password):
-    con = sqlite3.connect(web_db)
-    cur = con.cursor()
-    cur.execute('Select username,password FROM admins WHERE username=? and password=?', (username, password))
-
-    result = cur.fetchone()
-    con.close()
-    if result:
-        return True
-    else:
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor() 
+        cur.execute('Select password FROM admins WHERE username=?', (username,))
+        result = cur.fetchone()
+        hashed_password = result[0]
+        print(f'This is the hashed password: {hashed_password}')
+        if login_manager.decrypt_password(hashed_password,password)==True:
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not check for admin","error"))
         return False
-    
+    finally:
+        con.close()
 
 
 
-#TODO DB: Encrpyt the DB
+
 #Generates a unique id. They go something like this:  4feb8613-e1d6-4457-87ad-e738d3dda8d3      
 def generate_id():
     id = str(uuid.uuid4())
