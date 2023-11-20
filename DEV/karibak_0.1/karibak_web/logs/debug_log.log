@@ -178,3 +178,208 @@
 2023-11-20 10:08:00,423 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
 2023-11-20 10:08:26,087 - root - INFO - Checking key in database
 2023-11-20 10:08:26,090 - root - INFO - Correct key. User logged in
+2023-11-20 10:49:07,178 - db_manager - INFO - DB initilized.
+2023-11-20 10:49:15,520 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 10:49:15,521 - root - WARNING - Could not check the email
+2023-11-20 10:49:15,522 - root - ERROR - no such column: email
+2023-11-20 10:49:16,096 - root - WARNING - Could not send email
+2023-11-20 10:49:16,096 - root - ERROR - 'NoneType' object is not iterable
+2023-11-20 10:55:39,366 - db_manager - INFO - DB initilized.
+2023-11-20 10:55:50,134 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 10:55:50,134 - root - WARNING - Could not check the email
+2023-11-20 10:55:50,136 - root - ERROR - no such column: email
+2023-11-20 10:55:50,554 - root - WARNING - Could not send email
+2023-11-20 10:55:50,554 - root - ERROR - 'NoneType' object is not iterable
+2023-11-20 11:00:04,477 - db_manager - INFO - DB initilized.
+2023-11-20 11:00:12,652 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:00:12,652 - root - WARNING - Could not check the email
+2023-11-20 11:00:12,652 - root - ERROR - no such column: email
+2023-11-20 11:00:13,068 - root - WARNING - Could not send email
+2023-11-20 11:00:13,068 - root - ERROR - 'NoneType' object is not iterable
+2023-11-20 11:04:43,215 - db_manager - INFO - DB initilized.
+2023-11-20 11:04:53,718 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:04:53,720 - root - WARNING - Could not check the email
+2023-11-20 11:04:53,721 - root - ERROR - no such column: email
+2023-11-20 11:04:54,279 - root - WARNING - Could not send email
+2023-11-20 11:04:54,279 - root - ERROR - 'NoneType' object is not iterable
+2023-11-20 11:05:48,084 - db_manager - INFO - DB initilized.
+2023-11-20 11:06:06,589 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:06:06,589 - root - WARNING - Could not check the email
+2023-11-20 11:06:06,590 - root - ERROR - no such column: email
+2023-11-20 11:06:06,989 - root - WARNING - Could not send email
+2023-11-20 11:06:06,989 - root - ERROR - 'NoneType' object is not iterable
+2023-11-20 11:09:36,071 - db_manager - INFO - DB initilized.
+2023-11-20 11:09:36,080 - root - INFO - 999 hashed...
+2023-11-20 11:09:36,418 - root - WARNING - Could not create admin
+2023-11-20 11:09:36,418 - root - ERROR - table admins has no column named ip
+2023-11-20 11:10:29,241 - db_manager - INFO - DB initilized.
+2023-11-20 11:10:29,244 - root - INFO - 999 hashed...
+2023-11-20 11:10:29,582 - root - WARNING - Could not create admin
+2023-11-20 11:10:29,583 - root - ERROR - table admins has no column named ip
+2023-11-20 11:11:02,180 - db_manager - INFO - DB initilized.
+2023-11-20 11:11:02,183 - root - INFO - 999 hashed...
+2023-11-20 11:11:02,523 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:11:33,162 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:11:34,236 - root - INFO - Sending mail to user
+2023-11-20 11:11:34,238 - root - WARNING - Could not save otp
+2023-11-20 11:11:34,238 - root - ERROR - table otp has no column named username
+2023-11-20 11:12:02,809 - db_manager - INFO - DB initilized.
+2023-11-20 11:12:02,812 - root - INFO - 999 hashed...
+2023-11-20 11:12:03,156 - root - WARNING - Could not create admin
+2023-11-20 11:12:03,174 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:12:13,457 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:12:14,123 - root - INFO - Sending mail to user
+2023-11-20 11:12:14,126 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:13:19,365 - db_manager - INFO - DB initilized.
+2023-11-20 11:13:19,367 - root - INFO - 999 hashed...
+2023-11-20 11:13:19,708 - root - WARNING - Could not create admin
+2023-11-20 11:13:19,709 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:13:28,423 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:13:29,245 - root - INFO - Sending mail to user
+2023-11-20 11:13:29,250 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:15:04,137 - db_manager - INFO - DB initilized.
+2023-11-20 11:15:04,139 - root - INFO - 999 hashed...
+2023-11-20 11:15:04,478 - root - WARNING - Could not create admin
+2023-11-20 11:15:04,478 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:15:20,392 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:15:21,741 - root - INFO - Sending mail to user
+2023-11-20 11:15:21,745 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:19:49,210 - db_manager - INFO - DB initilized.
+2023-11-20 11:19:49,216 - root - INFO - 999 hashed...
+2023-11-20 11:19:49,554 - root - WARNING - Could not create admin
+2023-11-20 11:19:49,555 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:20:02,135 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:20:03,368 - root - INFO - Sending mail to user
+2023-11-20 11:20:03,372 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:20:27,038 - db_manager - INFO - DB initilized.
+2023-11-20 11:20:27,041 - root - INFO - 999 hashed...
+2023-11-20 11:20:27,383 - root - WARNING - Could not create admin
+2023-11-20 11:20:27,384 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:20:34,483 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:20:35,689 - root - INFO - Sending mail to user
+2023-11-20 11:20:35,692 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:24:03,955 - db_manager - INFO - DB initilized.
+2023-11-20 11:24:03,957 - root - INFO - 999 hashed...
+2023-11-20 11:24:04,294 - root - WARNING - Could not create admin
+2023-11-20 11:24:04,294 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:24:14,342 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:24:15,081 - root - INFO - Sending mail to user
+2023-11-20 11:24:15,084 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:30:49,337 - db_manager - INFO - DB initilized.
+2023-11-20 11:30:49,340 - root - INFO - 999 hashed...
+2023-11-20 11:30:49,679 - root - WARNING - Could not create admin
+2023-11-20 11:30:49,680 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:31:03,713 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:31:04,658 - root - INFO - Sending mail to user
+2023-11-20 11:31:04,662 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:32:08,162 - db_manager - INFO - DB initilized.
+2023-11-20 11:32:08,165 - root - INFO - 999 hashed...
+2023-11-20 11:32:08,503 - root - WARNING - Could not create admin
+2023-11-20 11:32:08,503 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:32:25,912 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:32:27,190 - root - INFO - Sending mail to user
+2023-11-20 11:32:27,193 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:33:27,989 - db_manager - INFO - DB initilized.
+2023-11-20 11:33:27,992 - root - INFO - 999 hashed...
+2023-11-20 11:33:28,330 - root - WARNING - Could not create admin
+2023-11-20 11:33:28,331 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:33:41,066 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:33:41,737 - root - INFO - Sending mail to user
+2023-11-20 11:33:41,741 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:34:07,738 - db_manager - INFO - DB initilized.
+2023-11-20 11:34:07,741 - root - INFO - 999 hashed...
+2023-11-20 11:34:08,083 - root - WARNING - Could not create admin
+2023-11-20 11:34:08,084 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:34:17,916 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:34:19,216 - root - INFO - Sending mail to user
+2023-11-20 11:34:19,220 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:34:21,752 - root - WARNING - Could not check the OTP
+2023-11-20 11:34:21,752 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+2023-11-20 11:34:21,752 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:35:03,433 - db_manager - INFO - DB initilized.
+2023-11-20 11:35:03,436 - root - INFO - 999 hashed...
+2023-11-20 11:35:03,773 - root - WARNING - Could not create admin
+2023-11-20 11:35:03,774 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:35:12,102 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:35:12,761 - root - INFO - Sending mail to user
+2023-11-20 11:35:12,764 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:35:18,347 - root - INFO - Checking key in database
+2023-11-20 11:35:18,349 - root - INFO - Correct key. User logged in
+2023-11-20 11:36:36,901 - db_manager - INFO - DB initilized.
+2023-11-20 11:36:36,904 - root - INFO - 420 hashed...
+2023-11-20 11:36:37,244 - root - INFO - New admin created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:37:02,540 - root - INFO - Admin user bob log in requested
+2023-11-20 11:37:03,462 - root - INFO - Sending mail to user
+2023-11-20 11:37:03,466 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:37:38,272 - root - INFO - Checking key in database
+2023-11-20 11:37:38,274 - root - INFO - Correct key. User logged in
+2023-11-20 11:43:07,764 - db_manager - INFO - DB initilized.
+2023-11-20 11:43:07,768 - root - INFO - 420 hashed...
+2023-11-20 11:43:08,106 - root - WARNING - Could not create admin
+2023-11-20 11:43:08,107 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:43:23,793 - root - INFO - Admin user bob log in requested
+2023-11-20 11:43:24,699 - root - INFO - Sending mail to user
+2023-11-20 11:43:24,704 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:43:33,727 - root - INFO - Checking key in database
+2023-11-20 11:43:33,728 - root - WARNING - Could not check the OTP
+2023-11-20 11:43:33,728 - root - ERROR - no such column: username
+2023-11-20 11:43:33,728 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:43:51,983 - root - INFO - Admin user bob log in requested
+2023-11-20 11:43:53,057 - root - INFO - Sending mail to user
+2023-11-20 11:43:53,061 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:44:04,207 - root - INFO - Checking key in database
+2023-11-20 11:44:04,207 - root - WARNING - Could not check the OTP
+2023-11-20 11:44:04,207 - root - ERROR - no such column: username
+2023-11-20 11:44:04,208 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:44:28,589 - db_manager - INFO - DB initilized.
+2023-11-20 11:44:28,592 - root - INFO - 420 hashed...
+2023-11-20 11:44:28,937 - root - WARNING - Could not create admin
+2023-11-20 11:44:28,938 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:44:35,325 - root - INFO - Admin user bob log in requested
+2023-11-20 11:44:36,331 - root - INFO - Sending mail to user
+2023-11-20 11:44:36,334 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:44:46,618 - root - INFO - Checking key in database
+2023-11-20 11:44:46,619 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:45:07,289 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:45:08,037 - root - INFO - Sending mail to user
+2023-11-20 11:45:08,040 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:45:13,599 - root - INFO - Checking key in database
+2023-11-20 11:45:13,600 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:46:25,215 - db_manager - INFO - DB initilized.
+2023-11-20 11:46:25,218 - root - INFO - 420 hashed...
+2023-11-20 11:46:25,565 - root - WARNING - Could not create admin
+2023-11-20 11:46:25,566 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:46:30,704 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:46:31,613 - root - INFO - Sending mail to user
+2023-11-20 11:46:31,617 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:46:35,904 - root - INFO - Checking key in database
+2023-11-20 11:46:35,904 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:46:57,167 - db_manager - INFO - DB initilized.
+2023-11-20 11:46:57,170 - root - INFO - 420 hashed...
+2023-11-20 11:46:57,515 - root - WARNING - Could not create admin
+2023-11-20 11:46:57,516 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:47:05,899 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:47:06,611 - root - INFO - Sending mail to user
+2023-11-20 11:47:06,615 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:47:09,191 - root - INFO - Checking key in database
+2023-11-20 11:47:09,192 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:48:35,528 - db_manager - INFO - DB initilized.
+2023-11-20 11:48:35,531 - root - INFO - 420 hashed...
+2023-11-20 11:48:35,873 - root - WARNING - Could not create admin
+2023-11-20 11:48:35,873 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:48:43,165 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:48:44,236 - root - INFO - Sending mail to user
+2023-11-20 11:48:44,239 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:48:47,039 - root - INFO - Checking key in database
+2023-11-20 11:48:47,039 - root - ERROR - Incorrect key. User sent back to login
+2023-11-20 11:51:53,020 - db_manager - INFO - DB initilized.
+2023-11-20 11:51:53,023 - root - INFO - 420 hashed...
+2023-11-20 11:51:53,361 - root - WARNING - Could not create admin
+2023-11-20 11:51:53,362 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-20 11:52:02,235 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-20 11:52:03,547 - root - INFO - Sending mail to user
+2023-11-20 11:52:03,552 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-20 11:52:08,154 - root - INFO - Checking key in database
+2023-11-20 11:52:08,155 - root - INFO - Correct key. User logged in
+2023-11-20 11:52:22,400 - root - INFO - Checking key in database
+2023-11-20 11:52:22,400 - root - ERROR - Incorrect key. User sent back to login

@@ -48,7 +48,7 @@ def create_db_login_table():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS admins(id text PRIMARY KEY, username text NOT NULL UNIQUE, password  text NOT NULL, ip text);")
+        cur.execute("CREATE TABLE IF NOT EXISTS admins(id text PRIMARY KEY, username text NOT NULL UNIQUE, password  text NOT NULL, email text);")
         con.commit()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
@@ -70,12 +70,12 @@ def add_user(name, age, gender, address, device, ip, mac):
     finally:
         con.close()
 
-def add_admin(username, password, ip):
+def add_admin(username, password, email):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute('INSERT INTO admins(id, username, password, ip) values (?,?,?,?)', 
-                (generate_id(), username, login_manager.hash_password(password), ip))
+        cur.execute('INSERT INTO admins(id, username, password, email) values (?,?,?,?)', 
+                (generate_id(), username, login_manager.hash_password(password), email))
         con.commit()
         print(log_manager.log_func("", f"New admin created in {find_db()}", "info"))
     except Exception as e:
@@ -89,7 +89,7 @@ def create_db_otp():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS otp(key text);")
+        cur.execute("CREATE TABLE IF NOT EXISTS otp(key text, user text);")
         con.commit()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
@@ -98,11 +98,11 @@ def create_db_otp():
         con.close()
 
 
-def save_otp(msg):
+def save_otp(msg, username):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute('INSERT INTO otp (key) values (?)', (msg,))
+        cur.execute('INSERT INTO otp (key, user) values (?,?)', (msg,username))
         con.commit()
         print(log_manager.log_func("", f"New key created in {find_db()}", "info"))
     except Exception as e:
@@ -121,15 +121,20 @@ def delete_otp(number):
     finally:
         con.close()
 
-def otp_check(number):
+def otp_check(number, username):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         cur.execute('Select key FROM otp WHERE key=?', (number,))
         print(log_manager.log_func("","Checking key in database", "info"))
-        result = cur.fetchone()
-        if result:
-            return True
+        key_result = cur.fetchone()
+        cur.execute('Select user FROM otp WHERE key=?', (number,))
+        name_result=cur.fetchone()
+        print(f'This is the key {key_result} and this is the user: {name_result[0]}')
+        print(f'And this is the logged in user: {username}')
+        if key_result:
+            if name_result[0] == username:
+                return True
         else:
             return False
     except Exception as e:
@@ -137,12 +142,14 @@ def otp_check(number):
         return False
     finally:
         con.close()
-    
+
+
+
 def get_email(username):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute('Select ip FROM admins WHERE username=?', (username,))
+        cur.execute('Select email FROM admins WHERE username=?', (username,))
         result = cur.fetchone()
         if result:
             return str(result[0])

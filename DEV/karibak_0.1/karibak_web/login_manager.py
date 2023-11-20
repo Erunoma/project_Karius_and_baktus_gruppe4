@@ -34,7 +34,7 @@ def rand_otp():
         print(log_manager.log_func(e,"Could not fetch a random number","error"))
         return None
 
-def send_mail(recipient):
+def send_mail(recipient, username):
     try:
         msg=str(random.randint(100,999))
         print(f"The message:{msg}")
@@ -43,7 +43,7 @@ def send_mail(recipient):
             server.login(SMTP_USERNAME, SMTP_PASSWORD)
             server.sendmail(SMTP_USERNAME,recipient,msg)
             print(log_manager.log_func("","Sending mail to user","info"))
-            db_manager.save_otp(msg)
+            db_manager.save_otp(msg, username)
     except Exception as e:
         print(log_manager.log_func(e,"Could not send email","error"))
 

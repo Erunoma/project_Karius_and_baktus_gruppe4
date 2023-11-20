@@ -8,7 +8,7 @@
 <p>OTP code sent. Check email associated with user trying to log in.</p>
 <body>
     <div class="container">
-        <form action="/verify" method="post">
+        <form id="verify_form" action="/verify/{{ username }}" method="post">
             <div class="mb-3">
                 <label for="Password" class="form-label">OTP Code</label>
                 <br>
