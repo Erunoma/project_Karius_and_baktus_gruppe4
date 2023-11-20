@@ -14,13 +14,15 @@ logger=log_manager.logging.getLogger(__name__)
 
 #TODO: Create a session function and a landing page
 #TODO: Auto delete number
-#TODO: Assign number to user
+
 
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT=587
 SMTP_USERNAME="karibak.server@gmail.com"
 SMTP_PASSWORD="uzjx ilgq jpbb bpse"
 
+
+#Creates a random number for use in the OTP authentication.
 def rand_otp():
     try:
         randnumber=random.randint(100,999)
@@ -34,6 +36,7 @@ def rand_otp():
         print(log_manager.log_func(e,"Could not fetch a random number","error"))
         return None
 
+#This function sends an email from the mail server with a number to the users email.
 def send_mail(recipient, username):
     try:
         msg=str(random.randint(100,999))
@@ -47,7 +50,7 @@ def send_mail(recipient, username):
     except Exception as e:
         print(log_manager.log_func(e,"Could not send email","error"))
 
-
+#This function hashes a password. For use in database login.
 def hash_password(password):
     try:
         print(log_manager.log_func("",f"{password} hashed...","info"))
@@ -55,6 +58,8 @@ def hash_password(password):
         
     except Exception as e:
         print(log_manager.log_func(e,f"Could not hash password","error"))
+
+#This function decrypts a hashed password with the input password from the website. For use in database login
 def decrypt_password(hashed_password, password):
     try:
       return bcrypt.check_password_hash(hashed_password, password)

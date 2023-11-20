@@ -69,7 +69,7 @@ def add_user(name, age, gender, address, device, ip, mac):
         print(log_manager.log_func(e,"Could not create user","error"))
     finally:
         con.close()
-
+#Adds an admin to the db table.
 def add_admin(username, password, email):
     try:
         con = sqlite3.connect(web_db)
@@ -84,7 +84,7 @@ def add_admin(username, password, email):
         con.close()
 
 #TODO DB: Add a function to modify these user settings.
-
+#Creates the DB table for the OTP Tokens. It incases both the number and the admin.
 def create_db_otp():
     try:
         con = sqlite3.connect(web_db)
@@ -97,7 +97,7 @@ def create_db_otp():
     finally:
         con.close()
 
-
+#Saves the OTP token to the user.
 def save_otp(msg, username):
     try:
         con = sqlite3.connect(web_db)
@@ -109,18 +109,20 @@ def save_otp(msg, username):
         print(log_manager.log_func(e,"Could not save otp","error"))
     finally:
         con.close()
-
+#Deletes the OTP token of the user.
 def delete_otp(number):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         cur.execute('DELETE FROM otp WHERE key=?', (number,))
-
+        con.commit()
+        print(log_manager.log_func("",f"Deleted the key {number}","info"))
     except Exception as e:
-        print(log_manager.log_func(e,"Could delete save otp","error"))
+        print(log_manager.log_func(e,"Could not delete save otp","error"))
     finally:
         con.close()
 
+#Checks the OTP code that has been typed and matches it with the user. If they are both connected, the check will be true.
 def otp_check(number, username):
     try:
         con = sqlite3.connect(web_db)
@@ -130,8 +132,7 @@ def otp_check(number, username):
         key_result = cur.fetchone()
         cur.execute('Select user FROM otp WHERE key=?', (number,))
         name_result=cur.fetchone()
-        print(f'This is the key {key_result} and this is the user: {name_result[0]}')
-        print(f'And this is the logged in user: {username}')
+
         if key_result:
             if name_result[0] == username:
                 return True
@@ -144,7 +145,7 @@ def otp_check(number, username):
         con.close()
 
 
-
+#Gets the email from the user by connecting to the database.
 def get_email(username):
     try:
         con = sqlite3.connect(web_db)
@@ -161,6 +162,8 @@ def get_email(username):
     finally:
         con.close()
 
+    
+#Changes the info of a non-admin user. 
 def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity):
     try:
         con = sqlite3.connect(web_db)
