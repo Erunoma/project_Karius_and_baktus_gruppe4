@@ -9,10 +9,11 @@ from flask_bcrypt import Bcrypt
 app = Bottle()
 bcrypt = Bcrypt(app)
 
+
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
-#TODO: Create a session function and a landing page
+#TODO: Create a session function
 #TODO: Auto delete number
 
 
@@ -40,7 +41,7 @@ def rand_otp():
 def send_mail(recipient, username):
     try:
         msg=str(random.randint(100,999))
-        print(f"The message:{msg}")
+        #print(f"The message:{msg}")
         with smtplib.SMTP(SMTP_SERVER,SMTP_PORT) as server:
             server.starttls()
             server.login(SMTP_USERNAME, SMTP_PASSWORD)
