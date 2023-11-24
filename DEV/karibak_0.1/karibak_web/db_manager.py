@@ -2,6 +2,7 @@ import sqlite3
 import log_manager
 import uuid
 import login_manager
+import time
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
@@ -89,9 +90,9 @@ def create_db_otp():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS otp(key text, user text);")
+        cur.execute("CREATE TABLE IF NOT EXISTS otp(key text, user text, expire float);")
         con.commit()
-        #log_manager.log_func("", f"New table created in {find_db()}", "info")
+        log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
         print(log_manager.log_func(e,"Could not create otp table","error"))
     finally:
@@ -102,7 +103,8 @@ def save_otp(msg, username):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute('INSERT INTO otp (key, user) values (?,?)', (msg,username))
+        print(time.time())
+        cur.execute('INSERT INTO otp (key, user, expire) values (?,?,?)', (msg,username,((time.time() + 100))))
         con.commit()
         print(log_manager.log_func("", f"New key created in {find_db()}", "info"))
     except Exception as e:
@@ -122,6 +124,18 @@ def delete_otp(number):
     finally:
         con.close()
 
+def delete_all_otp():
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('DROP TABLE otp')
+        con.commit()
+        print(log_manager.log_func("",f"Deleted all OTPs as a startup procedure","info"))
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not delete otp table","error"))
+    finally:
+        con.close()
+
 #Checks the OTP code that has been typed and matches it with the user. If they are both connected, the check will be true.
 def otp_check(number, username):
     try:
@@ -132,11 +146,16 @@ def otp_check(number, username):
         key_result = cur.fetchone()
         cur.execute('Select user FROM otp WHERE key=?', (number,))
         name_result=cur.fetchone()
+        cur.execute('Select expire FROM otp where key=?', (number,))
+        expire_time=cur.fetchone()
+        print(time.time())
 
         if key_result:
             if name_result[0] == username:
-                return True
+                if expire_time[0]>=time.time():
+                    return True
         else:
+            print(log_manager.log_func("","Checking key in database", "info"))
             return False
     except Exception as e:
         print(log_manager.log_func(e,"Could not check the OTP", "error"))

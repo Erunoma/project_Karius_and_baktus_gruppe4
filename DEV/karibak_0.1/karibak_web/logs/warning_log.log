@@ -145,3 +145,21 @@
 2023-11-24 11:01:56,330 - root - ERROR - UNIQUE constraint failed: admins.username
 2023-11-24 11:05:11,353 - root - WARNING - Could not create admin
 2023-11-24 11:05:11,354 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-11-24 12:00:38,343 - root - WARNING - Could not delete otp table
+2023-11-24 12:00:38,343 - root - ERROR - near "TABLE": syntax error
+2023-11-24 12:02:20,265 - root - WARNING - Could not check the OTP
+2023-11-24 12:02:20,265 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+2023-11-24 12:02:20,266 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-24 12:05:55,987 - root - WARNING - Could not check the OTP
+2023-11-24 12:05:55,988 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+2023-11-24 12:05:55,988 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-24 12:06:28,820 - root - WARNING - Could not check the OTP
+2023-11-24 12:06:28,820 - root - ERROR - Incorrect number of bindings supplied. The current statement uses 1, and there are 3 supplied.
+2023-11-24 12:06:28,821 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-24 12:08:13,310 - root - WARNING - Could not check the OTP
+2023-11-24 12:08:13,311 - root - ERROR - '>=' not supported between instances of 'tuple' and 'float'
+2023-11-24 12:08:13,312 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-24 12:09:02,794 - root - WARNING - Could not check the OTP
+2023-11-24 12:09:02,794 - root - ERROR - '>=' not supported between instances of 'tuple' and 'int'
+2023-11-24 12:09:02,794 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-24 12:18:35,145 - root - ERROR - Incorrect key or it has expired. User sent back to login

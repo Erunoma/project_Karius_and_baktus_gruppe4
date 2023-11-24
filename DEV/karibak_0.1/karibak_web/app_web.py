@@ -20,10 +20,12 @@ def start():
         db_manager.find_db()
         db_manager.create_db_user_table()
         db_manager.create_db_login_table()
+        db_manager.delete_all_otp()
         db_manager.create_db_otp()
+
         #db_manager.add_user("Bob","21", "Male","Kaktusbæk 54, Rødby","ESP32-5130","150.122.69.123","9c:51:6f:19:3c:0f")
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
-        db_manager.add_admin("signe", "420", "sign281g@stud.kea.dk")
+        #db_manager.add_admin("signe", "420", "sign281g@stud.kea.dk")
         #log_test()
     except Exception as e:
         print(log_manager.log_func(e,"startup failed","error"))
@@ -63,16 +65,20 @@ def verify(username):
             print(log_manager.log_func("",f"Correct key. User logged in","info"))
             redirect('/home')
         else:
-            print(log_manager.log_func("",f"Incorrect key. User sent back to login","warning"))
+            print(log_manager.log_func("",f"Incorrect key or it has expired. User sent back to login","warning"))
             redirect('/login')
+    
     return template('templates/verify.html', username=username)
+    
 #This is the landing page after login
 @route('/home', method=["POST","GET"])
-def home(session=request.get_cookie('karibak_login')):
-    if session=='karibak_login':
+def home():
+    session=request.get_cookie('karibak_login')
+    print(f"Session:{session}")
+    if session=='karibak_id':
         return template("templates/base.html")
     else:
-        redirect('/login')
+        return template("You are not allowed to view this page. Please login.")
 
 #This is the default start page. Connections are automaticcly redirected to /login.
 @route('/')
