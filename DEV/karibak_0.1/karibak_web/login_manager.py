@@ -4,7 +4,7 @@ from bottle import default_app, route, template, run, app, request, post, Bottle
 import db_manager
 import log_manager
 from flask_bcrypt import Bcrypt
-
+import re
 
 app = Bottle()
 bcrypt = Bcrypt(app)
@@ -66,3 +66,15 @@ def decrypt_password(hashed_password, password):
       return bcrypt.check_password_hash(hashed_password, password)
     except Exception as e:
         print(log_manager.log_func(e,f"Could not decrypt password","error"))  
+
+def check_for_regex(text):
+    try:
+        match = re.search('^[A-Za-z0-9_-]+$',text)
+        if match == None:
+            print(log_manager.log_func("",f"Regex Error found with text: {text}","warning"))
+            return False
+        else:
+            print(log_manager.log_func("",f"Regex accepted: {text}","info"))
+            return True
+    except Exception as e:
+        print(log_manager.log_func(e,f"Could not check for regex","error"))  

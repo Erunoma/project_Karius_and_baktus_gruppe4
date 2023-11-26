@@ -5,6 +5,7 @@ import db_manager
 import login_manager
 import bottle_session
 
+
 app = Bottle()
 plugin = bottle_session.SessionPlugin(cookie_lifetime=600)
 app.install(plugin)
@@ -39,12 +40,14 @@ def login():
     if request.method=="POST":
         username=request.forms["username"]
         password=request.forms["password"]
-        if db_manager.check_admin_user(username,password) == True:
-            print(log_manager.log_func("",f"Admin user {username} log in requested","info"))
-            login_manager.send_mail(db_manager.get_email(username), username)
-            redirect(f'/verify/{username}')
-        else:
-            return redirect('/login')
+        #print(login_manager.check_for_regex(username))
+        if login_manager.check_for_regex(username) == True and login_manager.check_for_regex(password) == True: 
+            if db_manager.check_admin_user(username,password) == True:
+                print(log_manager.log_func("",f"Admin user {username} log in requested","info"))
+                login_manager.send_mail(db_manager.get_email(username), username)
+                redirect(f'/verify/{username}')
+            else:
+                return redirect('/login')
 
     if  session_cookie == 'karibak_id':
         return redirect('/home')
@@ -57,16 +60,16 @@ def login():
 def verify(username):
     if request.method=="POST":
         number=request.forms["number"]
-      
         #print(f'This is the username otp thingy... {username}')
-        if db_manager.otp_check(number, username)==True:
-            db_manager.delete_otp(number)
-            response.set_cookie('karibak_login', 'karibak_id', path='/')
-            print(log_manager.log_func("",f"Correct key. User logged in","info"))
-            redirect('/home')
-        else:
-            print(log_manager.log_func("",f"Incorrect key or it has expired. User sent back to login","warning"))
-            redirect('/login')
+        if login_manager.check_for_regex(number) == True: 
+            if db_manager.otp_check(number, username)==True:
+                db_manager.delete_otp(number)
+                response.set_cookie('karibak_login', 'karibak_id', path='/')
+                print(log_manager.log_func("",f"Correct key. User logged in","info"))
+                redirect('/home')
+            else:
+                print(log_manager.log_func("",f"Incorrect key or it has expired. User sent back to login","warning"))
+                redirect('/login')
     
     return template('templates/verify.html', username=username)
     

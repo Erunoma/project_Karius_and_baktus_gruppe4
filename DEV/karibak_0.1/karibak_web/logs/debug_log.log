@@ -624,3 +624,45 @@
 2023-11-24 12:16:21,534 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
 2023-11-24 12:18:35,144 - root - INFO - Checking key in database
 2023-11-24 12:18:35,145 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-26 13:11:15,135 - db_manager - INFO - DB initilized.
+2023-11-26 13:11:15,141 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 13:11:15,144 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:06:28,490 - db_manager - INFO - DB initilized.
+2023-11-26 14:06:28,502 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 14:06:28,503 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:07:28,009 - db_manager - INFO - DB initilized.
+2023-11-26 14:07:28,013 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 14:07:28,015 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:08:00,052 - root - ERROR - Regex Error found with text: 34434
+2023-11-26 14:08:00,055 - root - ERROR - Regex Error found with text: 34434
+2023-11-26 14:08:23,825 - root - ERROR - Regex Error found with text: 43525
+2023-11-26 14:08:23,826 - root - ERROR - Regex Error found with text: 43525
+2023-11-26 14:10:07,641 - db_manager - INFO - DB initilized.
+2023-11-26 14:10:07,652 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 14:10:07,655 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:10:11,336 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:11,341 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:11,342 - root - WARNING - Could not check for admin
+2023-11-26 14:10:11,342 - root - ERROR - 'NoneType' object is not subscriptable
+2023-11-26 14:10:36,807 - db_manager - INFO - DB initilized.
+2023-11-26 14:10:36,810 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 14:10:36,812 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:54,290 - root - INFO - Regex accepted: hashed_oliver
+2023-11-26 14:10:54,290 - root - INFO - Regex accepted: hashed_oliver
+2023-11-26 14:10:54,531 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-26 14:10:56,361 - root - INFO - Sending mail to user
+2023-11-26 14:10:56,365 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:12:58,355 - db_manager - INFO - DB initilized.
+2023-11-26 14:12:58,367 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-26 14:12:58,368 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:13:04,789 - root - INFO - Regex accepted: hashed_oliver
+2023-11-26 14:13:04,790 - root - INFO - Regex accepted: 999
+2023-11-26 14:13:05,030 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-26 14:13:06,583 - root - INFO - Sending mail to user
+2023-11-26 14:13:06,585 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-26 14:13:26,088 - root - INFO - Regex accepted: 331
+2023-11-26 14:13:26,089 - root - INFO - Checking key in database
+2023-11-26 14:13:26,091 - root - INFO - Deleted the key 331
+2023-11-26 14:13:26,091 - root - INFO - Correct key. User logged in

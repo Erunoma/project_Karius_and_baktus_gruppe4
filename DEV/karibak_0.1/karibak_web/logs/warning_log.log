@@ -163,3 +163,13 @@
 2023-11-24 12:09:02,794 - root - ERROR - '>=' not supported between instances of 'tuple' and 'int'
 2023-11-24 12:09:02,794 - root - ERROR - Incorrect key or it has expired. User sent back to login
 2023-11-24 12:18:35,145 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-11-26 14:08:00,052 - root - ERROR - Regex Error found with text: 34434
+2023-11-26 14:08:00,055 - root - ERROR - Regex Error found with text: 34434
+2023-11-26 14:08:23,825 - root - ERROR - Regex Error found with text: 43525
+2023-11-26 14:08:23,826 - root - ERROR - Regex Error found with text: 43525
+2023-11-26 14:10:11,336 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:11,341 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:11,342 - root - WARNING - Could not check for admin
+2023-11-26 14:10:11,342 - root - ERROR - 'NoneType' object is not subscriptable
+2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
+2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
