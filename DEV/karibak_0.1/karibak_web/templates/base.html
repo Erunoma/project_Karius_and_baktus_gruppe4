@@ -6,7 +6,25 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 
-
 <p>base</p>
+
+<div class="box_container">
+    <div id="info" class="numbers">
+        <p id="test_number">To be updated</p>
+    </div>
+    <button class="1_button" onclick="increase()">+1</button>
+</div>
+
+
+
+<script>
+    var test_variables = {};
+    test_variables.number="{{ bottle_var }}";
+    function increase(){
+        test_variables.number++;
+        document.getElementById("test_number").textContent=(test_variables.number);
+    }
+</script>
+
 
 </html>

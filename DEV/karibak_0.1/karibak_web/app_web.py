@@ -17,14 +17,16 @@ logger=log_manager.logging.getLogger(__name__)
 
 def start():
     try:
+        #db_manager.generate_key()
         db_manager.init_db()
         db_manager.find_db()
+        db_manager.delete_all_users()
         db_manager.create_db_user_table()
         db_manager.create_db_login_table()
         db_manager.delete_all_otp()
         db_manager.create_db_otp()
-
-        #db_manager.add_user("Bob","21", "Male","Kaktusbæk 54, Rødby","ESP32-5130","150.122.69.123","9c:51:6f:19:3c:0f")
+        db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "", "", "", "")
+     
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
         #db_manager.add_admin("signe", "420", "sign281g@stud.kea.dk")
         #log_test()
@@ -79,7 +81,8 @@ def home():
     session=request.get_cookie('karibak_login')
     print(f"Session:{session}")
     if session=='karibak_id':
-        return template("templates/base.html")
+        bottle_var = 55
+        return template("templates/base.html", bottle_var=bottle_var)
     else:
         return template("You are not allowed to view this page. Please login.")
 

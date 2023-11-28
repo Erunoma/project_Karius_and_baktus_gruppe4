@@ -666,3 +666,153 @@
 2023-11-26 14:13:26,089 - root - INFO - Checking key in database
 2023-11-26 14:13:26,091 - root - INFO - Deleted the key 331
 2023-11-26 14:13:26,091 - root - INFO - Correct key. User logged in
+2023-11-28 13:25:14,350 - db_manager - INFO - DB initilized.
+2023-11-28 13:25:14,356 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 13:25:14,359 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 13:25:23,296 - root - INFO - Regex accepted: hashed_oliver
+2023-11-28 13:25:23,296 - root - INFO - Regex accepted: 999
+2023-11-28 13:25:23,633 - root - INFO - Admin user hashed_oliver log in requested
+2023-11-28 13:25:25,839 - root - INFO - Sending mail to user
+2023-11-28 13:25:25,842 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 13:25:49,077 - root - INFO - Regex accepted: 714
+2023-11-28 13:25:49,078 - root - INFO - Checking key in database
+2023-11-28 13:25:49,080 - root - INFO - Deleted the key 714
+2023-11-28 13:25:49,081 - root - INFO - Correct key. User logged in
+2023-11-28 13:42:10,309 - db_manager - INFO - DB initilized.
+2023-11-28 13:42:10,315 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 13:42:10,317 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 14:35:05,942 - db_manager - INFO - DB initilized.
+2023-11-28 14:35:05,952 - root - INFO - Deleted all users as a startup procedure
+2023-11-28 14:35:05,957 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 14:35:05,959 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 14:35:05,960 - root - WARNING - Could not create user
+2023-11-28 14:35:05,960 - root - ERROR - Fernet key must be 32 url-safe base64-encoded bytes.
+2023-11-28 14:53:50,814 - root - INFO - Encryption key generated and put into file
+2023-11-28 14:53:50,821 - db_manager - INFO - DB initilized.
+2023-11-28 14:53:50,828 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 14:53:50,831 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 14:53:50,831 - root - WARNING - Could not create user
+2023-11-28 14:53:50,833 - root - ERROR - data must be bytes
+2023-11-28 14:56:36,117 - db_manager - INFO - DB initilized.
+2023-11-28 14:56:36,122 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 14:56:36,124 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 14:56:36,125 - root - WARNING - Could not create user
+2023-11-28 14:56:36,125 - root - ERROR - data must be bytes
+2023-11-28 14:58:22,444 - db_manager - INFO - DB initilized.
+2023-11-28 14:58:22,449 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 14:58:22,451 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 14:58:22,452 - root - WARNING - Could not create user
+2023-11-28 14:58:22,452 - root - ERROR - data must be bytes
+2023-11-28 15:00:23,872 - db_manager - INFO - DB initilized.
+2023-11-28 15:00:23,877 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:00:23,879 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:00:23,879 - root - WARNING - Could not encrypt text
+2023-11-28 15:00:23,880 - root - ERROR - data must be bytes
+2023-11-28 15:00:23,880 - root - WARNING - Could not encrypt text
+2023-11-28 15:00:23,881 - root - ERROR - data must be bytes
+2023-11-28 15:00:23,883 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:02:19,109 - db_manager - INFO - DB initilized.
+2023-11-28 15:02:19,115 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:02:19,117 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:02:19,118 - root - WARNING - Could not encrypt text
+2023-11-28 15:02:19,118 - root - ERROR - data must be bytes
+2023-11-28 15:02:19,119 - root - WARNING - Could not encrypt text
+2023-11-28 15:02:19,119 - root - ERROR - data must be bytes
+2023-11-28 15:02:19,121 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:11:38,391 - db_manager - INFO - DB initilized.
+2023-11-28 15:11:38,402 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:11:38,404 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:11:38,501 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:17:50,231 - db_manager - INFO - DB initilized.
+2023-11-28 15:17:50,245 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:17:50,247 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:17:50,334 - root - WARNING - Could not decrypt text
+2023-11-28 15:17:50,336 - root - ERROR - encoding without a string argument
+2023-11-28 15:17:50,337 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:17:50,338 - root - WARNING - startup failed
+2023-11-28 15:17:50,338 - root - ERROR - decrypt_text() missing 1 required positional argument: 'text'
+2023-11-28 15:19:49,217 - db_manager - INFO - DB initilized.
+2023-11-28 15:19:49,222 - root - INFO - Deleted all users as a startup procedure
+2023-11-28 15:19:49,226 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:19:49,228 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:19:49,284 - root - WARNING - Could not decrypt text
+2023-11-28 15:19:49,285 - root - ERROR - encoding without a string argument
+2023-11-28 15:19:49,286 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:21:19,939 - db_manager - INFO - DB initilized.
+2023-11-28 15:21:19,944 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:21:19,946 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:21:20,000 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:21:20,001 - root - WARNING - Could not decrypt text
+2023-11-28 15:21:20,001 - root - ERROR - encoding without a string argument
+2023-11-28 15:22:43,279 - db_manager - INFO - DB initilized.
+2023-11-28 15:22:43,284 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:22:43,286 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:22:43,342 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:22:43,342 - root - WARNING - Could not decrypt text
+2023-11-28 15:22:43,342 - root - ERROR - token must be bytes or str
+2023-11-28 15:24:48,715 - db_manager - INFO - DB initilized.
+2023-11-28 15:24:48,722 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:24:48,725 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:24:48,784 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:24:48,785 - root - WARNING - Could not decrypt text
+2023-11-28 15:24:48,785 - root - ERROR - encoding without a string argument
+2023-11-28 15:26:29,815 - db_manager - INFO - DB initilized.
+2023-11-28 15:26:29,820 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:26:29,823 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:26:29,879 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:26:29,879 - root - WARNING - Could not decrypt text
+2023-11-28 15:26:29,880 - root - ERROR - decoding to str: need a bytes-like object, tuple found
+2023-11-28 15:26:48,549 - db_manager - INFO - DB initilized.
+2023-11-28 15:26:48,553 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:26:48,556 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:26:48,615 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:26:48,615 - root - WARNING - Could not decrypt text
+2023-11-28 15:26:48,615 - root - ERROR - 
+2023-11-28 15:28:28,387 - db_manager - INFO - DB initilized.
+2023-11-28 15:28:28,392 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:28:28,394 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:28:28,449 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:28:28,449 - root - WARNING - Could not decrypt text
+2023-11-28 15:28:28,450 - root - ERROR - 'tuple' object has no attribute 'decode'
+2023-11-28 15:29:44,306 - db_manager - INFO - DB initilized.
+2023-11-28 15:29:44,311 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:29:44,313 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:29:44,370 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:29:44,370 - root - WARNING - Could not decrypt text
+2023-11-28 15:29:44,370 - root - ERROR - 'str' object has no attribute 'decode'
+2023-11-28 15:30:06,409 - db_manager - INFO - DB initilized.
+2023-11-28 15:30:06,414 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:30:06,416 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:30:06,475 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:33:37,375 - db_manager - INFO - DB initilized.
+2023-11-28 15:33:37,379 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:33:37,382 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:33:37,437 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:35:08,730 - db_manager - INFO - DB initilized.
+2023-11-28 15:35:08,735 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:35:08,737 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:35:08,791 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:35:36,726 - db_manager - INFO - DB initilized.
+2023-11-28 15:35:36,731 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:35:36,733 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:35:36,788 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:00,822 - db_manager - INFO - DB initilized.
+2023-11-28 15:36:00,827 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:36:00,830 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:00,885 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:00,885 - root - WARNING - Could not decrypt text
+2023-11-28 15:36:00,885 - root - ERROR - 'str' object has no attribute 'decode'
+2023-11-28 15:36:27,630 - db_manager - INFO - DB initilized.
+2023-11-28 15:36:27,635 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:36:27,637 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:27,691 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:51,826 - db_manager - INFO - DB initilized.
+2023-11-28 15:36:51,831 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:36:51,834 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:36:51,892 - root - INFO - New user created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:38:10,052 - db_manager - INFO - DB initilized.
+2023-11-28 15:38:10,056 - root - INFO - Deleted all users as a startup procedure
+2023-11-28 15:38:10,060 - root - INFO - Deleted all OTPs as a startup procedure
+2023-11-28 15:38:10,063 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-11-28 15:38:10,118 - root - WARNING - Could not decrypt text
+2023-11-28 15:38:10,118 - root - ERROR - 'NoneType' object is not subscriptable

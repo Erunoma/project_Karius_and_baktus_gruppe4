@@ -3,10 +3,13 @@ import log_manager
 import uuid
 import login_manager
 import time
+from cryptography.fernet import Fernet
+
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
 web_db="Test.db"
+
 
 #Initailize DB. Used on startup to either create one if it doesn't exist, or check if it readable.
 def init_db():
@@ -37,7 +40,7 @@ def create_db_user_table():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, age text, gender text, address text, device text, ip text, mac text, last_activity text, pictures text);")
+        cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, address text, current_ip text, mac text, last_activity text, length_of_brush text);")
         con.commit()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
@@ -58,18 +61,23 @@ def create_db_login_table():
         con.close()
 
 #Adds a user to the db.
-def add_user(name, age, gender, address, device, ip, mac):
+def add_user(name, address, current_ip, mac, last_activity, length_of_brush):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute('INSERT INTO users(id, name, age, gender, address, device, ip, mac, last_activity, pictures) values (?,?,?,?,?,?,?,?,?,?)', 
-                (generate_id(), name, age, gender, address, device, ip, mac, "", ""))
+        cur.execute('INSERT INTO users(id, name, address, current_ip, mac, last_activity, length_of_brush) values (?,?,?,?,?,?,?)', 
+                (generate_id(), encrypt_text(name), encrypt_text(address), current_ip, mac, last_activity, length_of_brush))
         con.commit()
-        print(log_manager.log_func("", f"New user created in {find_db()}", "info"))
+        cur.execute('SELECT name from users WHERE id=?',("475ada0b-d60d-4690-a9f8-8c95de59dd86",))
+        print(log_manager.log_func("","Created user in db","error"))
+        
+
     except Exception as e:
         print(log_manager.log_func(e,"Could not create user","error"))
     finally:
         con.close()
+
+
 #Adds an admin to the db table.
 def add_admin(username, password, email):
     try:
@@ -136,6 +144,18 @@ def delete_all_otp():
     finally:
         con.close()
 
+def delete_all_users():
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor()
+        cur.execute('DROP TABLE users')
+        con.commit()
+        print(log_manager.log_func("",f"Deleted all users as a startup procedure","info"))
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not delete users table","error"))
+    finally:
+        con.close()
+
 #Checks the OTP code that has been typed and matches it with the user. If they are both connected, the check will be true.
 def otp_check(number, username):
     try:
@@ -181,7 +201,7 @@ def get_email(username):
     finally:
         con.close()
 
-    
+"""    
 #Changes the info of a non-admin user. 
 def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity):
     try:
@@ -210,7 +230,7 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
         print(log_manager.log_func(e,"Could not change user settings","error"))
     finally:
         con.close()
-
+"""
 # check if user and password match
 def check_admin_user(username, password):
     try:
@@ -238,3 +258,31 @@ def generate_id():
     id = str(uuid.uuid4())
     return id
 
+
+
+#TODO: Create a one time key, store it in txt file. 
+def encrypt_text(text):
+    try:
+        with open ('db_key.key', 'rb') as file:
+            key=file.read()
+            encrypt_key=Fernet(key)
+            b = bytes(text, 'utf-8')
+        return encrypt_key.encrypt(b)
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not encrypt text","error"))
+    
+def decrypt_text(text):
+    try:
+        with open ('db_key.key', 'rb') as file:
+            key=file.read()
+            encrypt_key=Fernet(key)
+        string_text = text[0].decode("utf-8")
+        return encrypt_key.decrypt(string_text).decode("utf-8")
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not decrypt text","error"))
+
+def generate_key():
+    key = Fernet.generate_key()
+    with open ('db_key.key', 'wb') as f:
+        f.write(key)
+    print(log_manager.log_func("","Encryption key generated and put into file","info"))

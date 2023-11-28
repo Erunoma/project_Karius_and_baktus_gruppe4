@@ -96,3 +96,23 @@
 2023-11-26 14:10:11,342 - root - ERROR - 'NoneType' object is not subscriptable
 2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
 2023-11-26 14:10:39,486 - root - ERROR - Regex Error found with text: $$$
+2023-11-28 14:35:05,960 - root - ERROR - Fernet key must be 32 url-safe base64-encoded bytes.
+2023-11-28 14:53:50,833 - root - ERROR - data must be bytes
+2023-11-28 14:56:36,125 - root - ERROR - data must be bytes
+2023-11-28 14:58:22,452 - root - ERROR - data must be bytes
+2023-11-28 15:00:23,880 - root - ERROR - data must be bytes
+2023-11-28 15:00:23,881 - root - ERROR - data must be bytes
+2023-11-28 15:02:19,118 - root - ERROR - data must be bytes
+2023-11-28 15:02:19,119 - root - ERROR - data must be bytes
+2023-11-28 15:17:50,336 - root - ERROR - encoding without a string argument
+2023-11-28 15:17:50,338 - root - ERROR - decrypt_text() missing 1 required positional argument: 'text'
+2023-11-28 15:19:49,285 - root - ERROR - encoding without a string argument
+2023-11-28 15:21:20,001 - root - ERROR - encoding without a string argument
+2023-11-28 15:22:43,342 - root - ERROR - token must be bytes or str
+2023-11-28 15:24:48,785 - root - ERROR - encoding without a string argument
+2023-11-28 15:26:29,880 - root - ERROR - decoding to str: need a bytes-like object, tuple found
+2023-11-28 15:26:48,615 - root - ERROR - 
+2023-11-28 15:28:28,450 - root - ERROR - 'tuple' object has no attribute 'decode'
+2023-11-28 15:29:44,370 - root - ERROR - 'str' object has no attribute 'decode'
+2023-11-28 15:36:00,885 - root - ERROR - 'str' object has no attribute 'decode'
+2023-11-28 15:38:10,118 - root - ERROR - 'NoneType' object is not subscriptable
