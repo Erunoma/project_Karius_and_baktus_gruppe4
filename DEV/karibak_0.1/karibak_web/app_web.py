@@ -26,7 +26,8 @@ def start():
         db_manager.delete_all_otp()
         db_manager.create_db_otp()
         db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "", "", "", "")
-     
+        db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "", "", "", "")
+        
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
         #db_manager.add_admin("signe", "420", "sign281g@stud.kea.dk")
         #log_test()
@@ -76,15 +77,21 @@ def verify(username):
     return template('templates/verify.html', username=username)
     
 #This is the landing page after login
+#TODO: Create a page where info from the holder is displayed. 
+#TODO: Create a function on the website that lets me change information to the db. 
+#TODO: Make the website update with the new information
 @route('/home', method=["POST","GET"])
 def home():
     session=request.get_cookie('karibak_login')
     print(f"Session:{session}")
     if session=='karibak_id':
         bottle_var = 55
-        return template("templates/base.html", bottle_var=bottle_var)
+        holders=db_manager.init_holders()
+        return template("templates/base.html", bottle_var=bottle_var, holders=holders)
     else:
         return template("You are not allowed to view this page. Please login.")
+
+
 
 #This is the default start page. Connections are automaticcly redirected to /login.
 @route('/')

@@ -251,6 +251,41 @@ def check_admin_user(username, password):
         con.close()
 
 
+def init_holders():
+    try:
+        holders=[]
+        
+        con = sqlite3.connect(web_db)
+        cur = con.cursor() 
+        cur.execute('Select * from users')
+        result = cur.fetchall()
+        list_1=list(result[0])
+        new_list_1=[]
+        list_2=list(result[0])
+        new_list_2=[]
+        
+        for entries in list_1:
+            if type(entries) is bytes:
+                new_list_1.append(decrypt_text(entries))
+                print("Inserted and updated")
+            else:
+                new_list_1.append(entries)
+           
+        for entries in list_2:
+            if type(entries) is bytes:
+                new_list_2.append(decrypt_text(entries))
+                print("Inserted and updated")
+            else:
+                new_list_2.append(entries)
+        
+        holders.append(new_list_1)
+        holders.append(new_list_2)
+        print(f'This is the holders: {holders}')
+        return holders
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not initialize holders","error"))
+    finally:
+        con.close()
 
 
 #Generates a unique id. They go something like this:  4feb8613-e1d6-4457-87ad-e738d3dda8d3      
@@ -260,7 +295,7 @@ def generate_id():
 
 
 
-#TODO: Create a one time key, store it in txt file. 
+ 
 def encrypt_text(text):
     try:
         with open ('db_key.key', 'rb') as file:
@@ -276,8 +311,8 @@ def decrypt_text(text):
         with open ('db_key.key', 'rb') as file:
             key=file.read()
             encrypt_key=Fernet(key)
-        string_text = text[0].decode("utf-8")
-        return encrypt_key.decrypt(string_text).decode("utf-8")
+            decrypted_string= encrypt_key.decrypt(text).decode('utf-8')
+        return str(decrypted_string)
     except Exception as e:
         print(log_manager.log_func(e,"Could not decrypt text","error"))
 

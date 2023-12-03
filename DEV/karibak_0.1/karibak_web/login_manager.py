@@ -13,8 +13,7 @@ bcrypt = Bcrypt(app)
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
-#TODO: Create a session function
-#TODO: Auto delete number
+#TODO: Cite the code from the right source
 
 
 SMTP_SERVER = 'smtp.gmail.com'
@@ -67,6 +66,7 @@ def decrypt_password(hashed_password, password):
     except Exception as e:
         print(log_manager.log_func(e,f"Could not decrypt password","error"))  
 
+
 def check_for_regex(text):
     try:
         match = re.search('^[A-Za-z0-9_-]+$',text)
@@ -77,4 +77,4 @@ def check_for_regex(text):
             print(log_manager.log_func("",f"Regex accepted: {text}","info"))
             return True
     except Exception as e:
-        print(log_manager.log_func(e,f"Could not check for regex","error"))  
+        print(log_manager.log_func(e,f"Could not check for regex","error")) 

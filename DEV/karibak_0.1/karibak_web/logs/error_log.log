@@ -116,3 +116,63 @@
 2023-11-28 15:29:44,370 - root - ERROR - 'str' object has no attribute 'decode'
 2023-11-28 15:36:00,885 - root - ERROR - 'str' object has no attribute 'decode'
 2023-11-28 15:38:10,118 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-03 13:23:48,687 - root - ERROR - 'str' object has no attribute 'decode'
+2023-12-03 13:26:11,318 - root - ERROR - token must be bytes or str
+2023-12-03 13:34:05,797 - root - ERROR - encoding without a string argument
+2023-12-03 13:35:06,433 - root - ERROR - encoding without a string argument
+2023-12-03 13:36:13,207 - root - ERROR - encoding without a string argument
+2023-12-03 13:38:32,309 - root - ERROR - 
+2023-12-03 13:39:21,647 - root - ERROR - 
+2023-12-03 14:29:06,981 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-03 14:35:16,298 - root - ERROR - tuple indices must be integers or slices, not str
+2023-12-03 14:36:27,566 - root - ERROR - tuple indices must be integers or slices, not bytes
+2023-12-03 14:37:12,337 - root - ERROR - tuple indices must be integers or slices, not bytes
+2023-12-03 14:38:34,157 - root - ERROR - encoding without a string argument
+2023-12-03 14:38:34,157 - root - ERROR - tuple indices must be integers or slices, not NoneType
+2023-12-03 14:40:16,317 - root - ERROR - encoding without a string argument
+2023-12-03 14:40:16,317 - root - ERROR - tuple indices must be integers or slices, not NoneType
+2023-12-03 14:43:38,696 - root - ERROR - encoding without a string argument
+2023-12-03 14:43:38,696 - root - ERROR - tuple indices must be integers or slices, not NoneType
+2023-12-03 14:44:26,204 - root - ERROR - tuple indices must be integers or slices, not str
+2023-12-03 14:45:29,159 - root - ERROR - tuple indices must be integers or slices, not str
+2023-12-03 14:46:10,873 - root - ERROR - tuple indices must be integers or slices, not str
+2023-12-03 14:47:12,993 - root - ERROR - insert expected 2 arguments, got 1
+2023-12-03 14:47:54,677 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 14:48:43,892 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 15:30:48,916 - root - ERROR - 'str' object is not callable
+2023-12-03 15:34:22,955 - root - ERROR - 'str' object is not callable
+2023-12-03 15:47:06,680 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-03 15:49:47,174 - root - ERROR - near "from": syntax error
+2023-12-03 15:53:06,587 - root - ERROR - Cursor.fetchone() takes no arguments (1 given)
+2023-12-03 15:58:48,516 - root - ERROR - list indices must be integers or slices, not bytes
+2023-12-03 16:00:44,728 - root - ERROR - list index out of range
+2023-12-03 16:02:05,664 - root - ERROR - 'bytes' object cannot be interpreted as an integer
+2023-12-03 16:04:19,383 - root - ERROR - 'bytes' object cannot be interpreted as an integer
+2023-12-03 16:05:01,216 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 16:06:11,740 - root - ERROR - list index out of range
+2023-12-03 16:07:16,454 - root - ERROR - list index out of range
+2023-12-03 16:09:46,407 - root - ERROR - 'tuple' object has no attribute 'insert'
+2023-12-03 16:11:47,286 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 16:15:46,373 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 16:16:43,357 - root - ERROR - 'str' object cannot be interpreted as an integer
+2023-12-03 16:19:16,075 - root - ERROR - insert expected 2 arguments, got 3
+2023-12-03 16:20:59,740 - root - ERROR - 
+2023-12-03 16:20:59,740 - root - ERROR - 
+2023-12-03 16:20:59,741 - root - ERROR - 
+2023-12-03 16:20:59,741 - root - ERROR - 
+2023-12-03 16:20:59,741 - root - ERROR - 
+2023-12-03 16:23:04,858 - root - ERROR - 
+2023-12-03 16:23:04,859 - root - ERROR - 
+2023-12-03 16:23:04,859 - root - ERROR - 
+2023-12-03 16:23:04,859 - root - ERROR - 
+2023-12-03 16:23:04,860 - root - ERROR - 
+2023-12-03 16:24:01,914 - root - ERROR - 
+2023-12-03 16:24:01,915 - root - ERROR - 
+2023-12-03 16:24:01,915 - root - ERROR - 
+2023-12-03 16:24:01,915 - root - ERROR - 
+2023-12-03 16:24:01,916 - root - ERROR - 
+2023-12-03 16:25:57,054 - root - ERROR - 
+2023-12-03 16:25:57,055 - root - ERROR - 
+2023-12-03 16:25:57,055 - root - ERROR - 
+2023-12-03 16:25:57,056 - root - ERROR - 
+2023-12-03 16:25:57,056 - root - ERROR - 
