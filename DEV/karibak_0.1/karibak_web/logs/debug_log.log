@@ -1254,3 +1254,138 @@
 2023-12-03 16:26:17,636 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
 2023-12-03 16:26:17,679 - root - WARNING - Created user in db
 2023-12-03 16:26:17,681 - root - WARNING - Created user in db
+2023-12-04 09:44:13,132 - db_manager - INFO - DB initilized.
+2023-12-04 09:44:13,137 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 09:44:13,141 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 09:44:13,143 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:44:13,216 - root - WARNING - Created user in db
+2023-12-04 09:44:13,219 - root - WARNING - Created user in db
+2023-12-04 09:44:30,958 - root - INFO - Regex accepted: hashed_oliver
+2023-12-04 09:44:30,958 - root - INFO - Regex accepted: 000
+2023-12-04 09:44:47,398 - root - INFO - Regex accepted: hashed_oliver
+2023-12-04 09:44:47,398 - root - INFO - Regex accepted: 999
+2023-12-04 09:44:47,736 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-04 09:44:50,237 - root - INFO - Sending mail to user
+2023-12-04 09:44:50,242 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:45:10,418 - root - INFO - Regex accepted: 658
+2023-12-04 09:45:10,419 - root - INFO - Checking key in database
+2023-12-04 09:45:10,423 - root - INFO - Deleted the key 658
+2023-12-04 09:45:10,423 - root - INFO - Correct key. User logged in
+2023-12-04 09:45:43,513 - db_manager - INFO - DB initilized.
+2023-12-04 09:45:43,519 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 09:45:43,523 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 09:45:43,525 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:45:43,599 - root - WARNING - Created user in db
+2023-12-04 09:45:43,602 - root - WARNING - Created user in db
+2023-12-04 09:48:07,515 - db_manager - INFO - DB initilized.
+2023-12-04 09:48:07,519 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 09:48:07,524 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 09:48:07,526 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:48:07,586 - root - WARNING - Created user in db
+2023-12-04 09:48:07,591 - root - WARNING - Created user in db
+2023-12-04 09:56:20,127 - db_manager - INFO - DB initilized.
+2023-12-04 09:56:20,132 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 09:56:20,136 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 09:56:20,139 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:56:20,213 - root - WARNING - Created user in db
+2023-12-04 09:56:20,215 - root - WARNING - Created user in db
+2023-12-04 09:57:55,051 - db_manager - INFO - DB initilized.
+2023-12-04 09:57:55,055 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 09:57:55,058 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 09:57:55,061 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 09:57:55,115 - root - WARNING - Created user in db
+2023-12-04 09:57:55,118 - root - WARNING - Created user in db
+2023-12-04 10:12:36,300 - db_manager - INFO - DB initilized.
+2023-12-04 10:12:36,306 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:12:36,309 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:12:36,311 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:12:36,380 - root - WARNING - Created user in db
+2023-12-04 10:12:36,383 - root - WARNING - Created user in db
+2023-12-04 10:12:55,164 - db_manager - INFO - DB initilized.
+2023-12-04 10:12:55,169 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:12:55,173 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:12:55,175 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:12:55,232 - root - WARNING - Created user in db
+2023-12-04 10:12:55,235 - root - WARNING - Created user in db
+2023-12-04 10:12:55,236 - root - WARNING - Could not initialize holders
+2023-12-04 10:12:55,237 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:13:51,959 - db_manager - INFO - DB initilized.
+2023-12-04 10:13:51,963 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:13:51,967 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:13:51,969 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:13:52,024 - root - WARNING - Created user in db
+2023-12-04 10:13:52,027 - root - WARNING - Created user in db
+2023-12-04 10:13:52,028 - root - WARNING - Could not initialize holders
+2023-12-04 10:13:52,028 - root - ERROR - 'int' object is not iterable
+2023-12-04 10:17:34,684 - db_manager - INFO - DB initilized.
+2023-12-04 10:17:34,690 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:17:34,694 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:17:34,696 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:17:34,767 - root - WARNING - Created user in db
+2023-12-04 10:17:34,770 - root - WARNING - Created user in db
+2023-12-04 10:17:34,771 - root - WARNING - Could not initialize holders
+2023-12-04 10:17:34,771 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:18:25,549 - db_manager - INFO - DB initilized.
+2023-12-04 10:18:25,554 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:18:25,557 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:18:25,559 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:18:25,614 - root - WARNING - Created user in db
+2023-12-04 10:18:25,617 - root - WARNING - Created user in db
+2023-12-04 10:18:25,617 - root - WARNING - Could not initialize holders
+2023-12-04 10:18:25,618 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:22:32,698 - db_manager - INFO - DB initilized.
+2023-12-04 10:22:32,703 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:22:32,707 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:22:32,709 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:22:32,768 - root - WARNING - Created user in db
+2023-12-04 10:22:32,772 - root - WARNING - Created user in db
+2023-12-04 10:22:32,773 - root - WARNING - Could not initialize holders
+2023-12-04 10:22:32,773 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:26:18,964 - db_manager - INFO - DB initilized.
+2023-12-04 10:26:18,968 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:26:18,972 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:26:18,974 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:26:19,031 - root - WARNING - Created user in db
+2023-12-04 10:26:19,034 - root - WARNING - Created user in db
+2023-12-04 10:26:57,594 - db_manager - INFO - DB initilized.
+2023-12-04 10:26:57,599 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:26:57,603 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:26:57,605 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:26:57,667 - root - WARNING - Created user in db
+2023-12-04 10:26:57,670 - root - WARNING - Created user in db
+2023-12-04 10:46:29,100 - db_manager - INFO - DB initilized.
+2023-12-04 10:46:29,105 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:46:29,109 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:46:29,112 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:46:29,167 - root - WARNING - Created user in db
+2023-12-04 10:46:29,170 - root - WARNING - Created user in db
+2023-12-04 10:47:16,883 - db_manager - INFO - DB initilized.
+2023-12-04 10:47:16,887 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:47:16,892 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:47:16,894 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:47:16,949 - root - WARNING - Created user in db
+2023-12-04 10:47:16,951 - root - WARNING - Created user in db
+2023-12-04 10:56:28,248 - db_manager - INFO - DB initilized.
+2023-12-04 10:56:28,253 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 10:56:28,256 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 10:56:28,259 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 10:56:28,314 - root - WARNING - Created user in db
+2023-12-04 10:56:28,317 - root - WARNING - Created user in db
+2023-12-04 11:00:39,526 - db_manager - INFO - DB initilized.
+2023-12-04 11:00:39,531 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 11:00:39,535 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 11:00:39,538 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 11:00:39,595 - root - WARNING - Created user in db
+2023-12-04 11:00:39,599 - root - WARNING - Created user in db
+2023-12-04 11:02:02,440 - db_manager - INFO - DB initilized.
+2023-12-04 11:02:02,444 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 11:02:02,448 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 11:02:02,450 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 11:02:02,505 - root - WARNING - Created user in db
+2023-12-04 11:02:02,508 - root - WARNING - Created user in db
+2023-12-04 11:02:44,986 - db_manager - INFO - DB initilized.
+2023-12-04 11:02:44,992 - root - INFO - Deleted all users as a startup procedure
+2023-12-04 11:02:44,995 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-04 11:02:44,997 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-04 11:02:45,052 - root - WARNING - Created user in db
+2023-12-04 11:02:45,055 - root - WARNING - Created user in db

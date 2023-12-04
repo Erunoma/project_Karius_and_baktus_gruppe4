@@ -9,6 +9,18 @@
 <p>base</p>
 
 <div class="box_container">
+    {{holders}}
+    <ul>
+        % for users in holders:
+        <div class="data">
+            % for entry in users:
+                <p>{{entry}} </p>
+                <br>
+            %end
+        </div>
+        %end
+    </ul>
+    {{info}}
     <div id="info" class="data">
         <div class="name">
             <p id="name_text">name</p>
@@ -28,6 +40,7 @@
         <p id="test_number">To be updated</p>
     </div>
     <button class="1_button" onclick="increase()">+1</button>
+    <p id="users">Users:</p>
 </div>
 
 
@@ -39,6 +52,10 @@
         test_variables.number++;
         document.getElementById("test_number").textContent=(test_variables.number);
     }
+
+   
+    
+
 </script>
 
 

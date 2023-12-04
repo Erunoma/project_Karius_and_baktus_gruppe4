@@ -259,29 +259,19 @@ def init_holders():
         cur = con.cursor() 
         cur.execute('Select * from users')
         result = cur.fetchall()
-        list_1=list(result[0])
-        new_list_1=[]
-        list_2=list(result[0])
-        new_list_2=[]
+  
+        for user in result:
+            new_list=[]
+            print(f'this is before:{new_list}')
+            for entry in user:
+                if type(entry) is bytes:
+                    entry=decrypt_text(entry)
+                new_list.append(entry)
+            print(f'This is after: {new_list}')
+            holders.append(new_list)
         
-        for entries in list_1:
-            if type(entries) is bytes:
-                new_list_1.append(decrypt_text(entries))
-                print("Inserted and updated")
-            else:
-                new_list_1.append(entries)
-           
-        for entries in list_2:
-            if type(entries) is bytes:
-                new_list_2.append(decrypt_text(entries))
-                print("Inserted and updated")
-            else:
-                new_list_2.append(entries)
-        
-        holders.append(new_list_1)
-        holders.append(new_list_2)
-        print(f'This is the holders: {holders}')
         return holders
+            
     except Exception as e:
         print(log_manager.log_func(e,"Could not initialize holders","error"))
     finally:

@@ -10,6 +10,7 @@ app = Bottle()
 plugin = bottle_session.SessionPlugin(cookie_lifetime=600)
 app.install(plugin)
 
+data_pass="a4a6d723-8ece-4c24-b662-0285cf9f1e50"
 
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
@@ -25,9 +26,9 @@ def start():
         db_manager.create_db_login_table()
         db_manager.delete_all_otp()
         db_manager.create_db_otp()
-        db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "", "", "", "")
-        db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "", "", "", "")
-        
+        db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
+        db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
+
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
         #db_manager.add_admin("signe", "420", "sign281g@stud.kea.dk")
         #log_test()
@@ -87,7 +88,12 @@ def home():
     if session=='karibak_id':
         bottle_var = 55
         holders=db_manager.init_holders()
-        return template("templates/base.html", bottle_var=bottle_var, holders=holders)
+
+
+
+        info = f'content: {holders[0][1]}'
+
+        return template("templates/base.html", bottle_var=bottle_var, holders=holders, info=info)
     else:
         return template("You are not allowed to view this page. Please login.")
 
@@ -98,7 +104,10 @@ def home():
 def index():
      return redirect('/login')
 
-        
+@route('/data_delivery', method=["POST"])
+def data():
+    data_list=request.POST('')
+
 
 
 #If running the application locally, keep this setting on 'True'. If running through pythonanywhere, set to 'False'

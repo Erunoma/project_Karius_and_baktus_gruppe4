@@ -426,3 +426,51 @@
 2023-12-03 16:25:57,056 - root - ERROR - 
 2023-12-03 16:26:17,679 - root - WARNING - Created user in db
 2023-12-03 16:26:17,681 - root - WARNING - Created user in db
+2023-12-04 09:44:13,216 - root - WARNING - Created user in db
+2023-12-04 09:44:13,219 - root - WARNING - Created user in db
+2023-12-04 09:45:43,599 - root - WARNING - Created user in db
+2023-12-04 09:45:43,602 - root - WARNING - Created user in db
+2023-12-04 09:48:07,586 - root - WARNING - Created user in db
+2023-12-04 09:48:07,591 - root - WARNING - Created user in db
+2023-12-04 09:56:20,213 - root - WARNING - Created user in db
+2023-12-04 09:56:20,215 - root - WARNING - Created user in db
+2023-12-04 09:57:55,115 - root - WARNING - Created user in db
+2023-12-04 09:57:55,118 - root - WARNING - Created user in db
+2023-12-04 10:12:36,380 - root - WARNING - Created user in db
+2023-12-04 10:12:36,383 - root - WARNING - Created user in db
+2023-12-04 10:12:55,232 - root - WARNING - Created user in db
+2023-12-04 10:12:55,235 - root - WARNING - Created user in db
+2023-12-04 10:12:55,236 - root - WARNING - Could not initialize holders
+2023-12-04 10:12:55,237 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:13:52,024 - root - WARNING - Created user in db
+2023-12-04 10:13:52,027 - root - WARNING - Created user in db
+2023-12-04 10:13:52,028 - root - WARNING - Could not initialize holders
+2023-12-04 10:13:52,028 - root - ERROR - 'int' object is not iterable
+2023-12-04 10:17:34,767 - root - WARNING - Created user in db
+2023-12-04 10:17:34,770 - root - WARNING - Created user in db
+2023-12-04 10:17:34,771 - root - WARNING - Could not initialize holders
+2023-12-04 10:17:34,771 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:18:25,614 - root - WARNING - Created user in db
+2023-12-04 10:18:25,617 - root - WARNING - Created user in db
+2023-12-04 10:18:25,617 - root - WARNING - Could not initialize holders
+2023-12-04 10:18:25,618 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:22:32,768 - root - WARNING - Created user in db
+2023-12-04 10:22:32,772 - root - WARNING - Created user in db
+2023-12-04 10:22:32,773 - root - WARNING - Could not initialize holders
+2023-12-04 10:22:32,773 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:26:19,031 - root - WARNING - Created user in db
+2023-12-04 10:26:19,034 - root - WARNING - Created user in db
+2023-12-04 10:26:57,667 - root - WARNING - Created user in db
+2023-12-04 10:26:57,670 - root - WARNING - Created user in db
+2023-12-04 10:46:29,167 - root - WARNING - Created user in db
+2023-12-04 10:46:29,170 - root - WARNING - Created user in db
+2023-12-04 10:47:16,949 - root - WARNING - Created user in db
+2023-12-04 10:47:16,951 - root - WARNING - Created user in db
+2023-12-04 10:56:28,314 - root - WARNING - Created user in db
+2023-12-04 10:56:28,317 - root - WARNING - Created user in db
+2023-12-04 11:00:39,595 - root - WARNING - Created user in db
+2023-12-04 11:00:39,599 - root - WARNING - Created user in db
+2023-12-04 11:02:02,505 - root - WARNING - Created user in db
+2023-12-04 11:02:02,508 - root - WARNING - Created user in db
+2023-12-04 11:02:45,052 - root - WARNING - Created user in db
+2023-12-04 11:02:45,055 - root - WARNING - Created user in db

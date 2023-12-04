@@ -176,3 +176,8 @@
 2023-12-03 16:25:57,055 - root - ERROR - 
 2023-12-03 16:25:57,056 - root - ERROR - 
 2023-12-03 16:25:57,056 - root - ERROR - 
+2023-12-04 10:12:55,237 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:13:52,028 - root - ERROR - 'int' object is not iterable
+2023-12-04 10:17:34,771 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:18:25,618 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 10:22:32,773 - root - ERROR - list indices must be integers or slices, not tuple
