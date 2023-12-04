@@ -181,3 +181,11 @@
 2023-12-04 10:17:34,771 - root - ERROR - list indices must be integers or slices, not tuple
 2023-12-04 10:18:25,618 - root - ERROR - list indices must be integers or slices, not tuple
 2023-12-04 10:22:32,773 - root - ERROR - list indices must be integers or slices, not tuple
+2023-12-04 13:06:43,898 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:07:07,229 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:09:46,108 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:12:28,261 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:12:34,285 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:15:52,473 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:20:22,998 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:20:32,533 - root - ERROR - [Errno 13] Permission denied

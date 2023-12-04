@@ -474,3 +474,45 @@
 2023-12-04 11:02:02,508 - root - WARNING - Created user in db
 2023-12-04 11:02:45,052 - root - WARNING - Created user in db
 2023-12-04 11:02:45,055 - root - WARNING - Created user in db
+2023-12-04 13:05:02,449 - root - WARNING - Created user in db
+2023-12-04 13:05:02,452 - root - WARNING - Created user in db
+2023-12-04 13:05:54,495 - root - WARNING - Created user in db
+2023-12-04 13:05:54,497 - root - WARNING - Created user in db
+2023-12-04 13:06:43,888 - root - WARNING - Created user in db
+2023-12-04 13:06:43,890 - root - WARNING - Created user in db
+2023-12-04 13:06:43,898 - root - WARNING - Could not determine local or online
+2023-12-04 13:06:43,898 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:07:07,218 - root - WARNING - Created user in db
+2023-12-04 13:07:07,220 - root - WARNING - Created user in db
+2023-12-04 13:07:07,228 - root - WARNING - Could not determine local or online
+2023-12-04 13:07:07,229 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:08:54,036 - root - WARNING - Created user in db
+2023-12-04 13:08:54,039 - root - WARNING - Created user in db
+2023-12-04 13:09:46,100 - root - WARNING - Created user in db
+2023-12-04 13:09:46,102 - root - WARNING - Created user in db
+2023-12-04 13:09:46,107 - root - WARNING - Could not determine local or online
+2023-12-04 13:09:46,108 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:12:28,250 - root - WARNING - Created user in db
+2023-12-04 13:12:28,252 - root - WARNING - Created user in db
+2023-12-04 13:12:28,261 - root - WARNING - Could not determine local or online
+2023-12-04 13:12:28,261 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 13:12:34,275 - root - WARNING - Created user in db
+2023-12-04 13:12:34,279 - root - WARNING - Created user in db
+2023-12-04 13:12:34,285 - root - WARNING - Could not determine local or online
+2023-12-04 13:12:34,285 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:15:10,291 - root - WARNING - Created user in db
+2023-12-04 13:15:10,294 - root - WARNING - Created user in db
+2023-12-04 13:15:52,465 - root - WARNING - Created user in db
+2023-12-04 13:15:52,468 - root - WARNING - Created user in db
+2023-12-04 13:15:52,473 - root - WARNING - Could not determine local or online
+2023-12-04 13:15:52,473 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:20:22,986 - root - WARNING - Created user in db
+2023-12-04 13:20:22,988 - root - WARNING - Created user in db
+2023-12-04 13:20:22,997 - root - WARNING - Could not determine local or online
+2023-12-04 13:20:22,998 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:20:32,525 - root - WARNING - Created user in db
+2023-12-04 13:20:32,527 - root - WARNING - Created user in db
+2023-12-04 13:20:32,533 - root - WARNING - Could not determine local or online
+2023-12-04 13:20:32,533 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 13:20:38,215 - root - WARNING - Created user in db
+2023-12-04 13:20:38,217 - root - WARNING - Created user in db

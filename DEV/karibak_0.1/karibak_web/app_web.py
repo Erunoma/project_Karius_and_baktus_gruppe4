@@ -106,7 +106,8 @@ def index():
 
 @route('/data_delivery', method=["POST"])
 def data():
-    data_list=request.POST('')
+    data_list=request.query['data']
+    print(data_list)
 
 
 
@@ -117,7 +118,7 @@ try:
     if local_app==False:
         application = default_app()
     elif local_app==True:
-        run(host='localhost', port=8000, debug=True)  
+        run(host='localhost', port=5000, debug=True)  
                 
 except Exception as e:
     print(log_manager.log_func(e,"Could not determine local or online","error"))
