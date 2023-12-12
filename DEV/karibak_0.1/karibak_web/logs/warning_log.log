@@ -516,3 +516,161 @@
 2023-12-04 13:20:32,533 - root - ERROR - [Errno 13] Permission denied
 2023-12-04 13:20:38,215 - root - WARNING - Created user in db
 2023-12-04 13:20:38,217 - root - WARNING - Created user in db
+2023-12-04 15:01:24,392 - root - WARNING - Created user in db
+2023-12-04 15:01:24,395 - root - WARNING - Created user in db
+2023-12-04 15:02:06,698 - root - WARNING - Created user in db
+2023-12-04 15:02:06,701 - root - WARNING - Created user in db
+2023-12-04 15:02:06,711 - root - WARNING - Could not determine local or online
+2023-12-04 15:02:06,711 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:02:31,872 - root - WARNING - Created user in db
+2023-12-04 15:02:31,874 - root - WARNING - Created user in db
+2023-12-04 15:03:47,057 - root - WARNING - Created user in db
+2023-12-04 15:03:47,059 - root - WARNING - Created user in db
+2023-12-04 15:04:38,128 - root - WARNING - Created user in db
+2023-12-04 15:04:38,130 - root - WARNING - Created user in db
+2023-12-04 15:06:16,938 - root - WARNING - Created user in db
+2023-12-04 15:06:16,940 - root - WARNING - Created user in db
+2023-12-04 15:07:12,199 - root - WARNING - Created user in db
+2023-12-04 15:07:12,202 - root - WARNING - Created user in db
+2023-12-04 15:07:12,207 - root - WARNING - Could not determine local or online
+2023-12-04 15:07:12,208 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:07:33,986 - root - WARNING - Created user in db
+2023-12-04 15:07:33,988 - root - WARNING - Created user in db
+2023-12-04 15:07:34,019 - root - WARNING - Could not determine local or online
+2023-12-04 15:07:34,020 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-04 15:07:51,786 - root - WARNING - Created user in db
+2023-12-04 15:07:51,788 - root - WARNING - Created user in db
+2023-12-04 15:07:51,794 - root - WARNING - Could not determine local or online
+2023-12-04 15:07:51,794 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:08:08,013 - root - WARNING - Created user in db
+2023-12-04 15:08:08,015 - root - WARNING - Created user in db
+2023-12-04 15:14:01,669 - root - WARNING - Created user in db
+2023-12-04 15:14:01,671 - root - WARNING - Created user in db
+2023-12-04 15:14:01,677 - root - WARNING - Could not determine local or online
+2023-12-04 15:14:01,677 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:14:13,180 - root - WARNING - Created user in db
+2023-12-04 15:14:13,183 - root - WARNING - Created user in db
+2023-12-04 15:14:47,628 - root - WARNING - Created user in db
+2023-12-04 15:14:47,630 - root - WARNING - Created user in db
+2023-12-04 15:14:47,635 - root - WARNING - Could not determine local or online
+2023-12-04 15:14:47,636 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 15:15:04,727 - root - WARNING - Created user in db
+2023-12-04 15:15:04,729 - root - WARNING - Created user in db
+2023-12-04 15:19:00,685 - root - WARNING - Created user in db
+2023-12-04 15:19:00,687 - root - WARNING - Created user in db
+2023-12-04 15:19:56,625 - root - WARNING - Created user in db
+2023-12-04 15:19:56,627 - root - WARNING - Created user in db
+2023-12-04 15:23:32,560 - root - WARNING - Created user in db
+2023-12-04 15:23:32,562 - root - WARNING - Created user in db
+2023-12-04 15:24:44,015 - root - WARNING - Created user in db
+2023-12-04 15:24:44,018 - root - WARNING - Created user in db
+2023-12-04 15:25:30,698 - root - WARNING - Created user in db
+2023-12-04 15:25:30,700 - root - WARNING - Created user in db
+2023-12-04 15:25:30,710 - root - WARNING - Could not determine local or online
+2023-12-04 15:25:30,710 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:25:46,287 - root - WARNING - Created user in db
+2023-12-04 15:25:46,290 - root - WARNING - Created user in db
+2023-12-04 15:25:46,296 - root - WARNING - Could not determine local or online
+2023-12-04 15:25:46,296 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:27:06,106 - root - WARNING - Created user in db
+2023-12-04 15:27:06,108 - root - WARNING - Created user in db
+2023-12-04 15:29:52,150 - root - WARNING - Created user in db
+2023-12-04 15:29:52,152 - root - WARNING - Created user in db
+2023-12-04 15:32:25,590 - root - WARNING - Created user in db
+2023-12-04 15:32:25,592 - root - WARNING - Created user in db
+2023-12-04 15:33:48,596 - root - WARNING - Created user in db
+2023-12-04 15:33:48,598 - root - WARNING - Created user in db
+2023-12-04 15:33:48,607 - root - WARNING - Could not determine local or online
+2023-12-04 15:33:48,607 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 15:34:08,934 - root - WARNING - Created user in db
+2023-12-04 15:34:08,936 - root - WARNING - Created user in db
+2023-12-04 15:36:25,946 - root - WARNING - Created user in db
+2023-12-04 15:36:25,949 - root - WARNING - Created user in db
+2023-12-04 15:37:37,487 - root - WARNING - Created user in db
+2023-12-04 15:37:37,490 - root - WARNING - Created user in db
+2023-12-04 15:40:33,114 - root - WARNING - Created user in db
+2023-12-04 15:40:33,117 - root - WARNING - Created user in db
+2023-12-04 15:41:31,419 - root - WARNING - Created user in db
+2023-12-04 15:41:31,421 - root - WARNING - Created user in db
+2023-12-04 15:44:25,862 - root - WARNING - Created user in db
+2023-12-04 15:44:25,864 - root - WARNING - Created user in db
+2023-12-04 15:58:01,282 - root - WARNING - Created user in db
+2023-12-04 15:58:01,285 - root - WARNING - Created user in db
+2023-12-06 09:59:51,490 - root - WARNING - Created user in db
+2023-12-06 09:59:51,493 - root - WARNING - Created user in db
+2023-12-06 12:25:23,365 - root - WARNING - startup failed
+2023-12-06 12:25:23,373 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-12-06 12:25:48,560 - root - WARNING - startup failed
+2023-12-06 12:25:48,564 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-12-06 13:31:44,416 - root - WARNING - Could not change user settings
+2023-12-06 13:31:44,417 - root - ERROR - no such column: ip
+2023-12-06 13:32:14,219 - root - WARNING - Could not change user settings
+2023-12-06 13:32:14,220 - root - ERROR - no such column: ip
+2023-12-12 10:14:17,621 - root - WARNING - Could not create admin
+2023-12-12 10:14:17,622 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:14:44,486 - root - WARNING - Could not fetch a random number
+2023-12-12 10:14:44,487 - root - ERROR - otp_check() missing 1 required positional argument: 'username'
+2023-12-12 10:14:45,559 - root - WARNING - Could not send email
+2023-12-12 10:14:45,559 - root - ERROR - object of type 'NoneType' has no len()
+2023-12-12 10:19:26,064 - root - WARNING - Could not create admin
+2023-12-12 10:19:26,064 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:19:48,128 - root - WARNING - Could not send email
+2023-12-12 10:19:48,128 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:23:46,887 - root - WARNING - Could not create admin
+2023-12-12 10:23:46,888 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:24:03,945 - root - WARNING - Could not send email
+2023-12-12 10:24:03,946 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:28:41,595 - root - WARNING - Could not create admin
+2023-12-12 10:28:41,597 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:28:54,244 - root - WARNING - Could not send email
+2023-12-12 10:28:54,245 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:31:53,059 - root - WARNING - Could not create admin
+2023-12-12 10:31:53,059 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:32:10,543 - root - WARNING - Could not send email
+2023-12-12 10:32:10,544 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:33:22,942 - root - WARNING - Could not create admin
+2023-12-12 10:33:22,943 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:36:54,520 - root - WARNING - Could not create admin
+2023-12-12 10:36:54,520 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:36:56,058 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:36:56,059 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:36:57,603 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:36:57,605 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:37:15,733 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:37:15,736 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:37:31,511 - root - WARNING - Could not create admin
+2023-12-12 10:37:31,512 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:37:44,853 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:37:44,856 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:38:19,207 - root - WARNING - Could not create admin
+2023-12-12 10:38:19,208 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:38:26,379 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:38:26,382 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:38:53,741 - root - WARNING - Could not create admin
+2023-12-12 10:38:53,741 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:39:02,632 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:39:02,635 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:39:25,644 - root - WARNING - Could not create admin
+2023-12-12 10:39:25,644 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:39:33,352 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:39:33,355 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:41:05,105 - root - WARNING - Could not create admin
+2023-12-12 10:41:05,106 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:41:13,349 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:41:13,350 - root - ERROR - str, bytes or bytearray expected, not list
+2023-12-12 10:41:43,213 - root - WARNING - Could not create admin
+2023-12-12 10:41:43,214 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:41:50,728 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:41:50,730 - root - ERROR - str, bytes or bytearray expected, not tuple
+2023-12-12 10:42:12,356 - root - WARNING - Could not create admin
+2023-12-12 10:42:12,356 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:42:20,895 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:42:20,898 - root - ERROR - [Errno 61] Connection refused
+2023-12-12 10:47:49,746 - root - WARNING - Could not create admin
+2023-12-12 10:47:49,746 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:47:57,281 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:47:57,284 - root - ERROR - 'bool' object is not subscriptable
+2023-12-12 10:49:32,073 - root - WARNING - Could not establish connection to holder
+2023-12-12 10:49:32,073 - root - ERROR - [Errno 61] Connection refused
+2023-12-12 10:56:33,167 - root - WARNING - Could not create admin
+2023-12-12 10:56:33,167 - root - ERROR - UNIQUE constraint failed: admins.username

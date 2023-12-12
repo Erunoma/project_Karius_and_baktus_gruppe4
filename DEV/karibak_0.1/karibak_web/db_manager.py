@@ -5,6 +5,7 @@ import login_manager
 import time
 from cryptography.fernet import Fernet
 
+
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
 
@@ -16,8 +17,8 @@ def init_db():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        logger.info(f"DB initilized.")
-        con.close()
+        if con:
+            print(log_manager.log_func("","DB initilized", "info"))
     except Exception as e:
         print(log_manager.log_func(e,"Couldn't init database.","error"))
     finally:
@@ -48,6 +49,7 @@ def create_db_user_table():
     finally:
         con.close()
 
+#Creates a new table for admin accounts if it doesn't already exist.
 def create_db_login_table():
     try:
         con = sqlite3.connect(web_db)
@@ -68,10 +70,7 @@ def add_user(name, address, current_ip, mac, last_activity, length_of_brush):
         cur.execute('INSERT INTO users(id, name, address, current_ip, mac, last_activity, length_of_brush) values (?,?,?,?,?,?,?)', 
                 (generate_id(), encrypt_text(name), encrypt_text(address), current_ip, mac, last_activity, length_of_brush))
         con.commit()
-        cur.execute('SELECT name from users WHERE id=?',("475ada0b-d60d-4690-a9f8-8c95de59dd86",))
-        print(log_manager.log_func("","Created user in db","error"))
-        
-
+        print(log_manager.log_func("","Created user in db","info"))
     except Exception as e:
         print(log_manager.log_func(e,"Could not create user","error"))
     finally:
@@ -92,7 +91,6 @@ def add_admin(username, password, email):
     finally:
         con.close()
 
-#TODO DB: Add a function to modify these user settings.
 #Creates the DB table for the OTP Tokens. It incases both the number and the admin.
 def create_db_otp():
     try:
@@ -119,6 +117,7 @@ def save_otp(msg, username):
         print(log_manager.log_func(e,"Could not save otp","error"))
     finally:
         con.close()
+
 #Deletes the OTP token of the user.
 def delete_otp(number):
     try:
@@ -132,6 +131,7 @@ def delete_otp(number):
     finally:
         con.close()
 
+#On server startup, this function is called. It deletes all previous OTP tokens.
 def delete_all_otp():
     try:
         con = sqlite3.connect(web_db)
@@ -144,6 +144,7 @@ def delete_all_otp():
     finally:
         con.close()
 
+#For testing purposes, this function can delete all users in a db.
 def delete_all_users():
     try:
         con = sqlite3.connect(web_db)
@@ -162,20 +163,22 @@ def otp_check(number, username):
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         cur.execute('Select key FROM otp WHERE key=?', (number,))
-        print(log_manager.log_func("","Checking key in database", "info"))
+        
         key_result = cur.fetchone()
         cur.execute('Select user FROM otp WHERE key=?', (number,))
         name_result=cur.fetchone()
         cur.execute('Select expire FROM otp where key=?', (number,))
         expire_time=cur.fetchone()
-        print(time.time())
-
+        
+        print(log_manager.log_func("","Checking key in database...", "info"))
         if key_result:
+            print(log_manager.log_func("","Checking key with username...", "info"))
             if name_result[0] == username:
+                print(log_manager.log_func("","Checking key in database...", "info"))
                 if expire_time[0]>=time.time():
                     return True
         else:
-            print(log_manager.log_func("","Checking key in database", "info"))
+            print(log_manager.log_func("","Could not check otp", "info"))
             return False
     except Exception as e:
         print(log_manager.log_func(e,"Could not check the OTP", "error"))
@@ -201,14 +204,15 @@ def get_email(username):
     finally:
         con.close()
 
-"""    
+    
 #Changes the info of a non-admin user. 
-def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity):
+def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity, length_of_brush):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
         if name:
             cur.execute('UPDATE users SET name=? WHERE id=?', (name,id))
+            print(log_manager.log_func("",f"updated name of id: {id}","info"))
         if age:
             cur.execute('UPDATE users SET age=? WHERE id=?', (age, id))
         if gender:
@@ -218,11 +222,13 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
         if device:
             cur.execute('UPDATE users SET device=? WHERE id=?', (device, id))
         if ip:
-            cur.execute('UPDATE users SET ip=? WHERE id=?', (ip,id))
+            cur.execute('UPDATE users SET current_ip=? WHERE id=?', (ip,id))
         if mac:
             cur.execute('UPDATE users SET mac=? WHERE id=?', (mac,id))
         if last_activity:
             cur.execute('UPDATE users SET last_activity=? WHERE id=?', (last_activity,id))
+        if length_of_brush:
+            cur.execute('UPDATE users SET length_of_brush=? WHERE id=?', (length_of_brush,id))
         con.commit()
 
         print(log_manager.log_func("",f"changed user info for {id}","info"))
@@ -230,7 +236,14 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
         print(log_manager.log_func(e,"Could not change user settings","error"))
     finally:
         con.close()
-"""
+   
+
+
+#Data to be sent from the esp: [Password(str), user_id(str), ip(str), mac(str), last_activity(str), lenght of brush(str)]
+def upload_to_db(data):
+    change_user_info(data[1],"","","","","",data[2], data[3], data[4],data[5])
+    print("sending data to be uploaded:")
+            
 # check if user and password match
 def check_admin_user(username, password):
     try:
@@ -250,7 +263,8 @@ def check_admin_user(username, password):
     finally:
         con.close()
 
-
+#After data has been aquiared from the holder, this function is called.
+#It is used to seperate and display all current registered users, to be used for the website.
 def init_holders():
     try:
         holders=[]
@@ -278,14 +292,23 @@ def init_holders():
         con.close()
 
 
+def get_user_ip(id):
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor() 
+        cur.execute('Select current_ip from users Where id=?',(id,))
+        result = cur.fetchone()
+        return result[0]
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not get details of user","error"))
+
+
 #Generates a unique id. They go something like this:  4feb8613-e1d6-4457-87ad-e738d3dda8d3      
 def generate_id():
     id = str(uuid.uuid4())
     return id
-
-
-
  
+#Encrypts a string with Fernet. Used to protect important database data.
 def encrypt_text(text):
     try:
         with open ('db_key.key', 'rb') as file:
@@ -296,6 +319,7 @@ def encrypt_text(text):
     except Exception as e:
         print(log_manager.log_func(e,"Could not encrypt text","error"))
     
+#Used to decrypt a variable in the database.
 def decrypt_text(text):
     try:
         with open ('db_key.key', 'rb') as file:
@@ -306,6 +330,7 @@ def decrypt_text(text):
     except Exception as e:
         print(log_manager.log_func(e,"Could not decrypt text","error"))
 
+#Used to genereate a key that will be used to encrypt and decrypt everything. They key is stored in a file. 
 def generate_key():
     key = Fernet.generate_key()
     with open ('db_key.key', 'wb') as f:
