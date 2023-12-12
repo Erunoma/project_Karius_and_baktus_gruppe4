@@ -23,13 +23,14 @@ SMTP_PASSWORD="uzjx ilgq jpbb bpse"
 
 
 #Creates a random number for use in the OTP authentication.
-def rand_otp():
+def rand_otp(username):
     try:
         randnumber=random.randint(100,999)
     
         print(f"The random number: {int(randnumber)}")
-        if db_manager.otp_check(randnumber) == True:
-            rand_otp()
+        
+        if db_manager.otp_check(randnumber, username) == True:
+            rand_otp(username)
         else:
             return randnumber
     except Exception as e:
@@ -39,12 +40,15 @@ def rand_otp():
 #This function sends an email from the mail server with a number to the users email.
 def send_mail(recipient, username):
     try:
-        msg=str(random.randint(100,999))
+        msg=str(rand_otp(username))
         #print(f"The message:{msg}")
         with smtplib.SMTP(SMTP_SERVER,SMTP_PORT) as server:
             server.starttls()
+            print("test1")
             server.login(SMTP_USERNAME, SMTP_PASSWORD)
+            print("test2")
             server.sendmail(SMTP_USERNAME,recipient,msg)
+            print("test3")
             print(log_manager.log_func("","Sending mail to user","info"))
             db_manager.save_otp(msg, username)
     except Exception as e:

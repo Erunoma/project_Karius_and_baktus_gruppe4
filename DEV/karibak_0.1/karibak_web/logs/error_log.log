@@ -189,3 +189,50 @@
 2023-12-04 13:15:52,473 - root - ERROR - [Errno 13] Permission denied
 2023-12-04 13:20:22,998 - root - ERROR - [Errno 13] Permission denied
 2023-12-04 13:20:32,533 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 15:02:06,711 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:07:12,208 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:07:34,020 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-04 15:07:51,794 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:14:01,677 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:14:47,636 - root - ERROR - [Errno 13] Permission denied
+2023-12-04 15:25:30,710 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:25:46,296 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-04 15:33:48,607 - root - ERROR - [Errno 13] Permission denied
+2023-12-06 12:25:23,373 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-12-06 12:25:48,564 - root - ERROR - partially initialized module 'db_manager' has no attribute 'init_db' (most likely due to a circular import)
+2023-12-06 13:31:44,417 - root - ERROR - no such column: ip
+2023-12-06 13:32:14,220 - root - ERROR - no such column: ip
+2023-12-12 10:14:17,622 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:14:44,487 - root - ERROR - otp_check() missing 1 required positional argument: 'username'
+2023-12-12 10:14:45,559 - root - ERROR - object of type 'NoneType' has no len()
+2023-12-12 10:19:26,064 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:19:48,128 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:23:46,888 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:24:03,946 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:28:41,597 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:28:54,245 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:31:53,059 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:32:10,544 - root - ERROR - object of type 'int' has no len()
+2023-12-12 10:33:22,943 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:36:54,520 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:36:56,059 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:36:57,605 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:37:15,736 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:37:31,512 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:37:44,856 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:38:19,208 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:38:26,382 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:38:53,741 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:39:02,635 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:39:25,644 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:39:33,355 - root - ERROR - str, bytes or bytearray expected, not function
+2023-12-12 10:41:05,106 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:41:13,350 - root - ERROR - str, bytes or bytearray expected, not list
+2023-12-12 10:41:43,214 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:41:50,730 - root - ERROR - str, bytes or bytearray expected, not tuple
+2023-12-12 10:42:12,356 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:42:20,898 - root - ERROR - [Errno 61] Connection refused
+2023-12-12 10:47:49,746 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 10:47:57,284 - root - ERROR - 'bool' object is not subscriptable
+2023-12-12 10:49:32,073 - root - ERROR - [Errno 61] Connection refused
+2023-12-12 10:56:33,167 - root - ERROR - UNIQUE constraint failed: admins.username
