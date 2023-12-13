@@ -44,11 +44,11 @@ def send_mail(recipient, username):
         #print(f"The message:{msg}")
         with smtplib.SMTP(SMTP_SERVER,SMTP_PORT) as server:
             server.starttls()
-            print("test1")
+            
             server.login(SMTP_USERNAME, SMTP_PASSWORD)
-            print("test2")
+
             server.sendmail(SMTP_USERNAME,recipient,msg)
-            print("test3")
+           
             print(log_manager.log_func("","Sending mail to user","info"))
             db_manager.save_otp(msg, username)
     except Exception as e:

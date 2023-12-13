@@ -1,5 +1,5 @@
 import sqlite3
-from bottle import default_app, route, template, run, app, request, post, Bottle, url, response, redirect, TEMPLATE_PATH, abort
+from bottle import default_app, route, template, run, app, request, post, Bottle, url, response, redirect, TEMPLATE_PATH, abort, get, static_file
 import log_manager
 import db_manager
 import login_manager
@@ -7,6 +7,8 @@ import bottle_session
 import socket
 from threading import Thread
 import time
+
+
 
 
 app = Bottle()
@@ -18,6 +20,7 @@ data_pass="a4a6d723-8ece-4c24-b662-0285cf9f1e50"
 
 #How to log: use log_manager.log_func(). This func has 3 string arguments: 1) is for exceptions. If not used, leave blank. 2) The message we want to log. 3) Log type (See log_manager.py)
 logger=log_manager.logging.getLogger(__name__)
+
 
 #This is the first function that triggers when the program starts up before the Bottle website goes online.
 #If it can't complete all code in here, the program cannot start.
@@ -32,7 +35,8 @@ def start():
         db_manager.delete_all_otp()
         db_manager.create_db_otp()
         init_socket_thread() 
-        db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
+        #db_manager.update_time_test("4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b")
+        #db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", 0, "length_variable", "tb_temp_variable")
         #db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
 
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
@@ -84,18 +88,15 @@ def verify(username):
     return template('templates/verify.html', username=username)
     
 #This is the landing page after login
-#TODO: Create a page where info from the holder is displayed. 
-#TODO: Create a function on the website that lets me change information to the db. 
-#TODO: Create a function that lets me connect to the users holder and send an int
+#TODO: Take out the time and make it appear as its own variable for the holder
 @route('/home', method=["POST","GET"])
 def home():
     session=request.get_cookie('karibak_login')
     print(f"Session:{session}")
     if session=='karibak_id':
-        bottle_var = 55
         holders=db_manager.init_holders()
         info = f'content: {holders[0][1]}'
-        return template("templates/base.html", bottle_var=bottle_var, holders=holders, info=info)
+        return template("templates/dashboard.html", holders=holders, info=info)
     else:
         return template("You are not allowed to view this page. Please login.")
     
@@ -138,6 +139,7 @@ def holder_connect(ip, port, data):
 @route('/')
 def index():
      return redirect('/login')
+
 
 
 #https://bottlepy.org/docs/dev/async.html
@@ -209,7 +211,7 @@ try:
         application = default_app()
     elif local_app==True:
         
-        run(host='172.20.10.3', port=6555, debug=True)               
+        run(host='localhost', port=6555, debug=True)               
 except Exception as e:
     print(log_manager.log_func(e,"Could not determine local or online","error"))
     exit()

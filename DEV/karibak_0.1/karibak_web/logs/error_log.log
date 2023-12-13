@@ -236,3 +236,22 @@
 2023-12-12 10:47:57,284 - root - ERROR - 'bool' object is not subscriptable
 2023-12-12 10:49:32,073 - root - ERROR - [Errno 61] Connection refused
 2023-12-12 10:56:33,167 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:11:58,063 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:16:53,694 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:18:28,548 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:21:09,327 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:22:47,786 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:45:16,259 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:51:13,373 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:58:26,522 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 11:59:47,667 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 12:17:12,668 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-12 13:25:46,725 - root - ERROR - add_user() takes 6 positional arguments but 7 were given
+2023-12-12 13:34:43,026 - root - ERROR - no such table: otp
+2023-12-12 13:34:43,029 - root - ERROR - add_user() takes 6 positional arguments but 7 were given
+2023-12-12 13:36:01,632 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-12 13:37:22,687 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 10:12:10,176 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 10:12:10,197 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-13 10:14:19,641 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 10:25:11,789 - root - ERROR - UNIQUE constraint failed: admins.username

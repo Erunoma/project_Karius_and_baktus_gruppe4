@@ -41,7 +41,7 @@ def create_db_user_table():
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
-        cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, address text, current_ip text, mac text, last_activity text, length_of_brush text);")
+        cur.execute("CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY, name text, address text, current_ip text, mac text, last_activity float, length_of_brush text, tb_temp text);")
         con.commit()
         #log_manager.log_func("", f"New table created in {find_db()}", "info")
     except Exception as e:
@@ -63,7 +63,7 @@ def create_db_login_table():
         con.close()
 
 #Adds a user to the db.
-def add_user(name, address, current_ip, mac, last_activity, length_of_brush):
+def add_user(name, address, current_ip, mac, last_activity, length_of_brush, tb_temp):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
@@ -206,7 +206,7 @@ def get_email(username):
 
     
 #Changes the info of a non-admin user. 
-def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity, length_of_brush):
+def change_user_info(id, name, age, gender, address, device, ip, mac, last_activity, length_of_brush, tb_temp):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor()
@@ -229,6 +229,8 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
             cur.execute('UPDATE users SET last_activity=? WHERE id=?', (last_activity,id))
         if length_of_brush:
             cur.execute('UPDATE users SET length_of_brush=? WHERE id=?', (length_of_brush,id))
+        if tb_temp:
+            cur.execute('UPDATE users SET tb_temp=? WHERE id=?', (tb_temp,id))
         con.commit()
 
         print(log_manager.log_func("",f"changed user info for {id}","info"))
@@ -239,9 +241,9 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
    
 
 
-#Data to be sent from the esp: [Password(str), user_id(str), ip(str), mac(str), last_activity(str), lenght of brush(str)]
+#Data to be sent from the esp: [Password(str), user_id(str), ip(str), mac(str), last_activity(float), lenght of brush(str), temperature]
 def upload_to_db(data):
-    change_user_info(data[1],"","","","","",data[2], data[3], data[4],data[5])
+    change_user_info(data[1],"","","","","",data[2], data[3], data[4], data[5], data[6])
     print("sending data to be uploaded:")
             
 # check if user and password match
@@ -273,15 +275,21 @@ def init_holders():
         cur = con.cursor() 
         cur.execute('Select * from users')
         result = cur.fetchall()
-  
+    
         for user in result:
             new_list=[]
-            print(f'this is before:{new_list}')
+        
             for entry in user:
                 if type(entry) is bytes:
                     entry=decrypt_text(entry)
+                if type(entry) is float:
+                    cur_time=time.time()
+                    if cur_time >= (entry + 43200):
+                        entry=True
+                    else:
+                        entry=False
                 new_list.append(entry)
-            print(f'This is after: {new_list}')
+            
             holders.append(new_list)
         
         return holders
@@ -302,6 +310,28 @@ def get_user_ip(id):
     except Exception as e:
         print(log_manager.log_func(e,"Could not get details of user","error"))
 
+def update_time_test(id):
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor() 
+        cur.execute('UPDATE users SET last_activity=? WHERE id=?', (time.time(),id))
+        con.commit()
+        print(log_manager.log_func("","Updated time","info"))
+        
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not get details of user","error"))
+    finally:
+        con.close()
+
+def get_user_time(id):
+    try:
+        con = sqlite3.connect(web_db)
+        cur = con.cursor() 
+        cur.execute('Select time from users Where id=?',(id,))
+        result = cur.fetchone()
+        return result[0]
+    except Exception as e:
+        print(log_manager.log_func(e,"Could not get details of user","error"))
 
 #Generates a unique id. They go something like this:  4feb8613-e1d6-4457-87ad-e738d3dda8d3      
 def generate_id():

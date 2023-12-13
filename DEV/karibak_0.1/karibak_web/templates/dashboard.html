@@ -64,6 +64,32 @@
 
     <div class="dashboard">
         <!-- stuff fra DB -->
+            <ul>
+                % for users in holders:
+                <div class="dashboard-item">
+                <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40"></div>
+
+                <div class="dashboard-item-text"><p>Navn: {{users[1]}}</p></div>
+                <div class="dashboard-item-text"><p>Addresse: {{users[2]}}</p></div>
+                <div class="dashboard-item-text"><p>IP: {{users[3]}}</p></div>
+                <div class="dashboard-item-text"><p>MAC: {{users[4]}}</p></div>
+                <div class="dashboard-item-text"><p>Tidslængde af sidste børstning: {{users[6]}}</p></div>
+                <div class="dashboard-item-text"><p>Berøringstjek: {{users[7]}}</p></div>
+                % if users[5] == True:
+                <div class="dashboard-item-text"><p>Result: 0</p></div>
+                <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
+    
+                %else:
+                <div class="dashboard-item-text"><p>Result: 1</p></div>
+                <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
+
+                %end
+                
+                
+                
+                %end
+            </ul>
+        
         <div class="dashboard-item">
             <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40">
              <div class="item-description">Navn: </div>
