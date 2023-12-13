@@ -65,7 +65,12 @@
     <div class="dashboard">
         <!-- stuff fra DB -->
             <ul>
+                % if alerted==True:
+                <p>En påmindelse er blevet sent til den påvirkede enhed.</p>
+                %end
+                % count=0
                 % for users in holders:
+                    
                 <div class="dashboard-item">
                 <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40"></div>
 
@@ -73,38 +78,23 @@
                 <div class="dashboard-item-text"><p>Addresse: {{users[2]}}</p></div>
                 <div class="dashboard-item-text"><p>IP: {{users[3]}}</p></div>
                 <div class="dashboard-item-text"><p>MAC: {{users[4]}}</p></div>
-                <div class="dashboard-item-text"><p>Tidslængde af sidste børstning: {{users[6]}}</p></div>
+                <div class="dashboard-item-text"><p>Tidslængde af sidste børstning: {{users[6]}} sek.</p></div>
                 <div class="dashboard-item-text"><p>Berøringstjek: {{users[7]}}</p></div>
-                % if users[5] == True:
-                <div class="dashboard-item-text"><p>Result: 0</p></div>
-                <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
+                    % if users[5] == True:
+                    <div class="dashboard-item-text"><p>Result: 0</p></div>
+                    <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
     
-                %else:
-                <div class="dashboard-item-text"><p>Result: 1</p></div>
-                <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
-
-                %end
-                
-                
-                
+                    %else:
+                    <div class="dashboard-item-text"><p>Result: 1</p></div>
+                    <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
+                    %end
+                <form method="post">
+                <button type="submit" class="settings-button" value={{users[0]}} name="direct_button">Påmindelse</button>
+                <button type="submit" class="settings-button" value={{count}} name="direct_button1">Indstillinger</button>
+                 </form>
+                 % count+=1
                 %end
             </ul>
-        
-        <div class="dashboard-item">
-            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40">
-             <div class="item-description">Navn: </div>
-            <div class="dashboard-item-text">Birger</div>
-            <button class="settings-button">Settings</button>
-        </div>
-        <div class="dashboard-item">
-            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Bente" width="50" height="40">
-            <div class="dashboard-item-text">Bente</div>
-            <button class="settings-button">Settings</button>
-        </div>
-        <div class="dashboard-item">
-            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birgit" width="50" height="40">
-            <div class="dashboard-item-text">Birgit</div>
-            <button class="settings-button">Settings</button>
         </div>
         <!-- Stuff fra DB -->
     </div>

@@ -2184,3 +2184,653 @@
 2023-12-13 10:25:11,445 - root - INFO - 999 hashed...
 2023-12-13 10:25:11,788 - root - WARNING - Could not create admin
 2023-12-13 10:25:11,789 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:03:19,532 - root - INFO - DB initilized
+2023-12-13 11:03:19,539 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:03:19,541 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:03:19,542 - root - INFO - 999 hashed...
+2023-12-13 11:03:19,880 - root - WARNING - Could not create admin
+2023-12-13 11:03:19,881 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:03:59,997 - root - INFO - DB initilized
+2023-12-13 11:04:00,005 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:04:00,007 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:04:00,008 - root - INFO - 999 hashed...
+2023-12-13 11:04:00,348 - root - WARNING - Could not create admin
+2023-12-13 11:04:00,349 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:07:17,061 - root - INFO - DB initilized
+2023-12-13 11:07:17,067 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:07:17,069 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:07:17,070 - root - INFO - 999 hashed...
+2023-12-13 11:07:17,409 - root - WARNING - Could not create admin
+2023-12-13 11:07:17,410 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:08:22,414 - root - INFO - DB initilized
+2023-12-13 11:08:22,420 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:08:22,423 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:08:22,423 - root - INFO - 999 hashed...
+2023-12-13 11:08:22,761 - root - WARNING - Could not create admin
+2023-12-13 11:08:22,762 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:14:13,483 - root - INFO - DB initilized
+2023-12-13 11:14:13,489 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:14:13,491 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:14:13,492 - root - INFO - 999 hashed...
+2023-12-13 11:14:13,830 - root - WARNING - Could not create admin
+2023-12-13 11:14:13,831 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:15:23,763 - root - INFO - DB initilized
+2023-12-13 11:15:23,770 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:15:23,772 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:15:23,773 - root - INFO - 999 hashed...
+2023-12-13 11:15:24,113 - root - WARNING - Could not create admin
+2023-12-13 11:15:24,114 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:15:54,183 - root - INFO - DB initilized
+2023-12-13 11:15:54,196 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:15:54,199 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:15:54,200 - root - INFO - 999 hashed...
+2023-12-13 11:15:54,538 - root - WARNING - Could not create admin
+2023-12-13 11:15:54,539 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:21:20,395 - root - INFO - DB initilized
+2023-12-13 11:21:20,406 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:21:20,408 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:21:20,409 - root - INFO - 999 hashed...
+2023-12-13 11:21:20,752 - root - WARNING - Could not create admin
+2023-12-13 11:21:20,753 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:22:27,655 - root - INFO - DB initilized
+2023-12-13 11:22:27,660 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:22:27,663 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:22:27,663 - root - INFO - 999 hashed...
+2023-12-13 11:22:28,001 - root - WARNING - Could not create admin
+2023-12-13 11:22:28,001 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:23:13,820 - root - INFO - DB initilized
+2023-12-13 11:23:13,826 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:23:13,829 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:23:13,829 - root - INFO - 999 hashed...
+2023-12-13 11:23:14,168 - root - WARNING - Could not create admin
+2023-12-13 11:23:14,168 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:23:33,769 - root - WARNING - There was an error in running the send code
+2023-12-13 11:23:33,769 - root - ERROR - 'bool' object is not subscriptable
+2023-12-13 11:24:54,213 - root - INFO - DB initilized
+2023-12-13 11:24:54,219 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:24:54,221 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:24:54,222 - root - INFO - 999 hashed...
+2023-12-13 11:24:54,561 - root - WARNING - Could not create admin
+2023-12-13 11:24:54,561 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:24:58,951 - root - WARNING - There was an error in running the send code
+2023-12-13 11:24:58,951 - root - ERROR - 'NoneType' object has no attribute 'setsockopt'
+2023-12-13 11:25:34,494 - root - INFO - DB initilized
+2023-12-13 11:25:34,500 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:25:34,503 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:25:34,503 - root - INFO - 999 hashed...
+2023-12-13 11:25:34,842 - root - WARNING - Could not create admin
+2023-12-13 11:25:34,842 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:25:42,523 - root - WARNING - There was an error in running the send code
+2023-12-13 11:25:42,523 - root - ERROR - 'bool' object is not subscriptable
+2023-12-13 11:27:30,567 - root - INFO - DB initilized
+2023-12-13 11:27:30,573 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:27:30,575 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:27:30,576 - root - INFO - 999 hashed...
+2023-12-13 11:27:30,915 - root - WARNING - Could not create admin
+2023-12-13 11:27:30,915 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:27:35,751 - root - WARNING - There was an error in running the send code
+2023-12-13 11:27:35,751 - root - ERROR - timed out
+2023-12-13 11:28:06,318 - root - WARNING - There was an error in running the send code
+2023-12-13 11:28:06,318 - root - ERROR - timed out
+2023-12-13 11:29:19,110 - root - WARNING - There was an error in running the send code
+2023-12-13 11:29:19,113 - root - ERROR - timed out
+2023-12-13 11:53:40,036 - root - INFO - DB initilized
+2023-12-13 11:53:40,043 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 11:53:40,046 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 11:53:40,046 - root - INFO - 999 hashed...
+2023-12-13 11:53:40,385 - root - WARNING - Could not create admin
+2023-12-13 11:53:40,386 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:00:54,778 - root - INFO - DB initilized
+2023-12-13 12:00:54,784 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:00:54,786 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:00:54,787 - root - INFO - 999 hashed...
+2023-12-13 12:00:55,125 - root - WARNING - Could not create admin
+2023-12-13 12:00:55,126 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:05:32,189 - root - INFO - DB initilized
+2023-12-13 12:05:32,196 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:05:32,199 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:05:32,199 - root - INFO - 999 hashed...
+2023-12-13 12:05:32,537 - root - WARNING - Could not create admin
+2023-12-13 12:05:32,538 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:05:38,686 - root - WARNING - There was an error in running the send code
+2023-12-13 12:05:38,687 - root - ERROR - timed out
+2023-12-13 12:06:15,564 - root - INFO - DB initilized
+2023-12-13 12:06:15,570 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:06:15,572 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:06:15,573 - root - INFO - 999 hashed...
+2023-12-13 12:06:15,912 - root - WARNING - Could not create admin
+2023-12-13 12:06:15,913 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:08:47,766 - root - INFO - DB initilized
+2023-12-13 12:08:47,772 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:08:47,774 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:08:47,775 - root - INFO - 999 hashed...
+2023-12-13 12:08:48,112 - root - WARNING - Could not create admin
+2023-12-13 12:08:48,112 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:11:30,942 - root - INFO - DB initilized
+2023-12-13 12:11:30,948 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:11:30,950 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:11:30,951 - root - INFO - 999 hashed...
+2023-12-13 12:11:31,289 - root - WARNING - Could not create admin
+2023-12-13 12:11:31,290 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:15:45,359 - root - INFO - DB initilized
+2023-12-13 12:15:45,366 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:15:45,368 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:15:45,369 - root - INFO - 999 hashed...
+2023-12-13 12:15:45,707 - root - WARNING - Could not create admin
+2023-12-13 12:15:45,708 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:16:14,163 - root - INFO - DB initilized
+2023-12-13 12:16:14,169 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:16:14,172 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:16:14,172 - root - INFO - 999 hashed...
+2023-12-13 12:16:14,510 - root - WARNING - Could not create admin
+2023-12-13 12:16:14,511 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:18:28,759 - root - INFO - DB initilized
+2023-12-13 12:18:28,775 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:18:28,777 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:18:28,778 - root - INFO - 999 hashed...
+2023-12-13 12:18:29,116 - root - WARNING - Could not create admin
+2023-12-13 12:18:29,118 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:18:59,458 - root - INFO - DB initilized
+2023-12-13 12:18:59,464 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:18:59,466 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:18:59,467 - root - INFO - 999 hashed...
+2023-12-13 12:18:59,805 - root - WARNING - Could not create admin
+2023-12-13 12:18:59,806 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:19:01,657 - root - WARNING - Could not get details of user
+2023-12-13 12:19:01,658 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-13 12:19:02,660 - root - WARNING - There was an error in running the send code
+2023-12-13 12:19:02,660 - root - ERROR - timed out
+2023-12-13 12:19:44,408 - root - INFO - DB initilized
+2023-12-13 12:19:44,415 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:19:44,417 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:19:44,418 - root - INFO - 999 hashed...
+2023-12-13 12:19:44,755 - root - WARNING - Could not create admin
+2023-12-13 12:19:44,756 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:20:50,090 - root - INFO - DB initilized
+2023-12-13 12:20:50,096 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:20:50,099 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:20:50,099 - root - INFO - 999 hashed...
+2023-12-13 12:20:50,438 - root - WARNING - Could not create admin
+2023-12-13 12:20:50,439 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:21:12,368 - root - INFO - DB initilized
+2023-12-13 12:21:12,374 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:21:12,376 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:21:12,377 - root - INFO - 999 hashed...
+2023-12-13 12:21:12,715 - root - WARNING - Could not create admin
+2023-12-13 12:21:12,715 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:24:26,179 - root - INFO - DB initilized
+2023-12-13 12:24:26,185 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:24:26,187 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:24:26,188 - root - INFO - 999 hashed...
+2023-12-13 12:24:26,526 - root - WARNING - Could not create admin
+2023-12-13 12:24:26,527 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:29:17,762 - root - INFO - DB initilized
+2023-12-13 12:29:17,768 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:29:17,770 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:29:17,771 - root - INFO - 999 hashed...
+2023-12-13 12:29:18,108 - root - WARNING - Could not create admin
+2023-12-13 12:29:18,109 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:36:19,569 - root - INFO - DB initilized
+2023-12-13 12:36:19,575 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:36:19,578 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:36:19,579 - root - INFO - 999 hashed...
+2023-12-13 12:36:19,917 - root - WARNING - Could not create admin
+2023-12-13 12:36:19,918 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:37:22,216 - root - INFO - DB initilized
+2023-12-13 12:37:22,222 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:37:22,225 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:37:22,226 - root - INFO - 999 hashed...
+2023-12-13 12:37:22,564 - root - WARNING - Could not create admin
+2023-12-13 12:37:22,565 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:40:25,875 - root - INFO - DB initilized
+2023-12-13 12:40:25,891 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:40:25,893 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:40:25,894 - root - INFO - 999 hashed...
+2023-12-13 12:40:26,232 - root - WARNING - Could not create admin
+2023-12-13 12:40:26,235 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:40:40,004 - root - INFO - DB initilized
+2023-12-13 12:40:40,010 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:40:40,013 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:40:40,013 - root - INFO - 999 hashed...
+2023-12-13 12:40:40,351 - root - WARNING - Could not create admin
+2023-12-13 12:40:40,352 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:42:22,202 - root - INFO - DB initilized
+2023-12-13 12:42:22,209 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:42:22,212 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:42:22,213 - root - INFO - 999 hashed...
+2023-12-13 12:42:22,551 - root - WARNING - Could not create admin
+2023-12-13 12:42:22,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:44:58,581 - root - INFO - DB initilized
+2023-12-13 12:44:58,587 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:44:58,589 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:44:58,590 - root - INFO - 999 hashed...
+2023-12-13 12:44:58,928 - root - WARNING - Could not create admin
+2023-12-13 12:44:58,931 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:45:52,428 - root - INFO - DB initilized
+2023-12-13 12:45:52,434 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:45:52,437 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:45:52,437 - root - INFO - 999 hashed...
+2023-12-13 12:45:52,775 - root - WARNING - Could not create admin
+2023-12-13 12:45:52,776 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:48:21,307 - root - INFO - DB initilized
+2023-12-13 12:48:21,313 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:48:21,315 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:48:21,316 - root - INFO - 999 hashed...
+2023-12-13 12:48:21,654 - root - WARNING - Could not create admin
+2023-12-13 12:48:21,655 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:56:00,013 - root - INFO - DB initilized
+2023-12-13 12:56:00,030 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:56:00,032 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:56:00,033 - root - INFO - 999 hashed...
+2023-12-13 12:56:00,372 - root - WARNING - Could not create admin
+2023-12-13 12:56:00,373 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:56:41,170 - root - INFO - DB initilized
+2023-12-13 12:56:41,176 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:56:41,178 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:56:41,179 - root - INFO - 999 hashed...
+2023-12-13 12:56:41,518 - root - WARNING - Could not create admin
+2023-12-13 12:56:41,521 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:59:29,710 - root - INFO - DB initilized
+2023-12-13 12:59:29,717 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 12:59:29,719 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 12:59:29,720 - root - INFO - 999 hashed...
+2023-12-13 12:59:30,059 - root - WARNING - Could not create admin
+2023-12-13 12:59:30,061 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:02:34,612 - root - INFO - DB initilized
+2023-12-13 13:02:34,622 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:02:34,624 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:02:34,625 - root - INFO - 999 hashed...
+2023-12-13 13:02:34,964 - root - WARNING - Could not create admin
+2023-12-13 13:02:34,965 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:03:50,763 - root - INFO - DB initilized
+2023-12-13 13:03:50,802 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:03:50,805 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:03:50,806 - root - INFO - 999 hashed...
+2023-12-13 13:03:51,143 - root - WARNING - Could not create admin
+2023-12-13 13:03:51,147 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:04:57,757 - root - INFO - DB initilized
+2023-12-13 13:04:57,764 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:04:57,766 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:04:57,767 - root - INFO - 999 hashed...
+2023-12-13 13:04:58,104 - root - WARNING - Could not create admin
+2023-12-13 13:04:58,105 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:05:51,924 - root - INFO - DB initilized
+2023-12-13 13:05:51,930 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:05:51,932 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:05:51,933 - root - INFO - 999 hashed...
+2023-12-13 13:05:52,271 - root - WARNING - Could not create admin
+2023-12-13 13:05:52,272 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:10:55,199 - root - INFO - DB initilized
+2023-12-13 13:10:55,207 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:10:55,210 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:10:55,211 - root - INFO - 999 hashed...
+2023-12-13 13:10:55,548 - root - WARNING - Could not create admin
+2023-12-13 13:10:55,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:24:20,906 - root - INFO - DB initilized
+2023-12-13 13:24:20,915 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:24:20,917 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:24:20,918 - root - INFO - 999 hashed...
+2023-12-13 13:24:21,255 - root - WARNING - Could not create admin
+2023-12-13 13:24:21,256 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:26:08,832 - root - INFO - DB initilized
+2023-12-13 13:26:08,838 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:26:08,841 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:26:08,841 - root - INFO - 999 hashed...
+2023-12-13 13:26:09,181 - root - WARNING - Could not create admin
+2023-12-13 13:26:09,181 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:26:34,018 - root - WARNING - There was an error in running the send code
+2023-12-13 13:26:34,019 - root - ERROR - timed out
+2023-12-13 13:27:14,744 - root - INFO - DB initilized
+2023-12-13 13:27:14,750 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:27:14,753 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:27:14,753 - root - INFO - 999 hashed...
+2023-12-13 13:27:15,091 - root - WARNING - Could not create admin
+2023-12-13 13:27:15,092 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:28:58,540 - root - INFO - DB initilized
+2023-12-13 13:28:58,546 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:28:58,549 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:28:58,549 - root - INFO - 999 hashed...
+2023-12-13 13:28:58,889 - root - WARNING - Could not create admin
+2023-12-13 13:28:58,891 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:29:44,539 - root - INFO - DB initilized
+2023-12-13 13:29:44,545 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:29:44,547 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:29:44,548 - root - INFO - 999 hashed...
+2023-12-13 13:29:44,886 - root - WARNING - Could not create admin
+2023-12-13 13:29:44,888 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:43:10,051 - root - INFO - DB initilized
+2023-12-13 13:43:10,058 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:43:10,060 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:43:10,061 - root - INFO - 999 hashed...
+2023-12-13 13:43:10,400 - root - WARNING - Could not create admin
+2023-12-13 13:43:10,401 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:43:56,658 - root - INFO - DB initilized
+2023-12-13 13:43:56,666 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:43:56,669 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:43:56,669 - root - INFO - 999 hashed...
+2023-12-13 13:43:57,007 - root - WARNING - Could not create admin
+2023-12-13 13:43:57,008 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:44:30,781 - root - INFO - DB initilized
+2023-12-13 13:44:30,786 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:44:30,789 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:44:30,790 - root - INFO - 999 hashed...
+2023-12-13 13:44:31,130 - root - WARNING - Could not create admin
+2023-12-13 13:44:31,130 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:45:24,870 - root - INFO - DB initilized
+2023-12-13 13:45:24,876 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:45:24,878 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:45:24,879 - root - INFO - 999 hashed...
+2023-12-13 13:45:25,217 - root - WARNING - Could not create admin
+2023-12-13 13:45:25,218 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:46:33,097 - root - INFO - DB initilized
+2023-12-13 13:46:33,104 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:46:33,107 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:46:33,107 - root - INFO - 999 hashed...
+2023-12-13 13:46:33,446 - root - WARNING - Could not create admin
+2023-12-13 13:46:33,447 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:47:44,772 - root - INFO - DB initilized
+2023-12-13 13:47:44,778 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:47:44,781 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:47:44,781 - root - INFO - 999 hashed...
+2023-12-13 13:47:45,119 - root - WARNING - Could not create admin
+2023-12-13 13:47:45,120 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:48:34,438 - root - INFO - DB initilized
+2023-12-13 13:48:34,445 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:48:34,447 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:48:34,449 - root - INFO - 999 hashed...
+2023-12-13 13:48:34,787 - root - WARNING - Could not create admin
+2023-12-13 13:48:34,788 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:49:05,436 - root - INFO - DB initilized
+2023-12-13 13:49:05,442 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:49:05,445 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:49:05,445 - root - INFO - 999 hashed...
+2023-12-13 13:49:05,782 - root - WARNING - Could not create admin
+2023-12-13 13:49:05,785 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:54:26,852 - root - WARNING - There was an error in running the send code
+2023-12-13 13:54:26,867 - root - ERROR - timed out
+2023-12-13 13:55:43,620 - root - INFO - DB initilized
+2023-12-13 13:55:43,626 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:55:43,628 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:55:43,629 - root - INFO - 999 hashed...
+2023-12-13 13:55:43,968 - root - WARNING - Could not create admin
+2023-12-13 13:55:43,971 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:55:48,950 - root - WARNING - There was an error in running the send code
+2023-12-13 13:55:48,951 - root - ERROR - timed out
+2023-12-13 13:55:59,907 - root - INFO - DB initilized
+2023-12-13 13:55:59,914 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:55:59,916 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:55:59,917 - root - INFO - 999 hashed...
+2023-12-13 13:56:00,256 - root - WARNING - Could not create admin
+2023-12-13 13:56:00,256 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:56:05,784 - root - WARNING - There was an error in running the send code
+2023-12-13 13:56:05,785 - root - ERROR - timed out
+2023-12-13 13:56:45,257 - root - INFO - DB initilized
+2023-12-13 13:56:45,263 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:56:45,265 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:56:45,266 - root - INFO - 999 hashed...
+2023-12-13 13:56:45,604 - root - WARNING - Could not create admin
+2023-12-13 13:56:45,605 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:57:37,785 - root - INFO - DB initilized
+2023-12-13 13:57:37,791 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 13:57:37,793 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 13:57:37,794 - root - INFO - 999 hashed...
+2023-12-13 13:57:38,131 - root - WARNING - Could not create admin
+2023-12-13 13:57:38,132 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:00:21,187 - root - INFO - DB initilized
+2023-12-13 14:00:21,194 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:00:21,197 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:00:21,197 - root - INFO - 999 hashed...
+2023-12-13 14:00:21,536 - root - WARNING - Could not create admin
+2023-12-13 14:00:21,537 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:01:17,169 - root - INFO - DB initilized
+2023-12-13 14:01:17,175 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:01:17,178 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:01:17,179 - root - INFO - 999 hashed...
+2023-12-13 14:01:17,520 - root - WARNING - Could not create admin
+2023-12-13 14:01:17,522 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:01:40,941 - root - INFO - DB initilized
+2023-12-13 14:01:40,947 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:01:40,949 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:01:40,950 - root - INFO - 999 hashed...
+2023-12-13 14:01:41,288 - root - WARNING - Could not create admin
+2023-12-13 14:01:41,289 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:03:50,153 - root - INFO - DB initilized
+2023-12-13 14:03:50,159 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:03:50,162 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:03:50,162 - root - INFO - 999 hashed...
+2023-12-13 14:03:50,502 - root - WARNING - Could not create admin
+2023-12-13 14:03:50,504 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:05:30,998 - root - INFO - DB initilized
+2023-12-13 14:05:31,005 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:05:31,007 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:05:31,007 - root - INFO - 999 hashed...
+2023-12-13 14:05:31,345 - root - WARNING - Could not create admin
+2023-12-13 14:05:31,345 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:06:44,191 - root - INFO - DB initilized
+2023-12-13 14:06:44,198 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:06:44,201 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:06:44,201 - root - INFO - 999 hashed...
+2023-12-13 14:06:44,541 - root - WARNING - Could not create admin
+2023-12-13 14:06:44,542 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:07:59,755 - root - INFO - DB initilized
+2023-12-13 14:07:59,761 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:07:59,764 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:07:59,765 - root - INFO - 999 hashed...
+2023-12-13 14:08:00,103 - root - WARNING - Could not create admin
+2023-12-13 14:08:00,103 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:08:56,688 - root - INFO - DB initilized
+2023-12-13 14:08:56,694 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:08:56,697 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:08:56,698 - root - INFO - 999 hashed...
+2023-12-13 14:08:57,035 - root - WARNING - Could not create admin
+2023-12-13 14:08:57,038 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:10:18,213 - root - INFO - DB initilized
+2023-12-13 14:10:18,222 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:10:18,224 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:10:18,225 - root - INFO - 999 hashed...
+2023-12-13 14:10:18,565 - root - WARNING - Could not create admin
+2023-12-13 14:10:18,566 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:10:23,752 - root - WARNING - There was an error in running the send code
+2023-12-13 14:10:23,752 - root - ERROR - timed out
+2023-12-13 14:11:23,590 - root - INFO - DB initilized
+2023-12-13 14:11:23,598 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:11:23,601 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:11:23,602 - root - INFO - 999 hashed...
+2023-12-13 14:11:23,941 - root - WARNING - Could not create admin
+2023-12-13 14:11:23,942 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:11:31,571 - root - WARNING - There was an error in running the send code
+2023-12-13 14:11:31,574 - root - ERROR - timed out
+2023-12-13 14:12:22,072 - root - INFO - DB initilized
+2023-12-13 14:12:22,080 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:12:22,082 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:12:22,083 - root - INFO - 999 hashed...
+2023-12-13 14:12:22,422 - root - WARNING - Could not create admin
+2023-12-13 14:12:22,423 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:13:03,740 - root - INFO - DB initilized
+2023-12-13 14:13:03,746 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:13:03,748 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:13:03,749 - root - INFO - 999 hashed...
+2023-12-13 14:13:04,087 - root - WARNING - Could not create admin
+2023-12-13 14:13:04,088 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:15:16,521 - root - INFO - DB initilized
+2023-12-13 14:15:16,529 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:15:16,532 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:15:16,533 - root - INFO - 999 hashed...
+2023-12-13 14:15:16,871 - root - WARNING - Could not create admin
+2023-12-13 14:15:16,872 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:17:19,638 - root - INFO - DB initilized
+2023-12-13 14:17:19,645 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:17:19,647 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:17:19,648 - root - INFO - 999 hashed...
+2023-12-13 14:17:19,988 - root - WARNING - Could not create admin
+2023-12-13 14:17:19,990 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:10,680 - root - INFO - DB initilized
+2023-12-13 14:19:10,690 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:19:10,693 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:19:10,694 - root - INFO - 999 hashed...
+2023-12-13 14:19:11,031 - root - WARNING - Could not create admin
+2023-12-13 14:19:11,035 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:39,806 - root - INFO - DB initilized
+2023-12-13 14:19:39,815 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:19:39,817 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:19:39,818 - root - INFO - 999 hashed...
+2023-12-13 14:19:40,156 - root - WARNING - Could not create admin
+2023-12-13 14:19:40,157 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:58,238 - root - INFO - DB initilized
+2023-12-13 14:19:58,244 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:19:58,246 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:19:58,247 - root - INFO - 999 hashed...
+2023-12-13 14:19:58,585 - root - WARNING - Could not create admin
+2023-12-13 14:19:58,585 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:20:58,240 - root - INFO - DB initilized
+2023-12-13 14:20:58,246 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:20:58,248 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:20:58,249 - root - INFO - 999 hashed...
+2023-12-13 14:20:58,589 - root - WARNING - Could not create admin
+2023-12-13 14:20:58,589 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:22:34,254 - root - INFO - DB initilized
+2023-12-13 14:22:34,260 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:22:34,263 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:22:34,263 - root - INFO - 999 hashed...
+2023-12-13 14:22:34,601 - root - WARNING - Could not create admin
+2023-12-13 14:22:34,602 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:24:14,738 - root - INFO - DB initilized
+2023-12-13 14:24:14,744 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:24:14,746 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:24:14,747 - root - INFO - 999 hashed...
+2023-12-13 14:24:15,084 - root - WARNING - Could not create admin
+2023-12-13 14:24:15,085 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:24:31,962 - root - INFO - DB initilized
+2023-12-13 14:24:31,969 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:24:31,971 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:24:31,972 - root - INFO - 999 hashed...
+2023-12-13 14:24:32,310 - root - WARNING - Could not create admin
+2023-12-13 14:24:32,312 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:25:53,319 - root - INFO - DB initilized
+2023-12-13 14:25:53,326 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:25:53,329 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:25:53,329 - root - INFO - 999 hashed...
+2023-12-13 14:25:53,666 - root - WARNING - Could not create admin
+2023-12-13 14:25:53,666 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:26:40,521 - root - INFO - DB initilized
+2023-12-13 14:26:40,527 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:26:40,529 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:26:40,530 - root - INFO - 999 hashed...
+2023-12-13 14:26:40,868 - root - WARNING - Could not create admin
+2023-12-13 14:26:40,869 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:27:10,463 - root - INFO - DB initilized
+2023-12-13 14:27:10,469 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:27:10,472 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:27:10,472 - root - INFO - 999 hashed...
+2023-12-13 14:27:10,811 - root - WARNING - Could not create admin
+2023-12-13 14:27:10,812 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:28:33,650 - root - INFO - DB initilized
+2023-12-13 14:28:33,656 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:28:33,659 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:28:33,660 - root - INFO - 999 hashed...
+2023-12-13 14:28:33,997 - root - WARNING - Could not create admin
+2023-12-13 14:28:33,998 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:29:08,867 - root - INFO - DB initilized
+2023-12-13 14:29:08,874 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:29:08,876 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:29:08,877 - root - INFO - 999 hashed...
+2023-12-13 14:29:09,214 - root - WARNING - Could not create admin
+2023-12-13 14:29:09,215 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:29:47,105 - root - INFO - DB initilized
+2023-12-13 14:29:47,112 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:29:47,114 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:29:47,115 - root - INFO - 999 hashed...
+2023-12-13 14:29:47,453 - root - WARNING - Could not create admin
+2023-12-13 14:29:47,454 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:31:35,512 - root - INFO - DB initilized
+2023-12-13 14:31:35,529 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:31:35,532 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:31:35,533 - root - INFO - 999 hashed...
+2023-12-13 14:31:35,870 - root - WARNING - Could not create admin
+2023-12-13 14:31:35,871 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:33:15,175 - root - INFO - DB initilized
+2023-12-13 14:33:15,184 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:33:15,186 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:33:15,187 - root - INFO - 999 hashed...
+2023-12-13 14:33:15,527 - root - WARNING - Could not create admin
+2023-12-13 14:33:15,530 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:34:48,190 - root - INFO - DB initilized
+2023-12-13 14:34:48,197 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:34:48,200 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:34:48,201 - root - INFO - 999 hashed...
+2023-12-13 14:34:48,540 - root - WARNING - Could not create admin
+2023-12-13 14:34:48,541 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:39:35,392 - root - INFO - DB initilized
+2023-12-13 14:39:35,399 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:39:35,401 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:39:35,402 - root - INFO - 999 hashed...
+2023-12-13 14:39:35,741 - root - WARNING - Could not create admin
+2023-12-13 14:39:35,742 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:39:41,978 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:39:41,978 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:39:59,955 - root - INFO - DB initilized
+2023-12-13 14:39:59,973 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:39:59,976 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:39:59,977 - root - INFO - 999 hashed...
+2023-12-13 14:40:00,319 - root - WARNING - Could not create admin
+2023-12-13 14:40:00,322 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:40:04,461 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:40:04,464 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:40:32,833 - root - INFO - DB initilized
+2023-12-13 14:40:32,840 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:40:32,843 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:40:32,844 - root - INFO - 999 hashed...
+2023-12-13 14:40:33,182 - root - WARNING - Could not create admin
+2023-12-13 14:40:33,183 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:40:38,688 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:40:38,689 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:40:38,689 - root - INFO - An error occured with the inputed information
+2023-12-13 14:40:38,689 - root - ERROR - 
+2023-12-13 14:41:21,985 - root - INFO - DB initilized
+2023-12-13 14:41:21,990 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:41:21,992 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:41:21,993 - root - INFO - 999 hashed...
+2023-12-13 14:41:22,332 - root - WARNING - Could not create admin
+2023-12-13 14:41:22,333 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:41:27,116 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:41:27,119 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:41:51,007 - root - INFO - DB initilized
+2023-12-13 14:41:51,015 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:41:51,017 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:41:51,018 - root - INFO - 999 hashed...
+2023-12-13 14:41:51,355 - root - WARNING - Could not create admin
+2023-12-13 14:41:51,357 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:41:55,706 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:41:55,706 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:42:00,368 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:42:00,368 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:43:44,905 - root - INFO - DB initilized
+2023-12-13 14:43:44,911 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:43:44,914 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:43:44,915 - root - INFO - 999 hashed...
+2023-12-13 14:43:45,255 - root - WARNING - Could not create admin
+2023-12-13 14:43:45,257 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:43:50,046 - root - WARNING - There was an error in running the send code
+2023-12-13 14:43:50,050 - root - ERROR - timed out
+2023-12-13 14:43:56,229 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:43:56,231 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6_Hanne Olsen_Rullebjerg 54, 2650
+2023-12-13 14:44:56,777 - root - INFO - DB initilized
+2023-12-13 14:44:56,784 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:44:56,786 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:44:56,787 - root - INFO - 999 hashed...
+2023-12-13 14:44:57,125 - root - WARNING - Could not create admin
+2023-12-13 14:44:57,126 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:45:04,156 - root - INFO - An error occured with the inputed information
+2023-12-13 14:45:04,156 - root - ERROR - local variable 'settings_list' referenced before assignment
+2023-12-13 14:45:36,549 - root - INFO - DB initilized
+2023-12-13 14:45:36,555 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-13 14:45:36,558 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-13 14:45:36,558 - root - INFO - 999 hashed...
+2023-12-13 14:45:36,897 - root - WARNING - Could not create admin
+2023-12-13 14:45:36,898 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:45:45,122 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-13 14:45:45,126 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-13 14:46:48,122 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-13 14:46:48,124 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-13 14:47:13,587 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-13 14:47:13,588 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b

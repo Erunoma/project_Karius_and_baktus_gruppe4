@@ -255,3 +255,120 @@
 2023-12-13 10:12:10,197 - root - ERROR - [Errno 49] Can't assign requested address
 2023-12-13 10:14:19,641 - root - ERROR - UNIQUE constraint failed: admins.username
 2023-12-13 10:25:11,789 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:03:19,881 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:04:00,349 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:07:17,410 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:08:22,762 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:14:13,831 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:15:24,114 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:15:54,539 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:21:20,753 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:22:28,001 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:23:14,168 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:23:33,769 - root - ERROR - 'bool' object is not subscriptable
+2023-12-13 11:24:54,561 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:24:58,951 - root - ERROR - 'NoneType' object has no attribute 'setsockopt'
+2023-12-13 11:25:34,842 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:25:42,523 - root - ERROR - 'bool' object is not subscriptable
+2023-12-13 11:27:30,915 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 11:27:35,751 - root - ERROR - timed out
+2023-12-13 11:28:06,318 - root - ERROR - timed out
+2023-12-13 11:29:19,113 - root - ERROR - timed out
+2023-12-13 11:53:40,386 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:00:55,126 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:05:32,538 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:05:38,687 - root - ERROR - timed out
+2023-12-13 12:06:15,913 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:08:48,112 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:11:31,290 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:15:45,708 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:16:14,511 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:18:29,118 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:18:59,806 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:19:01,658 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-13 12:19:02,660 - root - ERROR - timed out
+2023-12-13 12:19:44,756 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:20:50,439 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:21:12,715 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:24:26,527 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:29:18,109 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:36:19,918 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:37:22,565 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:40:26,235 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:40:40,352 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:42:22,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:44:58,931 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:45:52,776 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:48:21,655 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:56:00,373 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:56:41,521 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 12:59:30,061 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:02:34,965 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:03:51,147 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:04:58,105 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:05:52,272 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:10:55,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:24:21,256 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:26:09,181 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:26:34,019 - root - ERROR - timed out
+2023-12-13 13:27:15,092 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:28:58,891 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:29:44,888 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:43:10,401 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:43:57,008 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:44:31,130 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:45:25,218 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:46:33,447 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:47:45,120 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:48:34,788 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:49:05,785 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:54:26,867 - root - ERROR - timed out
+2023-12-13 13:55:43,971 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:55:48,951 - root - ERROR - timed out
+2023-12-13 13:56:00,256 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:56:05,785 - root - ERROR - timed out
+2023-12-13 13:56:45,605 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 13:57:38,132 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:00:21,537 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:01:17,522 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:01:41,289 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:03:50,504 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:05:31,345 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:06:44,542 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:08:00,103 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:08:57,038 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:10:18,566 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:10:23,752 - root - ERROR - timed out
+2023-12-13 14:11:23,942 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:11:31,574 - root - ERROR - timed out
+2023-12-13 14:12:22,423 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:13:04,088 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:15:16,872 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:17:19,990 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:11,035 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:40,157 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:19:58,585 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:20:58,589 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:22:34,602 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:24:15,085 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:24:32,312 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:25:53,666 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:26:40,869 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:27:10,812 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:28:33,998 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:29:09,215 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:29:47,454 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:31:35,871 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:33:15,530 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:34:48,541 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:39:35,742 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:40:00,322 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:40:33,183 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:40:38,689 - root - ERROR - 
+2023-12-13 14:41:22,333 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:41:51,357 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:43:45,257 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:43:50,050 - root - ERROR - timed out
+2023-12-13 14:44:57,126 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-13 14:45:04,156 - root - ERROR - local variable 'settings_list' referenced before assignment
+2023-12-13 14:45:36,898 - root - ERROR - UNIQUE constraint failed: admins.username

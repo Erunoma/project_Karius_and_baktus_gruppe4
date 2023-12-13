@@ -93,28 +93,73 @@ def verify(username):
 def home():
     session=request.get_cookie('karibak_login')
     print(f"Session:{session}")
+    
     if session=='karibak_id':
         holders=db_manager.init_holders()
-        info = f'content: {holders[0][1]}'
-        return template("templates/dashboard.html", holders=holders, info=info)
+        if request.method=="POST":
+                try:
+                    if request.forms["direct_button"]:
+                        print("alert button pushed")
+                        id=request.forms["direct_button"]
+                        print(f"Gathering ID From button...ID: {id}")
+                        try:
+                            init_sending_thread(id)
+                        except:
+                            print("init_sending_thread error")
+                        return template("templates/dashboard.html", holders=holders, alerted=True)
+                except Exception as e:
+                    print(e)
+              
+                if request.forms["direct_button1"]:
+                    print("Settings button pushed")
+                    db_user_count=int(request.forms["direct_button1"])
+                    print(f"Connecting to settings page with the current settings: {holders[db_user_count]}")
+                        
+                    redirect(f"/home/settings/{holders[db_user_count][0]}_{holders[db_user_count][1]}_{holders[db_user_count][2]}")
+                else:
+                    return template("templates/dashboard.html", holders=holders, alerted=False)
+                
+                
+        else:
+            return template("templates/dashboard.html", holders=holders, alerted=False)
     else:
         return template("You are not allowed to view this page. Please login.")
     
     
+
 #This section is the website page code for settings. When the admin clicks to config a holder, this page pops up.
 #Here, the admin can administer details about the holder, and send the updated data to the holder, if its on and
 #hasn't changed its IP.
-@route('/home/<id>', method=["POST", "GET"])
+@route('/home/settings/<id>', method=["POST", "GET"])
 def setting(id):
+    print("Arrived")
     session=request.get_cookie('karibak_login')
+    
     print(f"Session:{session}")
     if session=='karibak_id':
+        id=str(id)
+        settings_list=id.split("_")
         if request.method=="GET":
-            data=True
-            holder_connect(db_manager.get_user_ip(id),3000,data)
-            return redirect("/home")
-        else:
-            return template("templates/setting.html", id=id)
+
+            print(f"You got to the settings page with the ID: {id}")
+            print(settings_list)
+            return template("templates/settings.html", id=id, settings_list=settings_list)
+        
+        if request.method=="POST":
+            
+            username=request.forms['username']
+            location=request.forms['location']
+            print(f"Posted and ready for update{username} {location}")
+            try:
+                db_manager.change_user_info(settings_list[0], username, "", "", location, "", "", "", "", "", "")
+                    
+            except Exception as e:
+                print(log_manager.log_func(e,"An error occured with the inputed information","info"))
+            redirect('/home')
+                
+       
+        
+                
     else:
         return redirect('/login')
 
@@ -122,18 +167,36 @@ def setting(id):
 #This code sends the data to the holder. It finds the correct holder from the settings page.
 def holder_connect(ip, port, data):
     try:
+        print("Starting the connection sequence")
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        print("Socket aligned")
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        s.connect((ip, port))
-        s.sendall(str.encode("\n".join([str(data[0])])))
-        print(log_manager.log_func("",f"Values sent:{data}","info"))
+        s.settimeout(1)
+        bool_data=[]
+        bool_data.append(data)
+        print("Setup complete")
+        try:
+            s.connect((ip, port))
+        except:
+            print("Error")
+        print("Connected to holder...")
+        s.sendall(str.encode("\n".join([str(bool_data[0])])))
+        print(log_manager.log_func("",f"Values sent:{bool_data}","info"))
         msg = s.recv(1024).decode()
         print(log_manager.log_func("",f"Callback: {msg}","info"))
+    except ConnectionRefusedError as e:
+        print(log_manager.log_func(e,"Connection refused","error"))
+    except TimeoutError as e:
+        print(log_manager.log_func(e,"Connection timed out to holder","error"))
     except Exception as e:
-        print(log_manager.log_func(e,"Could not establish connection to holder","error"))
+        print(log_manager.log_func(e,"There was an error in running the send code","error"))
     finally:
+        print("Thread closed")
         s.close()
         
+
+
+@route()
 
 #This is the default start page. Connections are automaticcly redirected to /login.
 @route('/')
@@ -199,6 +262,11 @@ def init_socket():
 #Starts a thread for the function above.
 def init_socket_thread():
     th = Thread(target=init_socket)
+    th.start()
+    print("New thread started")
+
+def init_sending_thread(id):
+    th = Thread(target=holder_connect(db_manager.get_user_ip(id),3000,True))
     th.start()
     print("New thread started")
 
