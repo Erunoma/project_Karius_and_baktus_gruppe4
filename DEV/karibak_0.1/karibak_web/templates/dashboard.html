@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karibak - Borgeroverblik</title>
     <style>
-        body {
+       body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -40,20 +40,64 @@
         }
 
         .settings-button {
-            margin-left: auto;
+            padding: 10px 20px;
+            font-size: 16px;
             cursor: pointer;
-            background-color: #4CAF50;
-            color: #fff;
             border: none;
+            color: #fff;
             border-radius: 5px;
-            padding: 8px 15px;
+            transition: background-color 0.3s ease;
+            background-color: #4CAF50;
+
         }
 
-        @media screen and (max-width: 600px) {
-            .header {
-                padding: 15px;
-            }
+        .dashboard-pockets {
+            background-color: #F9F9F9;
+            border: 2px solid #000; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            padding: 10px;
+            margin-top: 20px;
         }
+
+        .custom-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .green {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            background-color: green;
+        }
+
+        .red {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            background-color: red;
+        }
+
+        .small_p{
+            font-size: 10px;
+            color: black;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -70,34 +114,39 @@
                 %end
                 % count=0
                 % for users in holders:
+                
+                <div class="dashboard-pockets">  
                     
-                <div class="dashboard-item">
-                <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40"></div>
+                    <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40">
 
-                <div class="dashboard-item-text"><p>Navn: {{users[1]}}</p></div>
-                <div class="dashboard-item-text"><p>Addresse: {{users[2]}}</p></div>
-                <div class="dashboard-item-text"><p>IP: {{users[3]}}</p></div>
-                <div class="dashboard-item-text"><p>MAC: {{users[4]}}</p></div>
-                <div class="dashboard-item-text"><p>Tidslængde af sidste børstning: {{users[6]}} sek.</p></div>
-                <div class="dashboard-item-text"><p>Berøringstjek: {{users[7]}}</p></div>
-                    % if users[5] == True:
-                    <div class="dashboard-item-text"><p>Result: 0</p></div>
-                    <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
-    
+                    <div class="dashboard-item-text"><p>Navn: {{users[1]}}</p></div>
+                    <div class="dashboard-item-text"><p>Addresse: {{users[2]}}</p></div>
+                    <div class="dashboard-item-text"><p>IP: {{users[3]}}</p></div>
+                    <div class="dashboard-item-text"><p>MAC: {{users[4]}}</p></div>
+                    <div class="dashboard-item-text"><p>Tidslængde af sidste børstning: {{users[6]}} sek.</p></div>
+                    <div class="dashboard-item-text"><p>Berøringstjek: {{users[7]}}</p></div>
+                   
+                    <form method="post">
+                    % if users[5] == False:
+                    
+                    <button type="submit" class="green" value={{users[0]}} name="direct_button" disabled>Påmindelse</button>
                     %else:
-                    <div class="dashboard-item-text"><p>Result: 1</p></div>
-                    <div class="dashboard-item-text"><p>Statement in file: {{users[5]}}</p></div>
+                    <p class="small_p">Intervallet mellem børstninger er blevet for lang for denne bruger. Send en påmindelse med denne knap:</p>
+                    <button type="submit" class="red" value={{users[0]}} name="direct_button">Påmindelse</button>
                     %end
-                <form method="post">
-                <button type="submit" class="settings-button" value={{users[0]}} name="direct_button">Påmindelse</button>
-                <button type="submit" class="settings-button" value={{count}} name="direct_button1">Indstillinger</button>
-                 </form>
-                 % count+=1
-                %end
+                    
+                    <button type="submit" class="settings-button" value={{count}} name="direct_button1">Indstillinger</button>
+                    </form>
+                    % count+=1
+                </div>
+                    %end
+                    
+                
             </ul>
-        </div>
-        <!-- Stuff fra DB -->
+    
     </div>
+        <!-- Stuff fra DB -->
+    
 
 </body>
 </html>

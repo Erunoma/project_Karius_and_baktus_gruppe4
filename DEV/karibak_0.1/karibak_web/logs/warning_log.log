@@ -944,3 +944,24 @@
 2023-12-13 14:45:04,156 - root - ERROR - local variable 'settings_list' referenced before assignment
 2023-12-13 14:45:36,897 - root - WARNING - Could not create admin
 2023-12-13 14:45:36,898 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-14 09:38:23,552 - root - WARNING - Could not create admin
+2023-12-14 09:38:23,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-14 09:39:40,664 - root - WARNING - There was an error in running the send code
+2023-12-14 09:39:40,664 - root - ERROR - timed out
+2023-12-14 10:13:57,085 - root - WARNING - There was an error in running the send code
+2023-12-14 10:13:57,085 - root - ERROR - timed out
+2023-12-14 10:16:34,373 - root - WARNING - There was an error in running the send code
+2023-12-14 10:16:34,375 - root - ERROR - timed out
+2023-12-14 10:58:21,570 - root - WARNING - Could not create admin
+2023-12-14 10:58:21,574 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-14 11:12:32,661 - root - ERROR - Regex Error found with text: Ã¦gjagjdslk
+2023-12-14 11:31:09,081 - root - WARNING - Could not determine local or online
+2023-12-14 11:31:09,082 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-14 11:39:36,080 - root - WARNING - Could not check for admin
+2023-12-14 11:39:36,082 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-14 11:44:42,210 - root - WARNING - Could not check for admin
+2023-12-14 11:44:42,213 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-14 11:45:05,228 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-12-14 11:48:36,451 - root - WARNING - There was an error in running the send code
+2023-12-14 11:48:36,452 - root - ERROR - [Errno 32] Broken pipe
+2023-12-14 12:56:48,569 - root - ERROR - change_user_info() missing 2 required positional arguments: 'length_of_brush' and 'tb_temp'

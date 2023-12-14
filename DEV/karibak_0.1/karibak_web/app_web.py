@@ -9,8 +9,6 @@ from threading import Thread
 import time
 
 
-
-
 app = Bottle()
 plugin = bottle_session.SessionPlugin(cookie_lifetime=600)
 app.install(plugin)
@@ -40,7 +38,7 @@ def start():
         #db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
 
         #db_manager.change_user_info("4feb8613-e1d6-4457-87ad-e738d3dda8d3", "emil", "69", "female", "Holgasville 25", "", "", "", "")
-        db_manager.add_admin("hashed_oliver", "999", "oliver.boots@hotmail.com")
+        #db_manager.add_admin("hashed_oliver", "999", "oliver.boots@hotmail.com")
         #log_test()
     except Exception as e:
         print(log_manager.log_func(e,"startup failed","error"))
@@ -96,12 +94,11 @@ def home():
     
     if session=='karibak_id':
         holders=db_manager.init_holders()
+        print(holders[0][5])
         if request.method=="POST":
                 try:
                     if request.forms["direct_button"]:
-                        print("alert button pushed")
                         id=request.forms["direct_button"]
-                        print(f"Gathering ID From button...ID: {id}")
                         try:
                             init_sending_thread(id)
                         except:
@@ -111,19 +108,16 @@ def home():
                     print(e)
               
                 if request.forms["direct_button1"]:
-                    print("Settings button pushed")
                     db_user_count=int(request.forms["direct_button1"])
-                    print(f"Connecting to settings page with the current settings: {holders[db_user_count]}")
+        
                         
                     redirect(f"/home/settings/{holders[db_user_count][0]}_{holders[db_user_count][1]}_{holders[db_user_count][2]}")
                 else:
                     return template("templates/dashboard.html", holders=holders, alerted=False)
-                
-                
         else:
             return template("templates/dashboard.html", holders=holders, alerted=False)
     else:
-        return template("You are not allowed to view this page. Please login.")
+        redirect('/login')
     
     
 
@@ -132,26 +126,22 @@ def home():
 #hasn't changed its IP.
 @route('/home/settings/<id>', method=["POST", "GET"])
 def setting(id):
-    print("Arrived")
     session=request.get_cookie('karibak_login')
-    
     print(f"Session:{session}")
     if session=='karibak_id':
         id=str(id)
         settings_list=id.split("_")
         if request.method=="GET":
 
-            print(f"You got to the settings page with the ID: {id}")
-            print(settings_list)
             return template("templates/settings.html", id=id, settings_list=settings_list)
         
         if request.method=="POST":
             
             username=request.forms['username']
             location=request.forms['location']
-            print(f"Posted and ready for update{username} {location}")
             try:
-                db_manager.change_user_info(settings_list[0], username, "", "", location, "", "", "", "", "", "")
+
+                db_manager.change_user_info(settings_list[0], db_manager.encrypt_text(username), "","",db_manager.encrypt_text(location), "", "", "", "", "", "")
                     
             except Exception as e:
                 print(log_manager.log_func(e,"An error occured with the inputed information","info"))
@@ -174,7 +164,6 @@ def holder_connect(ip, port, data):
         s.settimeout(1)
         bool_data=[]
         bool_data.append(data)
-        print("Setup complete")
         try:
             s.connect((ip, port))
         except:
@@ -279,7 +268,7 @@ try:
         application = default_app()
     elif local_app==True:
         
-        run(host='localhost', port=6555, debug=True)               
+        run(host='172.20.10.3', port=6555, debug=True)               
 except Exception as e:
     print(log_manager.log_func(e,"Could not determine local or online","error"))
     exit()

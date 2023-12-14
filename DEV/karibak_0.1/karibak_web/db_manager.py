@@ -174,7 +174,7 @@ def otp_check(number, username):
         if key_result:
             print(log_manager.log_func("","Checking key with username...", "info"))
             if name_result[0] == username:
-                print(log_manager.log_func("","Checking key in database...", "info"))
+                print(log_manager.log_func("","Checking if it has expired...", "info"))
                 if expire_time[0]>=time.time():
                     return True
         else:
@@ -243,7 +243,7 @@ def change_user_info(id, name, age, gender, address, device, ip, mac, last_activ
 
 #Data to be sent from the esp: [Password(str), user_id(str), ip(str), mac(str), last_activity(float), lenght of brush(str), temperature]
 def upload_to_db(data):
-    change_user_info(data[1],"","","","","",data[2], data[3], data[4], data[5], data[6])
+    change_user_info(data[1],"","","","","",encrypt_text(data[2]), encrypt_text(data[3]), time.time(), data[5], data[6])
     print("sending data to be uploaded:")
             
 # check if user and password match
@@ -284,8 +284,10 @@ def init_holders():
                     entry=decrypt_text(entry)
                 if type(entry) is float:
                     cur_time=time.time()
+                    
                     if cur_time >= (entry + 43200):
                         entry=True
+                        
                     else:
                         entry=False
                 new_list.append(entry)
@@ -314,7 +316,7 @@ def update_time_test(id):
     try:
         con = sqlite3.connect(web_db)
         cur = con.cursor() 
-        cur.execute('UPDATE users SET last_activity=? WHERE id=?', (time.time(),id))
+        cur.execute('UPDATE users SET last_activity=? WHERE id=?', (1702495254,id))
         con.commit()
         print(log_manager.log_func("","Updated time","info"))
         

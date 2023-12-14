@@ -9,18 +9,18 @@
 <body>
 <div class="header">
     <img src="https://clipartmag.com/image/tooth-drawing-4.png" alt="Left Image" width="50" height="50">
-    <h1>Two-Factor Authentication</h1>
+    <h1>To-faktors Godkendelse</h1>
     <img src="https://clipartmag.com/image/tooth-drawing-4.png" alt="Right Image" width="50" height="50">
 </div>
 
 
 
 <div class="auth-container">
-    <p>OTP code sent. Check email associated with user trying to log in.</p>
+    <p>OTP kode er blevet sendt til din email. Indtast den tre-cifrede kode nedenfor.</p>
     <form id="verify_form" action="/verify/{{ username }}" method="post">
-        <label for="auth-number" class="auth-label">Enter Number:</label>
+        <label for="auth-number" class="auth-label">Indtast Nummer:</label>
         <input type="text" class="auth-input" placeholder="Enter your authentication number:" id="Number" name="number">
-        <button type="submit" class="auth-button">Submit</button>
+        <button type="submit" class="auth-button">Indsend</button>
     </form>
 </div>
 

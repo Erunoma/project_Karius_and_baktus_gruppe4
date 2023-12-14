@@ -2834,3 +2834,164 @@
 2023-12-13 14:46:48,124 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
 2023-12-13 14:47:13,587 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
 2023-12-13 14:47:13,588 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-14 09:38:23,206 - root - INFO - DB initilized
+2023-12-14 09:38:23,212 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 09:38:23,215 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 09:38:23,216 - root - INFO - 999 hashed...
+2023-12-14 09:38:23,552 - root - WARNING - Could not create admin
+2023-12-14 09:38:23,552 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-14 09:38:40,341 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 09:38:40,342 - root - INFO - Regex accepted: 999
+2023-12-14 09:38:40,678 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-14 09:38:40,679 - root - INFO - Checking key in database...
+2023-12-14 09:38:40,679 - root - INFO - Could not check otp
+2023-12-14 09:38:43,483 - root - INFO - Sending mail to user
+2023-12-14 09:38:43,487 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 09:39:02,311 - root - INFO - Regex accepted: 613
+2023-12-14 09:39:02,312 - root - INFO - Checking key in database...
+2023-12-14 09:39:02,312 - root - INFO - Checking key with username...
+2023-12-14 09:39:02,312 - root - INFO - Checking key in database...
+2023-12-14 09:39:02,314 - root - INFO - Deleted the key 613
+2023-12-14 09:39:02,314 - root - INFO - Correct key. User logged in
+2023-12-14 09:39:40,664 - root - WARNING - There was an error in running the send code
+2023-12-14 09:39:40,664 - root - ERROR - timed out
+2023-12-14 09:40:35,760 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 09:40:35,762 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 10:13:57,085 - root - WARNING - There was an error in running the send code
+2023-12-14 10:13:57,085 - root - ERROR - timed out
+2023-12-14 10:16:34,373 - root - WARNING - There was an error in running the send code
+2023-12-14 10:16:34,375 - root - ERROR - timed out
+2023-12-14 10:24:01,726 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 10:24:01,726 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 10:58:21,203 - root - INFO - DB initilized
+2023-12-14 10:58:21,229 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 10:58:21,231 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 10:58:21,232 - root - INFO - 999 hashed...
+2023-12-14 10:58:21,570 - root - WARNING - Could not create admin
+2023-12-14 10:58:21,574 - root - ERROR - UNIQUE constraint failed: admins.username
+2023-12-14 11:12:26,489 - root - INFO - DB initilized
+2023-12-14 11:12:26,513 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:12:26,516 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:12:32,661 - root - ERROR - Regex Error found with text: Ã¦gjagjdslk
+2023-12-14 11:12:43,299 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 11:12:43,302 - root - INFO - Regex accepted: 409358340985
+2023-12-14 11:31:09,053 - root - INFO - DB initilized
+2023-12-14 11:31:09,065 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:31:09,068 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:31:09,081 - root - WARNING - Could not determine local or online
+2023-12-14 11:31:09,082 - root - ERROR - [Errno 49] Can't assign requested address
+2023-12-14 11:31:54,648 - root - INFO - DB initilized
+2023-12-14 11:31:54,655 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:31:54,658 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:34:07,568 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:35:39,929 - root - INFO - DB initilized
+2023-12-14 11:35:39,936 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:35:39,938 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:35:39,940 - root - INFO - Updated time
+2023-12-14 11:35:49,048 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 11:35:49,048 - root - INFO - Regex accepted: 999
+2023-12-14 11:35:49,384 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-14 11:35:49,386 - root - INFO - Checking key in database...
+2023-12-14 11:35:49,386 - root - INFO - Could not check otp
+2023-12-14 11:35:51,727 - root - INFO - Sending mail to user
+2023-12-14 11:35:51,731 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:36:08,042 - root - INFO - Regex accepted: 261
+2023-12-14 11:36:08,043 - root - INFO - Checking key in database...
+2023-12-14 11:36:08,043 - root - INFO - Checking key with username...
+2023-12-14 11:36:08,044 - root - INFO - Checking key in database...
+2023-12-14 11:36:08,046 - root - INFO - Deleted the key 261
+2023-12-14 11:36:08,046 - root - INFO - Correct key. User logged in
+2023-12-14 11:36:17,620 - root - INFO - Values sent:[True]
+2023-12-14 11:36:17,642 - root - INFO - Callback: Your call has been recieved.
+2023-12-14 11:39:21,666 - root - INFO - DB initilized
+2023-12-14 11:39:21,681 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:39:21,685 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:39:36,079 - root - INFO - Regex accepted: jjefjslkfjsldkjf
+2023-12-14 11:39:36,080 - root - INFO - Regex accepted: kpheotnpnrwemf
+2023-12-14 11:39:36,080 - root - WARNING - Could not check for admin
+2023-12-14 11:39:36,082 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-14 11:39:45,660 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 11:39:45,661 - root - INFO - Regex accepted: 999
+2023-12-14 11:39:46,004 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-14 11:39:46,005 - root - INFO - Checking key in database...
+2023-12-14 11:39:46,005 - root - INFO - Could not check otp
+2023-12-14 11:39:48,449 - root - INFO - Sending mail to user
+2023-12-14 11:39:48,454 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:40:00,279 - root - INFO - Regex accepted: 677
+2023-12-14 11:40:00,280 - root - INFO - Checking key in database...
+2023-12-14 11:40:00,280 - root - INFO - Checking key with username...
+2023-12-14 11:40:00,280 - root - INFO - Checking key in database...
+2023-12-14 11:40:00,282 - root - INFO - Deleted the key 677
+2023-12-14 11:40:00,283 - root - INFO - Correct key. User logged in
+2023-12-14 11:40:30,547 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:40:30,549 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:40:42,842 - root - INFO - Values sent:[True]
+2023-12-14 11:40:42,877 - root - INFO - Callback: Your call has been recieved.
+2023-12-14 11:44:19,501 - root - INFO - DB initilized
+2023-12-14 11:44:19,520 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:44:19,522 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:44:42,209 - root - INFO - Regex accepted: hasoidjksjfjsdoif
+2023-12-14 11:44:42,209 - root - INFO - Regex accepted: pu409u02j40j3
+2023-12-14 11:44:42,210 - root - WARNING - Could not check for admin
+2023-12-14 11:44:42,213 - root - ERROR - 'NoneType' object is not subscriptable
+2023-12-14 11:44:50,392 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 11:44:50,392 - root - INFO - Regex accepted: 999
+2023-12-14 11:44:50,733 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-14 11:44:50,735 - root - INFO - Checking key in database...
+2023-12-14 11:44:50,735 - root - INFO - Could not check otp
+2023-12-14 11:44:52,775 - root - INFO - Sending mail to user
+2023-12-14 11:44:52,779 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:45:05,226 - root - INFO - Regex accepted: 677
+2023-12-14 11:45:05,227 - root - INFO - Checking key in database...
+2023-12-14 11:45:05,227 - root - INFO - Could not check otp
+2023-12-14 11:45:05,228 - root - ERROR - Incorrect key or it has expired. User sent back to login
+2023-12-14 11:45:10,703 - root - INFO - Regex accepted: hashed_oliver
+2023-12-14 11:45:10,703 - root - INFO - Regex accepted: 999
+2023-12-14 11:45:11,047 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-14 11:45:11,048 - root - INFO - Checking key in database...
+2023-12-14 11:45:11,048 - root - INFO - Could not check otp
+2023-12-14 11:45:13,560 - root - INFO - Sending mail to user
+2023-12-14 11:45:13,565 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:45:26,276 - root - INFO - Regex accepted: 854
+2023-12-14 11:45:26,277 - root - INFO - Checking key in database...
+2023-12-14 11:45:26,277 - root - INFO - Checking key with username...
+2023-12-14 11:45:26,277 - root - INFO - Checking key in database...
+2023-12-14 11:45:26,280 - root - INFO - Deleted the key 854
+2023-12-14 11:45:26,281 - root - INFO - Correct key. User logged in
+2023-12-14 11:45:48,139 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:45:48,142 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:45:55,774 - root - INFO - Values sent:[True]
+2023-12-14 11:45:55,793 - root - INFO - Callback: Your call has been recieved.
+2023-12-14 11:48:19,424 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:48:36,451 - root - WARNING - There was an error in running the send code
+2023-12-14 11:48:36,452 - root - ERROR - [Errno 32] Broken pipe
+2023-12-14 11:48:45,294 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:48:45,295 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 11:52:16,550 - root - INFO - DB initilized
+2023-12-14 11:52:16,557 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:52:16,559 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:52:29,104 - root - INFO - DB initilized
+2023-12-14 11:52:29,111 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:52:29,114 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:52:45,405 - root - INFO - DB initilized
+2023-12-14 11:52:45,412 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:52:45,415 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 11:53:42,467 - root - INFO - DB initilized
+2023-12-14 11:53:42,474 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 11:53:42,477 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 12:56:33,400 - root - INFO - DB initilized
+2023-12-14 12:56:33,436 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 12:56:33,438 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 12:56:48,569 - root - INFO - An error occured with the inputed information
+2023-12-14 12:56:48,569 - root - ERROR - change_user_info() missing 2 required positional arguments: 'length_of_brush' and 'tb_temp'
+2023-12-14 12:58:07,883 - root - INFO - DB initilized
+2023-12-14 12:58:07,892 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-14 12:58:07,894 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-14 12:58:17,421 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 12:58:17,426 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 12:58:36,049 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 12:58:36,051 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 12:59:01,775 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-14 12:59:01,777 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-14 13:00:57,200 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-14 13:00:57,204 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
