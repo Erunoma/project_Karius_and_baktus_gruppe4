@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karibak - Borgeroverblik</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: relative;
+            background-color: #800000; 
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #000; 
+            border-radius: 8px; 
+        }
+
+        .dashboard {
+            border: 2px solid #000; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            padding: 10px; 
+        }
+
+        .dashboard-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .dashboard-item img {
+            margin-right: 10px;
+            border-radius: 50%; 
+        }
+
+        .settings-button {
+            margin-left: auto;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+        }
+
+        .dashboard-pockets {
+            border: 2px solid #000; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .header {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Karibak - Borgeroversigt</h1>
+    </div>
+
+    <div class="dashboard">
+        <!-- stuff fra DB -->
+        <div class="dashboard-item">
+            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birger" width="50" height="40">
+             <div class="item-description"><b>Navn:</b></div>
+            <div class="dashboard-item-text">Birger</div>
+            <button class="settings-button">Indstillinger</button>
+        </div>
+        <div class="dashboard-item">
+            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Bente" width="50" height="40">
+            <div class="dashboard-item-text">Bente</div>
+            <button class="settings-button">Indstillinger</button>
+        </div>
+        <div class="dashboard-item">
+            <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="Birgit" width="50" height="40">
+            <div class="dashboard-item-text">Birgit</div>
+            <button class="settings-button">Indstillinger</button>
+        </div>
+        <!-- Stuff fra DB -->
+        <div class="dashboard-pockets">
+            <div class="dashboard-item">
+                <img src="https://clipartmag.com/image/tooth-drawing-13.png" alt="New Person" width="50" height="40">
+                <div class="dashboard-item-text">Borger</div>
+                <button class="settings-button">Indstillinger</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

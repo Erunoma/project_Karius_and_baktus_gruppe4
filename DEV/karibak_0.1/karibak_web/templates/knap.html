@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knap</title>
+    <style>
+        .custom-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<button id="colorButton" class="custom-button {% if isConditionTrue %}green{% else %}red{% endif %}">Knap</button>
+
+<script>
+    const isConditionTrue = {{ variable | default(false) | lower }};
+
+    const button = document.getElementById('colorButton');
+
+    if (isConditionTrue) {
+        button.classList.add('green');
+    } else {
+        button.classList.add('red');
+    }
+</script>
+
+</body>
+</html>
