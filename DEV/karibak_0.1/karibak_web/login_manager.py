@@ -39,20 +39,27 @@ def rand_otp(username):
 
 #This function sends an email from the mail server with a number to the users email.
 def send_mail(recipient, username):
-    try:
-        msg=str(rand_otp(username))
-        #print(f"The message:{msg}")
-        with smtplib.SMTP(SMTP_SERVER,SMTP_PORT) as server:
-            server.starttls()
+    
+    has_internet=False
+    msg=str(rand_otp(username))
+    
+    if has_internet==True:
+        try:
+            with smtplib.SMTP(SMTP_SERVER,SMTP_PORT) as server:
+                server.starttls()
             
-            server.login(SMTP_USERNAME, SMTP_PASSWORD)
+                server.login(SMTP_USERNAME, SMTP_PASSWORD)
 
-            server.sendmail(SMTP_USERNAME,recipient,msg)
+                server.sendmail(SMTP_USERNAME,recipient,msg)
            
-            print(log_manager.log_func("","Sending mail to user","info"))
-            db_manager.save_otp(msg, username)
-    except Exception as e:
-        print(log_manager.log_func(e,"Could not send email","error"))
+                print(log_manager.log_func("","Sending mail to user","info"))
+                db_manager.save_otp(msg, username)
+        
+        except Exception as e:
+            print(log_manager.log_func(e,"Could not send email","error"))
+    else:
+        db_manager.save_otp(msg, username)
+
 
 #This function hashes a password. For use in database login.
 def hash_password(password):

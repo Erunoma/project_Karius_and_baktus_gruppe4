@@ -33,7 +33,7 @@ def start():
         db_manager.delete_all_otp()
         db_manager.create_db_otp()
         init_socket_thread() 
-        #db_manager.update_time_test("4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b")
+        db_manager.update_time_test("4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b")
         #db_manager.add_user("Hanne Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", 0, "length_variable", "tb_temp_variable")
         #db_manager.add_user("Birke Olsen", "Rullebjerg 54, 2650", "ip_variable", "mac_variable", "acitvity_variable", "length_variable")
 
@@ -57,6 +57,7 @@ def login():
             if db_manager.check_admin_user(username,password) == True:
                 print(log_manager.log_func("",f"Admin user {username} log in requested","info"))
                 login_manager.send_mail(db_manager.get_email(username), username)
+                
                 redirect(f'/verify/{username}')
             else:
                 return redirect('/login')
@@ -94,7 +95,6 @@ def home():
     
     if session=='karibak_id':
         holders=db_manager.init_holders()
-        print(holders[0][5])
         if request.method=="POST":
                 try:
                     if request.forms["direct_button"]:
@@ -158,6 +158,7 @@ def setting(id):
 def holder_connect(ip, port, data):
     try:
         print("Starting the connection sequence")
+        print(db_manager.decrypt_text(ip), port)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         print("Socket aligned")
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -165,7 +166,7 @@ def holder_connect(ip, port, data):
         bool_data=[]
         bool_data.append(data)
         try:
-            s.connect((ip, port))
+            s.connect((db_manager.decrypt_text(ip), port))
         except:
             print("Error")
         print("Connected to holder...")
@@ -268,7 +269,7 @@ try:
         application = default_app()
     elif local_app==True:
         
-        run(host='172.20.10.3', port=6555, debug=True)               
+        run(host="10.10.4.10", port=6555, debug=True)               
 except Exception as e:
     print(log_manager.log_func(e,"Could not determine local or online","error"))
     exit()

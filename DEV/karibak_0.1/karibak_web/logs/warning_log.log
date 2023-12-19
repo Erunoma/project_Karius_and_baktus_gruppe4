@@ -965,3 +965,17 @@
 2023-12-14 11:48:36,451 - root - WARNING - There was an error in running the send code
 2023-12-14 11:48:36,452 - root - ERROR - [Errno 32] Broken pipe
 2023-12-14 12:56:48,569 - root - ERROR - change_user_info() missing 2 required positional arguments: 'length_of_brush' and 'tb_temp'
+2023-12-18 10:42:20,129 - root - WARNING - Could not send email
+2023-12-18 10:42:20,130 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-18 10:45:15,914 - root - WARNING - Could not send email
+2023-12-18 10:45:15,914 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-18 12:21:24,551 - root - WARNING - There was an error in running the send code
+2023-12-18 12:21:24,556 - root - ERROR - timed out
+2023-12-18 12:31:33,367 - root - WARNING - There was an error in running the send code
+2023-12-18 12:31:33,367 - root - ERROR - timed out
+2023-12-18 12:31:57,683 - root - WARNING - There was an error in running the send code
+2023-12-18 12:31:57,685 - root - ERROR - timed out
+2023-12-18 12:35:06,117 - root - WARNING - There was an error in running the send code
+2023-12-18 12:35:06,118 - root - ERROR - timed out
+2023-12-18 12:45:31,450 - root - WARNING - There was an error in running the send code
+2023-12-18 12:45:31,452 - root - ERROR - [Errno 32] Broken pipe

@@ -2995,3 +2995,165 @@
 2023-12-14 12:59:01,777 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
 2023-12-14 13:00:57,200 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
 2023-12-14 13:00:57,204 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-15 10:51:01,608 - root - INFO - DB initilized
+2023-12-15 10:51:01,629 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-15 10:51:01,631 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-15 10:51:11,263 - root - INFO - Regex accepted: hashed_oliver
+2023-12-15 10:51:11,263 - root - INFO - Regex accepted: 999
+2023-12-15 10:51:11,600 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-15 10:51:11,601 - root - INFO - Checking key in database...
+2023-12-15 10:51:11,601 - root - INFO - Could not check otp
+2023-12-15 10:51:14,675 - root - INFO - Sending mail to user
+2023-12-15 10:51:14,680 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-15 13:23:18,214 - root - INFO - DB initilized
+2023-12-15 13:23:18,238 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-15 13:23:18,240 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 10:20:45,352 - root - INFO - DB initilized
+2023-12-18 10:20:45,357 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 10:20:45,359 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 10:42:19,780 - root - INFO - Regex accepted: hashed_oliver
+2023-12-18 10:42:19,782 - root - INFO - Regex accepted: 999
+2023-12-18 10:42:20,126 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-18 10:42:20,127 - root - INFO - Checking key in database...
+2023-12-18 10:42:20,128 - root - INFO - Could not check otp
+2023-12-18 10:42:20,129 - root - WARNING - Could not send email
+2023-12-18 10:42:20,130 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-18 10:45:15,573 - root - INFO - Regex accepted: hashed_oliver
+2023-12-18 10:45:15,573 - root - INFO - Regex accepted: 999
+2023-12-18 10:45:15,912 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-18 10:45:15,913 - root - INFO - Checking key in database...
+2023-12-18 10:45:15,913 - root - INFO - Could not check otp
+2023-12-18 10:45:15,914 - root - WARNING - Could not send email
+2023-12-18 10:45:15,914 - root - ERROR - [Errno 8] nodename nor servname provided, or not known
+2023-12-18 10:51:25,533 - root - INFO - DB initilized
+2023-12-18 10:51:25,551 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 10:51:25,553 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 10:51:57,117 - root - INFO - Regex accepted: hashed_oliver
+2023-12-18 10:51:57,117 - root - INFO - Regex accepted: 999
+2023-12-18 10:51:57,454 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-18 10:51:57,455 - root - INFO - Checking key in database...
+2023-12-18 10:51:57,455 - root - INFO - Could not check otp
+2023-12-18 10:51:57,458 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 10:52:14,364 - root - INFO - Regex accepted: 739
+2023-12-18 10:52:14,365 - root - INFO - Checking key in database...
+2023-12-18 10:52:14,365 - root - INFO - Checking key with username...
+2023-12-18 10:52:14,365 - root - INFO - Checking if it has expired...
+2023-12-18 10:52:14,367 - root - INFO - Deleted the key 739
+2023-12-18 10:52:14,368 - root - INFO - Correct key. User logged in
+2023-12-18 10:52:25,122 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:25,124 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:27,187 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:27,189 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:29,466 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:52:29,468 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:52:42,518 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:42,520 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:45,278 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:52:45,280 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:55:38,865 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:55:38,867 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:55:41,068 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:55:41,070 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:55:49,063 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:55:49,064 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:56:04,377 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:04,379 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:06,941 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:56:06,943 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 10:56:09,215 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:09,217 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:18,120 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:18,121 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:22,983 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:22,985 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:25,465 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:25,467 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:28,967 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:28,969 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:58,238 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 10:56:58,239 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:00:09,237 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:00:09,238 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:10:36,718 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:10:36,720 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:35:05,507 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:35:31,186 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:35:31,188 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:36:40,211 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:36:40,213 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:51:57,806 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 11:54:09,378 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 12:02:27,117 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 12:10:51,640 - root - INFO - DB initilized
+2023-12-18 12:10:51,648 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:10:51,651 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:11:18,526 - root - INFO - Regex accepted: hashed_oliver
+2023-12-18 12:11:18,526 - root - INFO - Regex accepted: 999
+2023-12-18 12:11:18,869 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-18 12:11:18,871 - root - INFO - Checking key in database...
+2023-12-18 12:11:18,871 - root - INFO - Could not check otp
+2023-12-18 12:11:18,875 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:11:27,382 - root - INFO - Regex accepted: 220
+2023-12-18 12:11:27,383 - root - INFO - Checking key in database...
+2023-12-18 12:11:27,383 - root - INFO - Checking key with username...
+2023-12-18 12:11:27,383 - root - INFO - Checking if it has expired...
+2023-12-18 12:11:27,386 - root - INFO - Deleted the key 220
+2023-12-18 12:11:27,386 - root - INFO - Correct key. User logged in
+2023-12-18 12:12:06,857 - root - INFO - updated name of id: c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 12:12:06,859 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 12:14:44,708 - root - INFO - changed user info for c1ac11a9-dc44-46c9-a990-ee2ac711e9c6
+2023-12-18 12:19:36,064 - root - INFO - changed user info for a48e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 12:20:37,404 - root - INFO - DB initilized
+2023-12-18 12:20:37,412 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:20:37,414 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:20:37,415 - root - INFO - Updated time
+2023-12-18 12:21:14,502 - root - INFO - DB initilized
+2023-12-18 12:21:14,510 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:21:14,512 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:21:14,514 - root - INFO - Updated time
+2023-12-18 12:21:24,551 - root - WARNING - There was an error in running the send code
+2023-12-18 12:21:24,556 - root - ERROR - timed out
+2023-12-18 12:31:18,313 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 12:31:33,367 - root - WARNING - There was an error in running the send code
+2023-12-18 12:31:33,367 - root - ERROR - timed out
+2023-12-18 12:31:43,882 - root - INFO - DB initilized
+2023-12-18 12:31:43,891 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:31:43,894 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:31:43,898 - root - INFO - Updated time
+2023-12-18 12:31:57,683 - root - WARNING - There was an error in running the send code
+2023-12-18 12:31:57,685 - root - ERROR - timed out
+2023-12-18 12:34:18,769 - root - INFO - DB initilized
+2023-12-18 12:34:18,777 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:34:18,780 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:34:18,781 - root - INFO - Updated time
+2023-12-18 12:35:06,117 - root - WARNING - There was an error in running the send code
+2023-12-18 12:35:06,118 - root - ERROR - timed out
+2023-12-18 12:36:26,486 - root - INFO - DB initilized
+2023-12-18 12:36:26,498 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:36:26,502 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:36:26,504 - root - INFO - Updated time
+2023-12-18 12:36:32,632 - root - INFO - Values sent:[True]
+2023-12-18 12:36:32,666 - root - INFO - Callback: Your call has been recieved.
+2023-12-18 12:41:59,557 - root - INFO - DB initilized
+2023-12-18 12:41:59,569 - root - INFO - Deleted all OTPs as a startup procedure
+2023-12-18 12:41:59,573 - root - INFO - New table created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:41:59,575 - root - INFO - Updated time
+2023-12-18 12:42:09,622 - root - INFO - Regex accepted: hashed_oliver
+2023-12-18 12:42:09,622 - root - INFO - Regex accepted: 999
+2023-12-18 12:42:09,967 - root - INFO - Admin user hashed_oliver log in requested
+2023-12-18 12:42:09,968 - root - INFO - Checking key in database...
+2023-12-18 12:42:09,969 - root - INFO - Could not check otp
+2023-12-18 12:42:09,973 - root - INFO - New key created in /Users/oliverboots/Documents/GitHub/project_tbd_gruppe4/DEV/karibak_0.1/karibak_web/Test.db
+2023-12-18 12:42:15,081 - root - INFO - Regex accepted: 470
+2023-12-18 12:42:15,082 - root - INFO - Checking key in database...
+2023-12-18 12:42:15,082 - root - INFO - Checking key with username...
+2023-12-18 12:42:15,082 - root - INFO - Checking if it has expired...
+2023-12-18 12:42:15,084 - root - INFO - Deleted the key 470
+2023-12-18 12:42:15,084 - root - INFO - Correct key. User logged in
+2023-12-18 12:42:45,266 - root - INFO - Values sent:[True]
+2023-12-18 12:42:45,300 - root - INFO - Callback: Your call has been recieved.
+2023-12-18 12:45:15,693 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 12:45:31,450 - root - WARNING - There was an error in running the send code
+2023-12-18 12:45:31,452 - root - ERROR - [Errno 32] Broken pipe
+2023-12-18 12:45:37,740 - root - INFO - updated name of id: 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
+2023-12-18 12:45:37,743 - root - INFO - changed user info for 4a8e5bf7-b83d-4d90-9f0c-c3fab3c2ce6b
