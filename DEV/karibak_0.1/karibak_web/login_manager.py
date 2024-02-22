@@ -18,8 +18,8 @@ logger=log_manager.logging.getLogger(__name__)
 
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT=587
-SMTP_USERNAME="karibak.server@gmail.com"
-SMTP_PASSWORD="uzjx ilgq jpbb bpse"
+SMTP_USERNAME=""
+SMTP_PASSWORD=""
 
 
 #Creates a random number for use in the OTP authentication.
